@@ -24,8 +24,15 @@ section {
     font-size: 1.2em;
     text-align: center;
     align-items: center; 
-    border-radius: 10px;   
+    border-radius: 10px;
+    transform: scale(1);
+    transition: transform 0.3s;  
 
+}
+section:hover {
+    /* background-color: #003366;
+    color: #ffffff; */
+    transform: scale(1.02);
 }
 
 h2, form {
