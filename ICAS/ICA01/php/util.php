@@ -1,7 +1,7 @@
 <?php
     function GenerateNumbers() {
         $numbers = array();
-        for ($i = 0; $i <= 10; $i++) {
+        for ($i = 0; $i <10; $i++) {
             $numbers[] = $i;
         }
         shuffle($numbers);
