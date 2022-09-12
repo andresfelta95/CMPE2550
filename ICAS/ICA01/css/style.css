@@ -26,12 +26,14 @@ section {
     align-items: center; 
     border-radius: 10px;
     transform: scale(1);
-    transition: transform 0.3s;  
+    transition: transform 0.3s;
+    transform: 
+        perspective(75em)
+        rotateX(18deg);
+    
 
 }
 section:hover {
-    /* background-color: #003366;
-    color: #ffffff; */
     transform: scale(1.02);
 }
 
