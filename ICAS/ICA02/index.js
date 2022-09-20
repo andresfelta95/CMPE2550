@@ -1,17 +1,9 @@
-$(document).ready(function() {    
-    // Send();
+$(document).ready(function() {
     buildBoard();  
     $(".Board td").click(clickCell);
 });
 
-function NewGame(){
-    var postData = {};
-    postData['action'] = "NewGame";
-    postData['PlayeOne'] = $("playerOne").val();
-    postData['PlayeTwo'] = $("playerTwo").val();
-    Gameplay("gameplay.php", "POST", postData, "json", Success, errorMessage);
-}
-
+// Create the board and add it to the page when the names are submitted
 function buildBoard(){
 
     var board = $(".Board");
@@ -40,27 +32,31 @@ function clickCell(){
     postData['row'] = row;
     postData['col'] = col;    
     Gameplay("gameplay.php", "POST", postData, "json", Success, errorMessage);
-
-    // cell.css("background-color", "red");
 };
-    
-
-function Send(){
-    var postData = {};
-    postData['action'] = "TestData";
-    postData['someItem'] = "some Value";
-
-    Gameplay("gameplay.php", "POST", postData, "json", Success, errorMessage);
-}
 
 function Success(returnData){
     console.log(returnData);
-    if(returnData['turn'] == 1){
-        $(".turn").text(returnData['playerOne'] + "'s Turn");
+    
+    if(returnData['gameOver']){
+        if(returnData['winner'] == 1){
+            $(".turn").text(returnData['playerOne'] + " Wins!");
+            alert(returnData['playerOne'] + " Wins!");
+        }
+        else if(returnData['winner'] == 2){
+            $(".turn").text(returnData['playerTwo'] + " Wins!");
+            alert(returnData['playerTwo'] + " Wins!");
+        }
+        else if(returnData['winner'] == 0){
+            $(".turn").text("Tie Game!");
+            alert("Tie Game!");
+        }
+    }
+    else if(returnData['turn'] == 1){
+        $(".turn").text(returnData['playerOne'] + "'s Turn" + "🔴");
     }
     else if(returnData['turn'] == 2){
-        $(".turn").text(returnData['playerTwo'] + "'s Turn");
-    } 
+        $(".turn").text(returnData['playerTwo'] + "'s Turn" + "🔵");
+    }
     for(var i = 0; i < returnData['board'].length; i++){
         for(var j = 0; j < returnData['board'][i].length; j++){                    
             if(returnData['board'][i][j] == 1){
@@ -73,7 +69,7 @@ function Success(returnData){
                 $(".Board tr:eq(" + i + ") td:eq(" + j + ")").css("background-color", "white");
             }
         }
-    }        
+    }
 }
 
 function errorMessage (request, status, errorMessage){

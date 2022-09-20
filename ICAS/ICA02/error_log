@@ -1,0 +1,795 @@
+[17-Sep-2022 14:55:52 UTC] {"action":"placePiece","row":"2","col":"5"}
+[17-Sep-2022 14:55:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function CheckDirection() in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php:67
+Stack trace:
+#0 /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php(32): GetValidMoves(Array, 1)
+#1 /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php(9): PlacePiece()
+#2 {main}
+  thrown in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 67
+[17-Sep-2022 14:57:39 UTC] {"playerOne":"Andres","playerTwo":"Claudia","NewGame":"New Game"}
+[17-Sep-2022 14:57:39 UTC] {"action":"NewGame"}
+[17-Sep-2022 14:57:42 UTC] {"action":"placePiece","row":"2","col":"5"}
+[17-Sep-2022 14:57:49 UTC] {"action":"placePiece","row":"2","col":"4"}
+[17-Sep-2022 14:57:56 UTC] {"action":"placePiece","row":"1","col":"4"}
+[17-Sep-2022 14:58:24 UTC] {"playerOne":"Andres","playerTwo":"Claudia","QuitGame":"Quit Game"}
+[17-Sep-2022 14:58:24 UTC] []
+[17-Sep-2022 14:58:24 UTC] {"action":"NewGame"}
+[17-Sep-2022 14:58:24 UTC] PHP Warning:  Undefined array key "gameData" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[17-Sep-2022 14:58:24 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[17-Sep-2022 14:58:24 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 15
+[17-Sep-2022 14:58:24 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 18
+[17-Sep-2022 15:02:22 UTC] []
+[17-Sep-2022 15:02:22 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:02:22 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 15
+[17-Sep-2022 15:02:22 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 18
+[17-Sep-2022 15:03:55 UTC] []
+[17-Sep-2022 15:03:55 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:03:55 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 15
+[17-Sep-2022 15:03:55 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 18
+[17-Sep-2022 15:04:18 UTC] []
+[17-Sep-2022 15:04:18 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:04:18 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 15
+[17-Sep-2022 15:04:18 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 18
+[17-Sep-2022 15:04:20 UTC] []
+[17-Sep-2022 15:04:20 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:04:20 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 15
+[17-Sep-2022 15:04:20 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 18
+[17-Sep-2022 15:04:29 UTC] {"playerOne":"Andres","playerTwo":"Claudia","NewGame":"New Game"}
+[17-Sep-2022 15:04:29 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:04:43 UTC] {"action":"placePiece","row":"2","col":"3"}
+[17-Sep-2022 15:04:48 UTC] {"action":"placePiece","row":"2","col":"5"}
+[17-Sep-2022 15:04:58 UTC] {"action":"placePiece","row":"4","col":"2"}
+[17-Sep-2022 15:05:05 UTC] {"action":"placePiece","row":"3","col":"5"}
+[17-Sep-2022 15:05:07 UTC] {"action":"placePiece","row":"5","col":"4"}
+[17-Sep-2022 15:05:13 UTC] {"action":"placePiece","row":"4","col":"5"}
+[17-Sep-2022 15:05:14 UTC] {"action":"placePiece","row":"5","col":"5"}
+[17-Sep-2022 15:05:14 UTC] {"action":"placePiece","row":"5","col":"3"}
+[17-Sep-2022 15:05:16 UTC] {"action":"placePiece","row":"2","col":"4"}
+[17-Sep-2022 15:05:17 UTC] {"action":"placePiece","row":"2","col":"2"}
+[17-Sep-2022 15:05:18 UTC] {"action":"placePiece","row":"1","col":"3"}
+[17-Sep-2022 15:05:18 UTC] {"action":"placePiece","row":"1","col":"2"}
+[17-Sep-2022 15:05:18 UTC] {"action":"placePiece","row":"1","col":"3"}
+[17-Sep-2022 15:05:19 UTC] {"action":"placePiece","row":"1","col":"4"}
+[17-Sep-2022 15:05:19 UTC] {"action":"placePiece","row":"2","col":"4"}
+[17-Sep-2022 15:05:19 UTC] {"action":"placePiece","row":"1","col":"4"}
+[17-Sep-2022 15:05:20 UTC] {"action":"placePiece","row":"1","col":"2"}
+[17-Sep-2022 15:05:20 UTC] {"action":"placePiece","row":"1","col":"2"}
+[17-Sep-2022 15:05:20 UTC] {"action":"placePiece","row":"2","col":"2"}
+[17-Sep-2022 15:05:21 UTC] {"action":"placePiece","row":"2","col":"2"}
+[17-Sep-2022 15:05:24 UTC] {"action":"placePiece","row":"6","col":"3"}
+[17-Sep-2022 15:05:25 UTC] {"action":"placePiece","row":"7","col":"3"}
+[17-Sep-2022 15:05:28 UTC] {"action":"placePiece","row":"7","col":"2"}
+[17-Sep-2022 15:05:31 UTC] {"action":"placePiece","row":"6","col":"2"}
+[17-Sep-2022 15:05:32 UTC] {"action":"placePiece","row":"5","col":"2"}
+[17-Sep-2022 15:05:37 UTC] {"action":"placePiece","row":"5","col":"1"}
+[17-Sep-2022 15:05:47 UTC] {"playerOne":"Andres","playerTwo":"Claudia","NewGame":"New Game"}
+[17-Sep-2022 15:05:47 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:05:50 UTC] {"playerOne":"Andres","playerTwo":"Claudia","QuitGame":"Quit Game"}
+[17-Sep-2022 15:05:50 UTC] []
+[17-Sep-2022 15:05:50 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:05:50 UTC] PHP Warning:  Undefined array key "gameData" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[17-Sep-2022 15:05:50 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[17-Sep-2022 15:05:50 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 15
+[17-Sep-2022 15:05:50 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 18
+[17-Sep-2022 15:15:06 UTC] []
+[17-Sep-2022 15:15:06 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:15:06 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 15
+[17-Sep-2022 15:15:06 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 18
+[17-Sep-2022 15:15:11 UTC] {"playerOne":"Andres","playerTwo":"Paola","NewGame":"New Game"}
+[17-Sep-2022 15:15:11 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:15:14 UTC] {"action":"placePiece","row":"2","col":"4"}
+[17-Sep-2022 15:15:37 UTC] {"action":"placePiece","row":"3","col":"5"}
+[17-Sep-2022 15:15:39 UTC] {"action":"placePiece","row":"4","col":"5"}
+[17-Sep-2022 15:15:44 UTC] {"playerOne":"Andres","playerTwo":"Paola","QuitGame":"Quit Game"}
+[17-Sep-2022 15:15:44 UTC] []
+[17-Sep-2022 15:15:45 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:15:45 UTC] PHP Warning:  Undefined array key "gameData" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[17-Sep-2022 15:15:45 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[17-Sep-2022 15:15:45 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 15
+[17-Sep-2022 15:15:45 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 18
+[17-Sep-2022 15:20:39 UTC] []
+[17-Sep-2022 15:20:39 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:20:39 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 15
+[17-Sep-2022 15:20:39 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 18
+[17-Sep-2022 15:20:40 UTC] []
+[17-Sep-2022 15:20:40 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:20:40 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 15
+[17-Sep-2022 15:20:40 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 18
+[17-Sep-2022 15:20:45 UTC] {"playerOne":"Andres","playerTwo":"Paola","NewGame":"New Game"}
+[17-Sep-2022 15:20:45 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:20:47 UTC] {"action":"placePiece","row":"2","col":"4"}
+[17-Sep-2022 15:20:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function FlipPieces() in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php:35
+Stack trace:
+#0 /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php(9): PlacePiece()
+#1 {main}
+  thrown in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 35
+[17-Sep-2022 15:21:18 UTC] {"playerOne":"Andres","playerTwo":"Paola","NewGame":"New Game"}
+[17-Sep-2022 15:21:19 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:21:21 UTC] {"action":"placePiece","row":"2","col":"4"}
+[17-Sep-2022 15:21:42 UTC] {"action":"placePiece","row":"4","col":"5"}
+[17-Sep-2022 15:21:57 UTC] {"playerOne":"Andres","playerTwo":"Paola","QuitGame":"Quit Game"}
+[17-Sep-2022 15:21:57 UTC] []
+[17-Sep-2022 15:21:57 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:21:57 UTC] PHP Warning:  Undefined array key "gameData" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[17-Sep-2022 15:21:57 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[17-Sep-2022 15:21:57 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 15
+[17-Sep-2022 15:21:57 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 18
+[17-Sep-2022 15:24:20 UTC] []
+[17-Sep-2022 15:24:20 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:24:20 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 15
+[17-Sep-2022 15:24:20 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 18
+[17-Sep-2022 15:24:21 UTC] []
+[17-Sep-2022 15:24:21 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:24:21 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 15
+[17-Sep-2022 15:24:21 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 18
+[17-Sep-2022 15:24:24 UTC] {"playerOne":"Andres","playerTwo":"Paola","NewGame":"New Game"}
+[17-Sep-2022 15:24:25 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:24:27 UTC] {"action":"placePiece","row":"2","col":"4"}
+[17-Sep-2022 15:24:29 UTC] {"action":"placePiece","row":"2","col":"3"}
+[17-Sep-2022 15:24:31 UTC] {"action":"placePiece","row":"3","col":"2"}
+[17-Sep-2022 15:24:33 UTC] {"action":"placePiece","row":"3","col":"5"}
+[17-Sep-2022 15:24:36 UTC] {"action":"placePiece","row":"4","col":"5"}
+[17-Sep-2022 15:24:41 UTC] {"action":"placePiece","row":"1","col":"3"}
+[17-Sep-2022 15:24:49 UTC] {"action":"placePiece","row":"1","col":"4"}
+[17-Sep-2022 15:24:55 UTC] {"action":"placePiece","row":"5","col":"3"}
+[17-Sep-2022 15:24:57 UTC] {"action":"placePiece","row":"4","col":"2"}
+[17-Sep-2022 15:25:00 UTC] {"action":"placePiece","row":"2","col":"5"}
+[17-Sep-2022 15:25:03 UTC] {"action":"placePiece","row":"2","col":"2"}
+[17-Sep-2022 15:25:12 UTC] {"action":"placePiece","row":"2","col":"1"}
+[17-Sep-2022 15:25:17 UTC] {"action":"placePiece","row":"1","col":"1"}
+[17-Sep-2022 15:25:21 UTC] {"action":"placePiece","row":"0","col":"2"}
+[17-Sep-2022 15:25:23 UTC] {"action":"placePiece","row":"0","col":"4"}
+[17-Sep-2022 15:25:27 UTC] {"action":"placePiece","row":"1","col":"2"}
+[17-Sep-2022 15:25:29 UTC] {"action":"placePiece","row":"1","col":"5"}
+[17-Sep-2022 15:25:31 UTC] {"action":"placePiece","row":"2","col":"6"}
+[17-Sep-2022 15:25:33 UTC] {"action":"placePiece","row":"2","col":"0"}
+[17-Sep-2022 15:25:35 UTC] {"action":"placePiece","row":"0","col":"3"}
+[17-Sep-2022 15:25:47 UTC] {"playerOne":"Andres","playerTwo":"Paola","NewGame":"New Game"}
+[17-Sep-2022 15:25:48 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:28:50 UTC] {"playerOne":"Andres","playerTwo":"Paola","NewGame":"New Game"}
+[17-Sep-2022 15:28:50 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:28:54 UTC] {"playerOne":"Andres","playerTwo":"Paola","NewGame":"New Game"}
+[17-Sep-2022 15:28:55 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:29:07 UTC] {"action":"placePiece","row":"2","col":"4"}
+[17-Sep-2022 15:29:13 UTC] {"action":"placePiece","row":"3","col":"5"}
+[17-Sep-2022 15:29:16 UTC] {"action":"placePiece","row":"4","col":"5"}
+[17-Sep-2022 15:29:20 UTC] {"action":"placePiece","row":"2","col":"3"}
+[17-Sep-2022 15:29:21 UTC] {"action":"placePiece","row":"2","col":"5"}
+[17-Sep-2022 15:29:23 UTC] {"action":"placePiece","row":"5","col":"4"}
+[17-Sep-2022 15:29:29 UTC] {"action":"placePiece","row":"2","col":"5"}
+[17-Sep-2022 15:29:33 UTC] {"action":"placePiece","row":"3","col":"5"}
+[17-Sep-2022 15:29:36 UTC] {"action":"placePiece","row":"2","col":"3"}
+[17-Sep-2022 15:29:41 UTC] {"action":"placePiece","row":"5","col":"3"}
+[17-Sep-2022 15:29:45 UTC] {"action":"placePiece","row":"1","col":"2"}
+[17-Sep-2022 15:29:46 UTC] {"action":"placePiece","row":"2","col":"2"}
+[17-Sep-2022 15:29:50 UTC] {"action":"placePiece","row":"2","col":"1"}
+[17-Sep-2022 15:29:56 UTC] {"action":"placePiece","row":"1","col":"4"}
+[17-Sep-2022 15:30:00 UTC] {"action":"placePiece","row":"0","col":"5"}
+[17-Sep-2022 15:30:04 UTC] {"action":"placePiece","row":"0","col":"6"}
+[17-Sep-2022 15:30:08 UTC] {"action":"placePiece","row":"1","col":"3"}
+[17-Sep-2022 15:30:12 UTC] {"action":"placePiece","row":"0","col":"3"}
+[17-Sep-2022 15:30:18 UTC] {"action":"placePiece","row":"1","col":"2"}
+[17-Sep-2022 15:30:21 UTC] {"action":"placePiece","row":"2","col":"6"}
+[17-Sep-2022 15:30:22 UTC] {"action":"placePiece","row":"3","col":"6"}
+[17-Sep-2022 15:30:25 UTC] {"action":"placePiece","row":"0","col":"4"}
+[17-Sep-2022 15:30:29 UTC] {"action":"placePiece","row":"1","col":"5"}
+[17-Sep-2022 15:30:38 UTC] {"action":"placePiece","row":"0","col":"6"}
+[17-Sep-2022 15:30:39 UTC] {"action":"placePiece","row":"0","col":"7"}
+[17-Sep-2022 15:30:49 UTC] {"action":"placePiece","row":"4","col":"6"}
+[17-Sep-2022 15:30:55 UTC] {"action":"placePiece","row":"6","col":"4"}
+[17-Sep-2022 15:30:58 UTC] {"action":"placePiece","row":"2","col":"6"}
+[17-Sep-2022 15:31:02 UTC] {"action":"placePiece","row":"2","col":"7"}
+[17-Sep-2022 15:31:06 UTC] {"action":"placePiece","row":"1","col":"6"}
+[17-Sep-2022 15:31:08 UTC] {"action":"placePiece","row":"1","col":"7"}
+[17-Sep-2022 15:31:15 UTC] {"action":"placePiece","row":"5","col":"3"}
+[17-Sep-2022 15:31:21 UTC] {"action":"placePiece","row":"1","col":"1"}
+[17-Sep-2022 15:31:23 UTC] {"action":"placePiece","row":"0","col":"2"}
+[17-Sep-2022 15:31:27 UTC] {"action":"placePiece","row":"0","col":"1"}
+[17-Sep-2022 15:31:28 UTC] {"action":"placePiece","row":"0","col":"0"}
+[17-Sep-2022 15:31:31 UTC] {"action":"placePiece","row":"1","col":"0"}
+[17-Sep-2022 15:31:34 UTC] {"action":"placePiece","row":"2","col":"0"}
+[17-Sep-2022 15:31:37 UTC] {"action":"placePiece","row":"3","col":"0"}
+[17-Sep-2022 15:31:43 UTC] {"action":"placePiece","row":"3","col":"1"}
+[17-Sep-2022 15:31:48 UTC] {"action":"placePiece","row":"4","col":"0"}
+[17-Sep-2022 15:31:53 UTC] {"action":"placePiece","row":"6","col":"3"}
+[17-Sep-2022 15:31:58 UTC] {"action":"placePiece","row":"5","col":"5"}
+[17-Sep-2022 15:32:05 UTC] {"action":"placePiece","row":"3","col":"7"}
+[17-Sep-2022 15:32:11 UTC] {"action":"placePiece","row":"6","col":"6"}
+[17-Sep-2022 15:32:15 UTC] {"action":"placePiece","row":"6","col":"5"}
+[17-Sep-2022 15:32:19 UTC] {"action":"placePiece","row":"7","col":"5"}
+[17-Sep-2022 15:32:21 UTC] {"action":"placePiece","row":"6","col":"2"}
+[17-Sep-2022 15:32:29 UTC] {"action":"placePiece","row":"7","col":"3"}
+[17-Sep-2022 15:32:33 UTC] {"action":"placePiece","row":"7","col":"2"}
+[17-Sep-2022 15:32:33 UTC] {"action":"placePiece","row":"7","col":"4"}
+[17-Sep-2022 15:32:55 UTC] {"action":"placePiece","row":"5","col":"6"}
+[17-Sep-2022 15:32:56 UTC] {"action":"placePiece","row":"7","col":"6"}
+[17-Sep-2022 15:32:59 UTC] {"action":"placePiece","row":"7","col":"5"}
+[17-Sep-2022 15:33:00 UTC] {"action":"placePiece","row":"7","col":"7"}
+[17-Sep-2022 15:33:01 UTC] {"action":"placePiece","row":"5","col":"6"}
+[17-Sep-2022 15:33:11 UTC] {"action":"placePiece","row":"6","col":"7"}
+[17-Sep-2022 15:33:12 UTC] {"action":"placePiece","row":"7","col":"7"}
+[17-Sep-2022 15:33:15 UTC] {"action":"placePiece","row":"7","col":"5"}
+[17-Sep-2022 15:33:20 UTC] {"action":"placePiece","row":"4","col":"2"}
+[17-Sep-2022 15:33:25 UTC] {"action":"placePiece","row":"4","col":"1"}
+[17-Sep-2022 15:33:33 UTC] {"action":"placePiece","row":"5","col":"1"}
+[17-Sep-2022 15:33:37 UTC] {"action":"placePiece","row":"5","col":"0"}
+[17-Sep-2022 15:33:38 UTC] {"action":"placePiece","row":"6","col":"1"}
+[17-Sep-2022 15:33:44 UTC] {"action":"placePiece","row":"5","col":"0"}
+[17-Sep-2022 15:33:48 UTC] {"action":"placePiece","row":"5","col":"0"}
+[17-Sep-2022 15:33:48 UTC] {"action":"placePiece","row":"3","col":"1"}
+[17-Sep-2022 15:33:49 UTC] {"action":"placePiece","row":"5","col":"2"}
+[17-Sep-2022 15:33:56 UTC] {"action":"placePiece","row":"3","col":"1"}
+[17-Sep-2022 15:33:57 UTC] {"action":"placePiece","row":"3","col":"2"}
+[17-Sep-2022 15:34:02 UTC] {"action":"placePiece","row":"5","col":"0"}
+[17-Sep-2022 15:34:03 UTC] {"action":"placePiece","row":"6","col":"0"}
+[17-Sep-2022 15:34:04 UTC] {"action":"placePiece","row":"7","col":"0"}
+[17-Sep-2022 15:34:06 UTC] {"action":"placePiece","row":"4","col":"7"}
+[17-Sep-2022 15:34:07 UTC] {"action":"placePiece","row":"5","col":"7"}
+[17-Sep-2022 15:34:10 UTC] {"action":"placePiece","row":"4","col":"7"}
+[17-Sep-2022 15:34:12 UTC] {"action":"placePiece","row":"5","col":"0"}
+[17-Sep-2022 15:34:15 UTC] {"action":"placePiece","row":"6","col":"0"}
+[17-Sep-2022 15:34:16 UTC] {"action":"placePiece","row":"7","col":"0"}
+[17-Sep-2022 15:34:16 UTC] {"action":"placePiece","row":"7","col":"1"}
+[17-Sep-2022 15:34:16 UTC] {"action":"placePiece","row":"7","col":"2"}
+[17-Sep-2022 15:35:21 UTC] {"playerOne":"Andres","playerTwo":"Paola","NewGame":"New Game"}
+[17-Sep-2022 15:35:22 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:36:38 UTC] {"playerOne":"Andres","playerTwo":"Paola","QuitGame":"Quit Game"}
+[17-Sep-2022 15:36:38 UTC] []
+[17-Sep-2022 15:36:38 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:36:38 UTC] PHP Warning:  Undefined array key "gameData" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[17-Sep-2022 15:36:38 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[17-Sep-2022 15:36:38 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 15
+[17-Sep-2022 15:36:38 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 18
+[17-Sep-2022 15:38:10 UTC] {"playerOne":"Andres","playerTwo":"Claudia","NewGame":"New Game"}
+[17-Sep-2022 15:38:11 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:38:14 UTC] {"action":"placePiece","row":"2","col":"4"}
+[17-Sep-2022 15:38:17 UTC] {"action":"placePiece","row":"2","col":"3"}
+[17-Sep-2022 15:38:19 UTC] {"action":"placePiece","row":"3","col":"2"}
+[17-Sep-2022 15:38:20 UTC] {"action":"placePiece","row":"2","col":"2"}
+[17-Sep-2022 15:38:21 UTC] {"action":"placePiece","row":"3","col":"1"}
+[17-Sep-2022 15:38:22 UTC] {"action":"placePiece","row":"3","col":"1"}
+[17-Sep-2022 15:38:24 UTC] {"action":"placePiece","row":"3","col":"5"}
+[17-Sep-2022 15:38:25 UTC] {"action":"placePiece","row":"4","col":"5"}
+[17-Sep-2022 15:38:29 UTC] {"action":"placePiece","row":"1","col":"2"}
+[17-Sep-2022 15:38:31 UTC] {"action":"placePiece","row":"1","col":"3"}
+[17-Sep-2022 15:38:34 UTC] {"action":"placePiece","row":"2","col":"2"}
+[17-Sep-2022 15:38:37 UTC] {"action":"placePiece","row":"0","col":"4"}
+[17-Sep-2022 15:38:39 UTC] {"action":"placePiece","row":"3","col":"1"}
+[17-Sep-2022 15:38:49 UTC] {"playerOne":"Andres","playerTwo":"Claudia","NewGame":"New Game"}
+[17-Sep-2022 15:38:49 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:38:51 UTC] {"playerOne":"Andres","playerTwo":"Claudia","QuitGame":"Quit Game"}
+[17-Sep-2022 15:38:51 UTC] []
+[17-Sep-2022 15:38:52 UTC] {"action":"NewGame"}
+[17-Sep-2022 15:38:52 UTC] PHP Warning:  Undefined array key "gameData" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[17-Sep-2022 15:38:52 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[17-Sep-2022 15:38:52 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 15
+[17-Sep-2022 15:38:52 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 18
+[19-Sep-2022 19:10:29 UTC] []
+[19-Sep-2022 19:10:29 UTC] {"action":"NewGame"}
+[19-Sep-2022 19:10:29 UTC] PHP Warning:  Undefined array key "gameData" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[19-Sep-2022 19:10:29 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[19-Sep-2022 19:10:29 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 15
+[19-Sep-2022 19:10:29 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 18
+[19-Sep-2022 19:10:49 UTC] {"playerOne":"Andres","playerTwo":"JT","NewGame":"New Game"}
+[19-Sep-2022 19:10:49 UTC] {"action":"NewGame"}
+[19-Sep-2022 19:10:53 UTC] {"playerOne":"Andres","playerTwo":"JT","NewGame":"New Game"}
+[19-Sep-2022 19:10:53 UTC] {"action":"NewGame"}
+[19-Sep-2022 19:10:53 UTC] {"playerOne":"Andres","playerTwo":"JT","NewGame":"New Game"}
+[19-Sep-2022 19:10:53 UTC] {"action":"NewGame"}
+[19-Sep-2022 19:10:54 UTC] {"playerOne":"Andres","playerTwo":"JT","NewGame":"New Game"}
+[19-Sep-2022 19:10:54 UTC] {"action":"NewGame"}
+[19-Sep-2022 19:10:54 UTC] {"playerOne":"Andres","playerTwo":"JT","NewGame":"New Game"}
+[19-Sep-2022 19:10:54 UTC] {"action":"NewGame"}
+[19-Sep-2022 19:11:01 UTC] {"action":"placePiece","row":"5","col":"4"}
+[19-Sep-2022 19:11:05 UTC] {"action":"placePiece","row":"5","col":"5"}
+[19-Sep-2022 19:11:15 UTC] {"action":"placePiece","row":"4","col":"5"}
+[19-Sep-2022 19:11:19 UTC] {"action":"placePiece","row":"3","col":"5"}
+[19-Sep-2022 19:11:30 UTC] {"action":"placePiece","row":"2","col":"5"}
+[19-Sep-2022 19:11:36 UTC] {"action":"placePiece","row":"4","col":"2"}
+[19-Sep-2022 19:11:43 UTC] {"action":"placePiece","row":"5","col":"2"}
+[19-Sep-2022 19:11:47 UTC] {"action":"placePiece","row":"1","col":"6"}
+[19-Sep-2022 19:11:56 UTC] {"action":"placePiece","row":"5","col":"3"}
+[19-Sep-2022 19:12:03 UTC] {"action":"placePiece","row":"3","col":"2"}
+[19-Sep-2022 19:12:26 UTC] {"action":"placePiece","row":"2","col":"1"}
+[19-Sep-2022 19:12:35 UTC] {"action":"placePiece","row":"6","col":"4"}
+[19-Sep-2022 19:12:43 UTC] {"action":"placePiece","row":"5","col":"1"}
+[19-Sep-2022 19:12:53 UTC] {"action":"placePiece","row":"6","col":"1"}
+[19-Sep-2022 19:12:56 UTC] {"action":"placePiece","row":"6","col":"2"}
+[19-Sep-2022 19:13:01 UTC] {"action":"placePiece","row":"3","col":"1"}
+[19-Sep-2022 19:13:15 UTC] {"action":"placePiece","row":"3","col":"0"}
+[19-Sep-2022 19:13:23 UTC] {"action":"placePiece","row":"2","col":"0"}
+[19-Sep-2022 19:13:33 UTC] {"action":"placePiece","row":"7","col":"5"}
+[19-Sep-2022 19:13:44 UTC] {"action":"placePiece","row":"7","col":"4"}
+[19-Sep-2022 19:13:50 UTC] {"action":"placePiece","row":"6","col":"5"}
+[19-Sep-2022 19:13:58 UTC] {"action":"placePiece","row":"4","col":"1"}
+[19-Sep-2022 19:14:22 UTC] {"action":"placePiece","row":"1","col":"1"}
+[19-Sep-2022 19:14:46 UTC] {"action":"placePiece","row":"5","col":"6"}
+[19-Sep-2022 19:14:50 UTC] {"action":"placePiece","row":"6","col":"3"}
+[19-Sep-2022 19:14:56 UTC] {"action":"placePiece","row":"7","col":"2"}
+[19-Sep-2022 19:15:01 UTC] {"action":"placePiece","row":"7","col":"3"}
+[19-Sep-2022 19:15:08 UTC] {"action":"placePiece","row":"0","col":"1"}
+[19-Sep-2022 19:15:18 UTC] {"action":"placePiece","row":"1","col":"0"}
+[19-Sep-2022 19:15:29 UTC] {"action":"placePiece","row":"7","col":"5"}
+[19-Sep-2022 19:15:35 UTC] {"action":"placePiece","row":"7","col":"6"}
+[19-Sep-2022 19:15:45 UTC] {"action":"placePiece","row":"2","col":"2"}
+[19-Sep-2022 19:15:51 UTC] {"action":"placePiece","row":"1","col":"2"}
+[19-Sep-2022 19:15:59 UTC] {"action":"placePiece","row":"6","col":"6"}
+[19-Sep-2022 19:16:03 UTC] {"action":"placePiece","row":"6","col":"7"}
+[19-Sep-2022 19:16:12 UTC] {"action":"placePiece","row":"0","col":"0"}
+[19-Sep-2022 19:16:21 UTC] {"action":"placePiece","row":"4","col":"6"}
+[19-Sep-2022 19:16:25 UTC] {"action":"placePiece","row":"4","col":"0"}
+[19-Sep-2022 19:16:34 UTC] {"action":"placePiece","row":"5","col":"0"}
+[19-Sep-2022 19:16:38 UTC] {"action":"placePiece","row":"7","col":"1"}
+[19-Sep-2022 19:16:40 UTC] {"action":"placePiece","row":"7","col":"0"}
+[19-Sep-2022 19:16:45 UTC] {"action":"placePiece","row":"5","col":"7"}
+[19-Sep-2022 19:16:51 UTC] {"action":"placePiece","row":"3","col":"6"}
+[19-Sep-2022 19:16:56 UTC] {"action":"placePiece","row":"7","col":"7"}
+[19-Sep-2022 19:17:09 UTC] {"action":"placePiece","row":"0","col":"1"}
+[19-Sep-2022 19:17:13 UTC] {"action":"placePiece","row":"4","col":"7"}
+[19-Sep-2022 19:17:16 UTC] {"action":"placePiece","row":"3","col":"7"}
+[19-Sep-2022 19:17:18 UTC] {"action":"placePiece","row":"6","col":"0"}
+[19-Sep-2022 19:17:21 UTC] {"action":"placePiece","row":"2","col":"3"}
+[19-Sep-2022 19:17:28 UTC] {"action":"placePiece","row":"1","col":"3"}
+[19-Sep-2022 19:17:35 UTC] {"action":"placePiece","row":"0","col":"2"}
+[19-Sep-2022 19:17:42 UTC] {"action":"placePiece","row":"2","col":"4"}
+[19-Sep-2022 19:17:48 UTC] {"action":"placePiece","row":"1","col":"5"}
+[19-Sep-2022 19:17:53 UTC] {"action":"placePiece","row":"2","col":"6"}
+[19-Sep-2022 19:17:56 UTC] {"action":"placePiece","row":"2","col":"7"}
+[19-Sep-2022 19:18:00 UTC] {"action":"placePiece","row":"0","col":"5"}
+[19-Sep-2022 19:18:09 UTC] {"action":"placePiece","row":"1","col":"4"}
+[19-Sep-2022 19:18:12 UTC] {"action":"placePiece","row":"0","col":"3"}
+[19-Sep-2022 19:18:21 UTC] {"action":"placePiece","row":"1","col":"6"}
+[19-Sep-2022 19:18:25 UTC] {"action":"placePiece","row":"1","col":"7"}
+[19-Sep-2022 19:18:29 UTC] {"action":"placePiece","row":"0","col":"7"}
+[19-Sep-2022 19:18:33 UTC] {"action":"placePiece","row":"0","col":"6"}
+[19-Sep-2022 19:18:34 UTC] {"action":"placePiece","row":"0","col":"4"}
+[19-Sep-2022 19:18:38 UTC] {"action":"placePiece","row":"0","col":"4"}
+[19-Sep-2022 19:18:39 UTC] {"action":"placePiece","row":"6","col":"2"}
+[19-Sep-2022 19:18:39 UTC] {"action":"placePiece","row":"3","col":"4"}
+[19-Sep-2022 19:18:52 UTC] {"playerOne":"Andres","playerTwo":"JT","NewGame":"New Game"}
+[19-Sep-2022 19:18:52 UTC] {"action":"NewGame"}
+[19-Sep-2022 19:21:54 UTC] {"action":"placePiece","row":"3","col":"5"}
+[19-Sep-2022 19:22:03 UTC] {"action":"placePiece","row":"2","col":"4"}
+[19-Sep-2022 19:22:05 UTC] {"action":"placePiece","row":"2","col":"5"}
+[19-Sep-2022 19:22:16 UTC] {"action":"placePiece","row":"1","col":"4"}
+[19-Sep-2022 19:22:17 UTC] {"action":"placePiece","row":"2","col":"4"}
+[19-Sep-2022 19:22:35 UTC] {"action":"placePiece","row":"4","col":"5"}
+[19-Sep-2022 19:23:18 UTC] {"action":"placePiece","row":"1","col":"4"}
+[19-Sep-2022 19:23:19 UTC] {"action":"placePiece","row":"1","col":"5"}
+[19-Sep-2022 19:23:21 UTC] {"action":"placePiece","row":"4","col":"6"}
+[19-Sep-2022 19:23:22 UTC] {"action":"placePiece","row":"5","col":"5"}
+[19-Sep-2022 19:23:23 UTC] {"action":"placePiece","row":"1","col":"6"}
+[19-Sep-2022 19:23:24 UTC] {"action":"placePiece","row":"2","col":"3"}
+[19-Sep-2022 19:23:25 UTC] {"action":"placePiece","row":"1","col":"3"}
+[19-Sep-2022 19:23:27 UTC] {"action":"placePiece","row":"5","col":"3"}
+[19-Sep-2022 19:23:28 UTC] {"action":"placePiece","row":"1","col":"4"}
+[19-Sep-2022 19:23:29 UTC] {"action":"placePiece","row":"5","col":"3"}
+[19-Sep-2022 19:23:31 UTC] {"action":"placePiece","row":"1","col":"5"}
+[19-Sep-2022 19:23:32 UTC] {"action":"placePiece","row":"1","col":"2"}
+[19-Sep-2022 19:23:33 UTC] {"action":"placePiece","row":"0","col":"2"}
+[19-Sep-2022 19:23:37 UTC] {"action":"placePiece","row":"6","col":"3"}
+[19-Sep-2022 19:23:38 UTC] {"action":"placePiece","row":"1","col":"1"}
+[19-Sep-2022 19:23:40 UTC] {"action":"placePiece","row":"5","col":"4"}
+[19-Sep-2022 19:23:41 UTC] {"action":"placePiece","row":"7","col":"3"}
+[19-Sep-2022 19:23:43 UTC] {"action":"placePiece","row":"6","col":"4"}
+[19-Sep-2022 19:23:45 UTC] {"action":"placePiece","row":"4","col":"2"}
+[19-Sep-2022 19:23:47 UTC] {"action":"placePiece","row":"4","col":"1"}
+[19-Sep-2022 19:23:49 UTC] {"action":"placePiece","row":"4","col":"0"}
+[19-Sep-2022 19:23:50 UTC] {"action":"placePiece","row":"3","col":"2"}
+[19-Sep-2022 19:23:51 UTC] {"action":"placePiece","row":"2","col":"2"}
+[19-Sep-2022 19:23:52 UTC] {"action":"placePiece","row":"1","col":"5"}
+[19-Sep-2022 19:23:53 UTC] {"action":"placePiece","row":"0","col":"4"}
+[19-Sep-2022 19:23:54 UTC] {"action":"placePiece","row":"1","col":"0"}
+[19-Sep-2022 19:23:55 UTC] {"action":"placePiece","row":"0","col":"0"}
+[19-Sep-2022 19:23:57 UTC] {"action":"placePiece","row":"0","col":"1"}
+[19-Sep-2022 19:24:04 UTC] {"action":"placePiece","row":"5","col":"5"}
+[19-Sep-2022 19:24:09 UTC] {"action":"placePiece","row":"3","col":"6"}
+[19-Sep-2022 19:24:13 UTC] {"action":"placePiece","row":"5","col":"6"}
+[19-Sep-2022 19:24:14 UTC] {"action":"placePiece","row":"5","col":"7"}
+[19-Sep-2022 19:24:16 UTC] {"action":"placePiece","row":"3","col":"7"}
+[19-Sep-2022 19:24:18 UTC] {"action":"placePiece","row":"2","col":"7"}
+[19-Sep-2022 19:24:20 UTC] {"action":"placePiece","row":"4","col":"7"}
+[19-Sep-2022 19:24:21 UTC] {"action":"placePiece","row":"2","col":"6"}
+[19-Sep-2022 19:24:25 UTC] {"action":"placePiece","row":"1","col":"5"}
+[19-Sep-2022 19:24:28 UTC] {"action":"placePiece","row":"1","col":"6"}
+[19-Sep-2022 19:24:31 UTC] {"action":"placePiece","row":"0","col":"5"}
+[19-Sep-2022 19:24:32 UTC] {"action":"placePiece","row":"0","col":"6"}
+[19-Sep-2022 19:24:34 UTC] {"action":"placePiece","row":"0","col":"7"}
+[19-Sep-2022 19:24:36 UTC] {"action":"placePiece","row":"0","col":"4"}
+[19-Sep-2022 19:24:38 UTC] {"action":"placePiece","row":"1","col":"7"}
+[19-Sep-2022 19:24:41 UTC] {"action":"placePiece","row":"7","col":"6"}
+[19-Sep-2022 19:24:44 UTC] {"action":"placePiece","row":"5","col":"2"}
+[19-Sep-2022 19:24:45 UTC] {"action":"placePiece","row":"0","col":"3"}
+[19-Sep-2022 19:24:46 UTC] {"action":"placePiece","row":"2","col":"1"}
+[19-Sep-2022 19:24:47 UTC] {"action":"placePiece","row":"4","col":"0"}
+[19-Sep-2022 19:24:47 UTC] {"action":"placePiece","row":"2","col":"0"}
+[19-Sep-2022 19:24:52 UTC] {"action":"placePiece","row":"6","col":"6"}
+[19-Sep-2022 19:24:53 UTC] {"action":"placePiece","row":"7","col":"6"}
+[19-Sep-2022 19:24:55 UTC] {"action":"placePiece","row":"6","col":"7"}
+[19-Sep-2022 19:24:58 UTC] {"action":"placePiece","row":"7","col":"7"}
+[19-Sep-2022 19:25:00 UTC] {"action":"placePiece","row":"7","col":"6"}
+[19-Sep-2022 19:25:02 UTC] {"action":"placePiece","row":"7","col":"5"}
+[19-Sep-2022 19:25:05 UTC] {"action":"placePiece","row":"7","col":"4"}
+[19-Sep-2022 19:25:06 UTC] {"action":"placePiece","row":"6","col":"5"}
+[19-Sep-2022 19:25:08 UTC] {"action":"placePiece","row":"5","col":"2"}
+[19-Sep-2022 19:25:11 UTC] {"action":"placePiece","row":"2","col":"1"}
+[19-Sep-2022 19:25:13 UTC] {"action":"placePiece","row":"3","col":"1"}
+[19-Sep-2022 19:25:15 UTC] {"action":"placePiece","row":"4","col":"0"}
+[19-Sep-2022 19:25:17 UTC] {"action":"placePiece","row":"5","col":"0"}
+[19-Sep-2022 19:25:18 UTC] {"action":"placePiece","row":"3","col":"0"}
+[19-Sep-2022 19:25:22 UTC] {"action":"placePiece","row":"5","col":"1"}
+[19-Sep-2022 19:25:25 UTC] {"action":"placePiece","row":"0","col":"1"}
+[19-Sep-2022 19:25:29 UTC] {"action":"placePiece","row":"6","col":"5"}
+[19-Sep-2022 19:25:30 UTC] {"action":"placePiece","row":"7","col":"4"}
+[19-Sep-2022 19:25:31 UTC] {"action":"placePiece","row":"6","col":"2"}
+[19-Sep-2022 19:25:31 UTC] {"action":"placePiece","row":"0","col":"3"}
+[19-Sep-2022 19:25:32 UTC] {"action":"placePiece","row":"0","col":"3"}
+[19-Sep-2022 19:25:33 UTC] {"action":"placePiece","row":"6","col":"4"}
+[19-Sep-2022 19:25:33 UTC] {"action":"placePiece","row":"6","col":"5"}
+[19-Sep-2022 19:25:33 UTC] {"action":"placePiece","row":"7","col":"4"}
+[19-Sep-2022 19:25:34 UTC] {"action":"placePiece","row":"7","col":"2"}
+[19-Sep-2022 19:25:34 UTC] {"action":"placePiece","row":"6","col":"2"}
+[19-Sep-2022 19:25:35 UTC] {"action":"placePiece","row":"7","col":"1"}
+[19-Sep-2022 19:25:36 UTC] {"action":"placePiece","row":"6","col":"1"}
+[19-Sep-2022 19:25:36 UTC] {"action":"placePiece","row":"7","col":"1"}
+[19-Sep-2022 19:25:36 UTC] {"action":"placePiece","row":"7","col":"0"}
+[19-Sep-2022 19:25:37 UTC] {"action":"placePiece","row":"6","col":"0"}
+[19-Sep-2022 19:27:34 UTC] {"playerOne":"Andres","playerTwo":"JT","QuitGame":"Quit Game"}
+[19-Sep-2022 19:27:34 UTC] []
+[19-Sep-2022 19:27:34 UTC] {"action":"NewGame"}
+[19-Sep-2022 19:27:34 UTC] PHP Warning:  Undefined array key "gameData" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[19-Sep-2022 19:27:34 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[19-Sep-2022 19:27:34 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 15
+[19-Sep-2022 19:27:34 UTC] PHP Warning:  Undefined array key "turn" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 18
+[19-Sep-2022 19:27:44 UTC] {"playerOne":"Andres","playerTwo":"JT","NewGame":"New Game"}
+[19-Sep-2022 19:27:44 UTC] {"action":"NewGame"}
+[19-Sep-2022 19:27:45 UTC] {"action":"placePiece","row":"2","col":"4"}
+[19-Sep-2022 19:27:46 UTC] {"action":"placePiece","row":"2","col":"2"}
+[19-Sep-2022 19:27:47 UTC] {"action":"placePiece","row":"1","col":"4"}
+[19-Sep-2022 19:27:48 UTC] {"action":"placePiece","row":"3","col":"5"}
+[19-Sep-2022 19:27:49 UTC] {"action":"placePiece","row":"4","col":"5"}
+[19-Sep-2022 19:27:50 UTC] {"action":"placePiece","row":"2","col":"3"}
+[19-Sep-2022 19:27:50 UTC] {"action":"placePiece","row":"5","col":"3"}
+[19-Sep-2022 19:27:52 UTC] {"action":"placePiece","row":"5","col":"4"}
+[19-Sep-2022 19:27:52 UTC] {"action":"placePiece","row":"4","col":"6"}
+[19-Sep-2022 19:27:53 UTC] {"action":"placePiece","row":"5","col":"5"}
+[19-Sep-2022 19:27:55 UTC] {"action":"placePiece","row":"3","col":"2"}
+[19-Sep-2022 19:27:55 UTC] {"action":"placePiece","row":"4","col":"2"}
+[19-Sep-2022 19:27:57 UTC] {"action":"placePiece","row":"4","col":"1"}
+[19-Sep-2022 19:27:58 UTC] {"action":"placePiece","row":"5","col":"2"}
+[19-Sep-2022 19:28:01 UTC] {"action":"placePiece","row":"1","col":"4"}
+[19-Sep-2022 19:28:02 UTC] {"action":"placePiece","row":"3","col":"5"}
+[19-Sep-2022 19:28:04 UTC] {"action":"placePiece","row":"1","col":"3"}
+[19-Sep-2022 19:28:05 UTC] {"action":"placePiece","row":"5","col":"4"}
+[19-Sep-2022 19:28:07 UTC] {"action":"placePiece","row":"5","col":"5"}
+[19-Sep-2022 19:28:09 UTC] {"action":"placePiece","row":"6","col":"5"}
+[19-Sep-2022 19:28:10 UTC] {"action":"placePiece","row":"6","col":"4"}
+[19-Sep-2022 19:28:12 UTC] {"action":"placePiece","row":"6","col":"3"}
+[19-Sep-2022 19:28:14 UTC] {"action":"placePiece","row":"6","col":"2"}
+[19-Sep-2022 19:28:15 UTC] {"action":"placePiece","row":"5","col":"1"}
+[19-Sep-2022 19:28:16 UTC] {"action":"placePiece","row":"1","col":"0"}
+[19-Sep-2022 19:28:19 UTC] {"action":"placePiece","row":"3","col":"2"}
+[19-Sep-2022 19:28:21 UTC] {"action":"placePiece","row":"3","col":"1"}
+[19-Sep-2022 19:28:23 UTC] {"action":"placePiece","row":"2","col":"2"}
+[19-Sep-2022 19:28:26 UTC] {"action":"placePiece","row":"7","col":"4"}
+[19-Sep-2022 19:28:32 UTC] {"action":"placePiece","row":"6","col":"5"}
+[19-Sep-2022 19:28:33 UTC] {"action":"placePiece","row":"7","col":"5"}
+[19-Sep-2022 19:28:35 UTC] {"action":"placePiece","row":"6","col":"6"}
+[19-Sep-2022 19:28:37 UTC] {"action":"placePiece","row":"7","col":"3"}
+[19-Sep-2022 19:28:39 UTC] {"action":"placePiece","row":"6","col":"7"}
+[19-Sep-2022 19:28:40 UTC] {"action":"placePiece","row":"6","col":"1"}
+[19-Sep-2022 19:28:42 UTC] {"action":"placePiece","row":"5","col":"7"}
+[19-Sep-2022 19:28:46 UTC] {"action":"placePiece","row":"6","col":"7"}
+[19-Sep-2022 19:28:50 UTC] {"action":"placePiece","row":"5","col":"6"}
+[19-Sep-2022 19:28:52 UTC] {"action":"placePiece","row":"4","col":"6"}
+[19-Sep-2022 19:28:54 UTC] {"action":"placePiece","row":"2","col":"5"}
+[19-Sep-2022 19:28:56 UTC] {"action":"placePiece","row":"0","col":"1"}
+[19-Sep-2022 19:28:57 UTC] {"action":"placePiece","row":"7","col":"0"}
+[19-Sep-2022 19:28:57 UTC] {"action":"placePiece","row":"7","col":"0"}
+[19-Sep-2022 19:28:59 UTC] {"action":"placePiece","row":"1","col":"3"}
+[19-Sep-2022 19:29:00 UTC] {"action":"placePiece","row":"2","col":"3"}
+[19-Sep-2022 19:29:02 UTC] {"action":"placePiece","row":"1","col":"3"}
+[19-Sep-2022 19:29:05 UTC] {"action":"placePiece","row":"4","col":"1"}
+[19-Sep-2022 19:29:06 UTC] {"action":"placePiece","row":"6","col":"0"}
+[19-Sep-2022 19:29:09 UTC] {"action":"placePiece","row":"7","col":"1"}
+[19-Sep-2022 19:29:10 UTC] {"action":"placePiece","row":"7","col":"0"}
+[19-Sep-2022 19:29:14 UTC] {"action":"placePiece","row":"1","col":"2"}
+[19-Sep-2022 19:29:16 UTC] {"action":"placePiece","row":"0","col":"3"}
+[19-Sep-2022 19:29:18 UTC] {"action":"placePiece","row":"1","col":"5"}
+[19-Sep-2022 19:29:20 UTC] {"action":"placePiece","row":"0","col":"5"}
+[19-Sep-2022 19:29:21 UTC] {"action":"placePiece","row":"1","col":"6"}
+[19-Sep-2022 19:29:25 UTC] {"action":"placePiece","row":"0","col":"1"}
+[19-Sep-2022 19:29:27 UTC] {"action":"placePiece","row":"0","col":"2"}
+[19-Sep-2022 19:29:30 UTC] {"action":"placePiece","row":"2","col":"1"}
+[19-Sep-2022 19:29:33 UTC] {"action":"placePiece","row":"2","col":"0"}
+[19-Sep-2022 19:29:35 UTC] {"action":"placePiece","row":"3","col":"0"}
+[19-Sep-2022 19:29:37 UTC] {"action":"placePiece","row":"0","col":"0"}
+[19-Sep-2022 19:29:44 UTC] {"action":"placePiece","row":"7","col":"2"}
+[19-Sep-2022 19:29:57 UTC] {"action":"placePiece","row":"4","col":"7"}
+[19-Sep-2022 19:30:03 UTC] {"action":"placePiece","row":"7","col":"7"}
+[19-Sep-2022 19:30:04 UTC] {"action":"placePiece","row":"7","col":"6"}
+[19-Sep-2022 19:30:07 UTC] {"action":"placePiece","row":"5","col":"0"}
+[19-Sep-2022 19:30:08 UTC] {"action":"placePiece","row":"4","col":"0"}
+[19-Sep-2022 19:30:10 UTC] {"action":"placePiece","row":"1","col":"0"}
+[19-Sep-2022 19:30:14 UTC] {"action":"placePiece","row":"1","col":"1"}
+[19-Sep-2022 19:30:17 UTC] {"action":"placePiece","row":"2","col":"6"}
+[19-Sep-2022 19:30:19 UTC] {"action":"placePiece","row":"3","col":"6"}
+[19-Sep-2022 19:30:22 UTC] {"action":"placePiece","row":"3","col":"7"}
+[19-Sep-2022 19:30:26 UTC] {"action":"placePiece","row":"0","col":"4"}
+[19-Sep-2022 19:30:28 UTC] {"action":"placePiece","row":"0","col":"7"}
+[19-Sep-2022 19:30:29 UTC] {"action":"placePiece","row":"0","col":"6"}
+[19-Sep-2022 19:30:30 UTC] {"action":"placePiece","row":"1","col":"7"}
+[19-Sep-2022 19:30:31 UTC] {"action":"placePiece","row":"2","col":"7"}
+[19-Sep-2022 19:42:58 UTC] {"playerOne":"Andres","playerTwo":"JT","NewGame":"New Game"}
+[19-Sep-2022 19:42:58 UTC] {"action":"NewGame"}
+[19-Sep-2022 19:43:00 UTC] {"playerOne":"Andres","playerTwo":"JT","NewGame":"New Game"}
+[19-Sep-2022 19:43:00 UTC] {"action":"NewGame"}
+[19-Sep-2022 19:43:02 UTC] {"playerOne":"Andres","playerTwo":"JT","QuitGame":"Quit Game"}
+[19-Sep-2022 19:43:03 UTC] []
+[19-Sep-2022 19:43:03 UTC] {"action":"NewGame"}
+[19-Sep-2022 19:43:03 UTC] PHP Warning:  Undefined array key "gameData" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[19-Sep-2022 19:43:03 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[19-Sep-2022 19:43:06 UTC] {"playerOne":"Andres","playerTwo":"JT","NewGame":"New Game"}
+[19-Sep-2022 19:43:06 UTC] {"action":"NewGame"}
+[19-Sep-2022 19:43:07 UTC] {"action":"placePiece","row":"0","col":"0"}
+[19-Sep-2022 19:43:08 UTC] {"action":"placePiece","row":"2","col":"4"}
+[19-Sep-2022 19:43:09 UTC] {"action":"placePiece","row":"2","col":"2"}
+[19-Sep-2022 19:43:10 UTC] {"action":"placePiece","row":"2","col":"3"}
+[19-Sep-2022 19:43:12 UTC] {"action":"placePiece","row":"3","col":"2"}
+[19-Sep-2022 19:43:13 UTC] {"action":"placePiece","row":"4","col":"2"}
+[19-Sep-2022 19:43:14 UTC] {"action":"placePiece","row":"5","col":"3"}
+[19-Sep-2022 19:43:16 UTC] {"action":"placePiece","row":"3","col":"2"}
+[19-Sep-2022 19:43:17 UTC] {"action":"placePiece","row":"2","col":"2"}
+[19-Sep-2022 19:43:19 UTC] {"action":"placePiece","row":"3","col":"2"}
+[19-Sep-2022 19:43:24 UTC] {"action":"placePiece","row":"2","col":"4"}
+[19-Sep-2022 19:43:28 UTC] {"action":"placePiece","row":"1","col":"4"}
+[19-Sep-2022 19:43:29 UTC] {"action":"placePiece","row":"1","col":"3"}
+[19-Sep-2022 19:43:31 UTC] {"action":"placePiece","row":"1","col":"2"}
+[19-Sep-2022 19:43:33 UTC] {"action":"placePiece","row":"0","col":"1"}
+[19-Sep-2022 19:43:35 UTC] {"action":"placePiece","row":"0","col":"2"}
+[19-Sep-2022 19:43:36 UTC] {"action":"placePiece","row":"0","col":"3"}
+[19-Sep-2022 19:43:39 UTC] {"action":"placePiece","row":"0","col":"4"}
+[19-Sep-2022 19:43:41 UTC] {"action":"placePiece","row":"0","col":"5"}
+[19-Sep-2022 19:43:43 UTC] {"action":"placePiece","row":"1","col":"5"}
+[19-Sep-2022 19:43:45 UTC] {"action":"placePiece","row":"2","col":"5"}
+[19-Sep-2022 19:43:46 UTC] {"action":"placePiece","row":"4","col":"5"}
+[19-Sep-2022 19:43:48 UTC] {"action":"placePiece","row":"5","col":"4"}
+[19-Sep-2022 19:43:50 UTC] {"action":"placePiece","row":"5","col":"5"}
+[19-Sep-2022 19:43:53 UTC] {"action":"placePiece","row":"6","col":"4"}
+[19-Sep-2022 19:43:55 UTC] {"action":"placePiece","row":"3","col":"5"}
+[19-Sep-2022 19:43:56 UTC] {"action":"placePiece","row":"6","col":"5"}
+[19-Sep-2022 19:44:00 UTC] {"action":"placePiece","row":"7","col":"6"}
+[19-Sep-2022 19:44:01 UTC] {"action":"placePiece","row":"7","col":"5"}
+[19-Sep-2022 19:44:04 UTC] {"action":"placePiece","row":"7","col":"4"}
+[19-Sep-2022 19:44:06 UTC] {"action":"placePiece","row":"7","col":"7"}
+[19-Sep-2022 19:44:06 UTC] {"action":"placePiece","row":"7","col":"3"}
+[19-Sep-2022 19:44:10 UTC] {"action":"placePiece","row":"6","col":"3"}
+[19-Sep-2022 19:44:11 UTC] {"action":"placePiece","row":"7","col":"7"}
+[19-Sep-2022 19:44:13 UTC] {"action":"placePiece","row":"6","col":"6"}
+[19-Sep-2022 19:44:14 UTC] {"action":"placePiece","row":"6","col":"7"}
+[19-Sep-2022 19:44:18 UTC] {"action":"placePiece","row":"3","col":"1"}
+[19-Sep-2022 19:44:21 UTC] {"action":"placePiece","row":"3","col":"0"}
+[19-Sep-2022 19:44:22 UTC] {"action":"placePiece","row":"2","col":"0"}
+[19-Sep-2022 19:44:25 UTC] {"action":"placePiece","row":"3","col":"0"}
+[19-Sep-2022 19:44:28 UTC] {"action":"placePiece","row":"4","col":"0"}
+[19-Sep-2022 19:44:38 UTC] {"action":"placePiece","row":"5","col":"2"}
+[19-Sep-2022 19:44:41 UTC] {"action":"placePiece","row":"5","col":"1"}
+[19-Sep-2022 19:44:46 UTC] {"action":"placePiece","row":"5","col":"0"}
+[19-Sep-2022 19:44:52 UTC] {"action":"placePiece","row":"6","col":"7"}
+[19-Sep-2022 19:44:57 UTC] {"action":"placePiece","row":"0","col":"0"}
+[19-Sep-2022 19:44:59 UTC] {"action":"placePiece","row":"1","col":"1"}
+[19-Sep-2022 19:45:02 UTC] {"action":"placePiece","row":"0","col":"0"}
+[19-Sep-2022 19:45:04 UTC] {"action":"placePiece","row":"1","col":"0"}
+[19-Sep-2022 19:45:05 UTC] {"action":"placePiece","row":"2","col":"1"}
+[19-Sep-2022 19:45:08 UTC] {"action":"placePiece","row":"4","col":"1"}
+[19-Sep-2022 19:45:11 UTC] {"action":"placePiece","row":"6","col":"1"}
+[19-Sep-2022 19:45:15 UTC] {"action":"placePiece","row":"6","col":"2"}
+[19-Sep-2022 19:45:18 UTC] {"action":"placePiece","row":"7","col":"2"}
+[19-Sep-2022 19:45:20 UTC] {"action":"placePiece","row":"7","col":"1"}
+[19-Sep-2022 19:45:21 UTC] {"action":"placePiece","row":"7","col":"0"}
+[19-Sep-2022 19:45:22 UTC] {"action":"placePiece","row":"6","col":"0"}
+[19-Sep-2022 19:45:23 UTC] {"action":"placePiece","row":"5","col":"0"}
+[19-Sep-2022 19:45:24 UTC] {"action":"placePiece","row":"5","col":"7"}
+[19-Sep-2022 19:45:27 UTC] {"action":"placePiece","row":"5","col":"6"}
+[19-Sep-2022 19:45:29 UTC] {"action":"placePiece","row":"4","col":"6"}
+[19-Sep-2022 19:45:30 UTC] {"action":"placePiece","row":"5","col":"7"}
+[19-Sep-2022 19:45:32 UTC] {"action":"placePiece","row":"4","col":"7"}
+[19-Sep-2022 19:45:33 UTC] {"action":"placePiece","row":"3","col":"7"}
+[19-Sep-2022 19:45:35 UTC] {"action":"placePiece","row":"3","col":"6"}
+[19-Sep-2022 19:45:35 UTC] {"action":"placePiece","row":"2","col":"7"}
+[19-Sep-2022 19:45:37 UTC] {"action":"placePiece","row":"2","col":"6"}
+[19-Sep-2022 19:45:37 UTC] {"action":"placePiece","row":"1","col":"7"}
+[19-Sep-2022 19:45:38 UTC] {"action":"placePiece","row":"1","col":"6"}
+[19-Sep-2022 19:45:39 UTC] {"action":"placePiece","row":"0","col":"7"}
+[19-Sep-2022 19:45:40 UTC] {"action":"placePiece","row":"0","col":"6"}
+[19-Sep-2022 19:45:41 UTC] {"action":"placePiece","row":"0","col":"7"}
+[19-Sep-2022 19:46:37 UTC] {"playerOne":"Andres","playerTwo":"JT","NewGame":"New Game"}
+[19-Sep-2022 19:46:37 UTC] {"action":"NewGame"}
+[19-Sep-2022 19:46:40 UTC] {"playerOne":"Andres","playerTwo":"JT","NewGame":"New Game"}
+[19-Sep-2022 19:46:40 UTC] {"action":"NewGame"}
+[19-Sep-2022 19:46:44 UTC] {"action":"placePiece","row":"3","col":"2"}
+[19-Sep-2022 19:46:45 UTC] {"action":"placePiece","row":"4","col":"2"}
+[19-Sep-2022 19:46:46 UTC] {"action":"placePiece","row":"5","col":"2"}
+[19-Sep-2022 19:46:47 UTC] {"action":"placePiece","row":"4","col":"1"}
+[19-Sep-2022 19:46:48 UTC] {"action":"placePiece","row":"6","col":"2"}
+[19-Sep-2022 19:46:49 UTC] {"action":"placePiece","row":"5","col":"4"}
+[19-Sep-2022 19:46:50 UTC] {"action":"placePiece","row":"5","col":"5"}
+[19-Sep-2022 19:46:50 UTC] {"action":"placePiece","row":"4","col":"5"}
+[19-Sep-2022 19:46:54 UTC] {"action":"placePiece","row":"3","col":"5"}
+[19-Sep-2022 19:46:55 UTC] {"action":"placePiece","row":"2","col":"5"}
+[19-Sep-2022 19:46:57 UTC] {"action":"placePiece","row":"3","col":"6"}
+[19-Sep-2022 19:46:59 UTC] {"action":"placePiece","row":"3","col":"5"}
+[19-Sep-2022 19:47:02 UTC] {"action":"placePiece","row":"2","col":"2"}
+[19-Sep-2022 19:47:04 UTC] {"action":"placePiece","row":"3","col":"1"}
+[19-Sep-2022 19:47:05 UTC] {"action":"placePiece","row":"2","col":"1"}
+[19-Sep-2022 19:47:07 UTC] {"action":"placePiece","row":"3","col":"0"}
+[19-Sep-2022 19:47:08 UTC] {"action":"placePiece","row":"4","col":"0"}
+[19-Sep-2022 19:47:10 UTC] {"action":"placePiece","row":"2","col":"0"}
+[19-Sep-2022 19:47:10 UTC] {"action":"placePiece","row":"5","col":"0"}
+[19-Sep-2022 19:47:12 UTC] {"action":"placePiece","row":"5","col":"1"}
+[19-Sep-2022 19:47:14 UTC] {"action":"placePiece","row":"6","col":"0"}
+[19-Sep-2022 19:47:16 UTC] {"action":"placePiece","row":"6","col":"1"}
+[19-Sep-2022 19:47:17 UTC] {"action":"placePiece","row":"7","col":"0"}
+[19-Sep-2022 19:47:18 UTC] {"action":"placePiece","row":"7","col":"1"}
+[19-Sep-2022 19:47:20 UTC] {"action":"placePiece","row":"2","col":"0"}
+[19-Sep-2022 19:47:21 UTC] {"action":"placePiece","row":"1","col":"0"}
+[19-Sep-2022 19:47:29 UTC] {"action":"placePiece","row":"6","col":"5"}
+[19-Sep-2022 19:47:31 UTC] {"action":"placePiece","row":"1","col":"1"}
+[19-Sep-2022 19:47:32 UTC] {"action":"placePiece","row":"1","col":"0"}
+[19-Sep-2022 19:47:41 UTC] {"action":"placePiece","row":"5","col":"3"}
+[19-Sep-2022 19:47:43 UTC] {"action":"placePiece","row":"3","col":"5"}
+[19-Sep-2022 19:47:45 UTC] {"action":"placePiece","row":"3","col":"7"}
+[19-Sep-2022 19:47:46 UTC] {"action":"placePiece","row":"2","col":"3"}
+[19-Sep-2022 19:47:47 UTC] {"action":"placePiece","row":"3","col":"7"}
+[19-Sep-2022 19:47:51 UTC] {"action":"placePiece","row":"6","col":"4"}
+[19-Sep-2022 19:47:53 UTC] {"action":"placePiece","row":"2","col":"4"}
+[19-Sep-2022 19:48:01 UTC] {"action":"placePiece","row":"1","col":"5"}
+[19-Sep-2022 19:48:04 UTC] {"action":"placePiece","row":"0","col":"0"}
+[19-Sep-2022 19:48:07 UTC] {"action":"placePiece","row":"0","col":"1"}
+[19-Sep-2022 19:48:09 UTC] {"action":"placePiece","row":"0","col":"2"}
+[19-Sep-2022 19:48:10 UTC] {"action":"placePiece","row":"1","col":"2"}
+[19-Sep-2022 19:48:12 UTC] {"action":"placePiece","row":"1","col":"3"}
+[19-Sep-2022 19:48:13 UTC] {"action":"placePiece","row":"0","col":"3"}
+[19-Sep-2022 19:48:14 UTC] {"action":"placePiece","row":"0","col":"4"}
+[19-Sep-2022 19:48:15 UTC] {"action":"placePiece","row":"1","col":"4"}
+[19-Sep-2022 19:48:18 UTC] {"action":"placePiece","row":"2","col":"5"}
+[19-Sep-2022 19:48:23 UTC] {"action":"placePiece","row":"2","col":"6"}
+[19-Sep-2022 19:48:25 UTC] {"action":"placePiece","row":"2","col":"7"}
+[19-Sep-2022 19:48:25 UTC] {"action":"placePiece","row":"1","col":"6"}
+[19-Sep-2022 19:48:28 UTC] {"action":"placePiece","row":"0","col":"6"}
+[19-Sep-2022 19:48:29 UTC] {"action":"placePiece","row":"0","col":"5"}
+[19-Sep-2022 19:48:30 UTC] {"action":"placePiece","row":"0","col":"7"}
+[19-Sep-2022 19:48:30 UTC] {"action":"placePiece","row":"1","col":"7"}
+[19-Sep-2022 19:48:32 UTC] {"action":"placePiece","row":"2","col":"7"}
+[19-Sep-2022 19:48:33 UTC] {"action":"placePiece","row":"4","col":"6"}
+[19-Sep-2022 19:48:34 UTC] {"action":"placePiece","row":"4","col":"7"}
+[19-Sep-2022 19:48:36 UTC] {"action":"placePiece","row":"5","col":"6"}
+[19-Sep-2022 19:48:37 UTC] {"action":"placePiece","row":"5","col":"5"}
+[19-Sep-2022 19:48:38 UTC] {"action":"placePiece","row":"6","col":"6"}
+[19-Sep-2022 19:48:39 UTC] {"action":"placePiece","row":"5","col":"7"}
+[19-Sep-2022 19:48:40 UTC] {"action":"placePiece","row":"7","col":"6"}
+[19-Sep-2022 19:48:41 UTC] {"action":"placePiece","row":"6","col":"7"}
+[19-Sep-2022 19:48:42 UTC] {"action":"placePiece","row":"7","col":"6"}
+[19-Sep-2022 19:48:43 UTC] {"action":"placePiece","row":"7","col":"7"}
+[19-Sep-2022 19:48:44 UTC] {"action":"placePiece","row":"7","col":"5"}
+[19-Sep-2022 19:48:45 UTC] {"action":"placePiece","row":"7","col":"4"}
+[19-Sep-2022 19:48:46 UTC] {"action":"placePiece","row":"6","col":"3"}
+[19-Sep-2022 19:48:47 UTC] {"action":"placePiece","row":"7","col":"3"}
+[19-Sep-2022 19:48:49 UTC] {"action":"placePiece","row":"6","col":"2"}
+[19-Sep-2022 19:48:50 UTC] {"action":"placePiece","row":"7","col":"2"}
+[19-Sep-2022 19:51:41 UTC] {"playerOne":"Andres","playerTwo":"JT","NewGame":"New Game"}
+[19-Sep-2022 19:51:41 UTC] {"action":"NewGame"}
+[19-Sep-2022 19:52:29 UTC] {"playerOne":"Andres","playerTwo":"JT","NewGame":"New Game"}
+[19-Sep-2022 19:52:30 UTC] {"action":"NewGame"}
+[19-Sep-2022 19:52:32 UTC] {"playerOne":"Andres","playerTwo":"JT","NewGame":"New Game"}
+[19-Sep-2022 19:52:32 UTC] {"action":"NewGame"}
+[19-Sep-2022 19:52:34 UTC] {"action":"placePiece","row":"3","col":"2"}
+[19-Sep-2022 19:52:35 UTC] {"action":"placePiece","row":"2","col":"3"}
+[19-Sep-2022 19:52:36 UTC] {"action":"placePiece","row":"2","col":"4"}
+[19-Sep-2022 19:59:14 UTC] {"playerOne":"Andres","playerTwo":"JT","NewGame":"New Game"}
+[19-Sep-2022 19:59:14 UTC] {"action":"NewGame"}
+[19-Sep-2022 20:00:25 UTC] {"playerOne":"Andres","playerTwo":"JT","QuitGame":"Quit Game"}
+[19-Sep-2022 20:00:25 UTC] []
+[19-Sep-2022 20:00:25 UTC] {"action":"NewGame"}
+[19-Sep-2022 20:00:25 UTC] PHP Warning:  Undefined array key "gameData" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[19-Sep-2022 20:00:25 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[19-Sep-2022 20:00:40 UTC] {"playerOne":"Andres","playerTwo":"Paola","NewGame":"New Game"}
+[19-Sep-2022 20:00:40 UTC] {"action":"NewGame"}
+[19-Sep-2022 20:00:43 UTC] {"action":"placePiece","row":"3","col":"2"}
+[19-Sep-2022 20:00:45 UTC] {"action":"placePiece","row":"2","col":"4"}
+[19-Sep-2022 20:00:47 UTC] {"action":"placePiece","row":"3","col":"5"}
+[19-Sep-2022 20:00:48 UTC] {"action":"placePiece","row":"4","col":"2"}
+[19-Sep-2022 20:00:52 UTC] {"action":"placePiece","row":"5","col":"4"}
+[19-Sep-2022 20:00:55 UTC] {"action":"placePiece","row":"5","col":"5"}
+[19-Sep-2022 20:00:58 UTC] {"action":"placePiece","row":"5","col":"6"}
+[19-Sep-2022 20:00:58 UTC] {"action":"placePiece","row":"6","col":"4"}
+[19-Sep-2022 20:01:02 UTC] {"action":"placePiece","row":"5","col":"3"}
+[19-Sep-2022 20:01:03 UTC] {"action":"placePiece","row":"6","col":"6"}
+[19-Sep-2022 20:01:04 UTC] {"action":"placePiece","row":"6","col":"5"}
+[19-Sep-2022 20:01:08 UTC] {"action":"placePiece","row":"2","col":"3"}
+[19-Sep-2022 20:01:09 UTC] {"action":"placePiece","row":"2","col":"2"}
+[19-Sep-2022 20:01:14 UTC] {"action":"placePiece","row":"1","col":"3"}
+[19-Sep-2022 20:01:17 UTC] {"action":"placePiece","row":"1","col":"4"}
+[19-Sep-2022 20:01:30 UTC] {"action":"placePiece","row":"5","col":"7"}
+[19-Sep-2022 20:01:31 UTC] {"action":"placePiece","row":"5","col":"2"}
+[19-Sep-2022 20:01:34 UTC] {"action":"placePiece","row":"7","col":"4"}
+[19-Sep-2022 20:01:37 UTC] {"action":"placePiece","row":"5","col":"7"}
+[19-Sep-2022 20:01:42 UTC] {"action":"placePiece","row":"0","col":"4"}
+[19-Sep-2022 20:01:51 UTC] {"action":"placePiece","row":"6","col":"5"}
+[19-Sep-2022 20:01:52 UTC] {"action":"placePiece","row":"7","col":"5"}
+[19-Sep-2022 20:01:53 UTC] {"action":"placePiece","row":"7","col":"6"}
+[19-Sep-2022 20:01:56 UTC] {"action":"placePiece","row":"6","col":"7"}
+[19-Sep-2022 20:01:59 UTC] {"action":"placePiece","row":"7","col":"7"}
+[19-Sep-2022 20:02:05 UTC] {"action":"placePiece","row":"4","col":"7"}
+[19-Sep-2022 20:02:07 UTC] {"action":"placePiece","row":"7","col":"6"}
+[19-Sep-2022 20:02:14 UTC] {"action":"placePiece","row":"5","col":"2"}
+[19-Sep-2022 20:02:15 UTC] {"action":"placePiece","row":"6","col":"3"}
+[19-Sep-2022 20:02:18 UTC] {"action":"placePiece","row":"7","col":"5"}
+[19-Sep-2022 20:02:19 UTC] {"action":"placePiece","row":"7","col":"3"}
+[19-Sep-2022 20:02:23 UTC] {"action":"placePiece","row":"7","col":"5"}
+[19-Sep-2022 20:02:24 UTC] {"action":"placePiece","row":"7","col":"2"}
+[19-Sep-2022 20:02:28 UTC] {"action":"placePiece","row":"7","col":"5"}
+[19-Sep-2022 20:02:32 UTC] {"action":"placePiece","row":"6","col":"2"}
+[19-Sep-2022 20:02:34 UTC] {"action":"placePiece","row":"4","col":"5"}
+[19-Sep-2022 20:02:35 UTC] {"action":"placePiece","row":"4","col":"6"}
+[19-Sep-2022 20:02:37 UTC] {"action":"placePiece","row":"3","col":"6"}
+[19-Sep-2022 20:02:39 UTC] {"action":"placePiece","row":"3","col":"1"}
+[19-Sep-2022 20:02:42 UTC] {"action":"placePiece","row":"2","col":"5"}
+[19-Sep-2022 20:02:46 UTC] {"action":"placePiece","row":"1","col":"5"}
+[19-Sep-2022 20:02:51 UTC] {"action":"placePiece","row":"1","col":"6"}
+[19-Sep-2022 20:02:52 UTC] {"action":"placePiece","row":"2","col":"6"}
+[19-Sep-2022 20:02:58 UTC] {"action":"placePiece","row":"2","col":"7"}
+[19-Sep-2022 20:02:59 UTC] {"action":"placePiece","row":"3","col":"6"}
+[19-Sep-2022 20:03:02 UTC] {"action":"placePiece","row":"3","col":"7"}
+[19-Sep-2022 20:03:02 UTC] {"action":"placePiece","row":"2","col":"7"}
+[19-Sep-2022 20:03:04 UTC] {"action":"placePiece","row":"1","col":"7"}
+[19-Sep-2022 20:03:05 UTC] {"action":"placePiece","row":"0","col":"6"}
+[19-Sep-2022 20:03:07 UTC] {"action":"placePiece","row":"0","col":"7"}
+[19-Sep-2022 20:03:08 UTC] {"action":"placePiece","row":"0","col":"3"}
+[19-Sep-2022 20:03:10 UTC] {"action":"placePiece","row":"0","col":"5"}
+[19-Sep-2022 20:03:12 UTC] {"action":"placePiece","row":"2","col":"1"}
+[19-Sep-2022 20:03:14 UTC] {"action":"placePiece","row":"2","col":"0"}
+[19-Sep-2022 20:03:15 UTC] {"action":"placePiece","row":"3","col":"0"}
+[19-Sep-2022 20:03:16 UTC] {"action":"placePiece","row":"1","col":"1"}
+[19-Sep-2022 20:03:19 UTC] {"action":"placePiece","row":"1","col":"0"}
+[19-Sep-2022 20:03:21 UTC] {"action":"placePiece","row":"2","col":"0"}
+[19-Sep-2022 20:03:23 UTC] {"action":"placePiece","row":"3","col":"0"}
+[19-Sep-2022 20:03:25 UTC] {"action":"placePiece","row":"4","col":"1"}
+[19-Sep-2022 20:03:26 UTC] {"action":"placePiece","row":"5","col":"1"}
+[19-Sep-2022 20:03:27 UTC] {"action":"placePiece","row":"5","col":"0"}
+[19-Sep-2022 20:03:28 UTC] {"action":"placePiece","row":"4","col":"0"}
+[19-Sep-2022 20:03:30 UTC] {"action":"placePiece","row":"6","col":"0"}
+[19-Sep-2022 20:03:30 UTC] {"action":"placePiece","row":"6","col":"1"}
+[19-Sep-2022 20:03:31 UTC] {"action":"placePiece","row":"7","col":"0"}
+[19-Sep-2022 20:03:32 UTC] {"action":"placePiece","row":"7","col":"1"}
+[19-Sep-2022 20:03:33 UTC] {"action":"placePiece","row":"0","col":"2"}
+[19-Sep-2022 20:03:35 UTC] {"action":"placePiece","row":"1","col":"2"}
+[19-Sep-2022 20:03:36 UTC] {"action":"placePiece","row":"0","col":"1"}
+[19-Sep-2022 20:03:36 UTC] {"action":"placePiece","row":"0","col":"0"}
+[19-Sep-2022 20:03:37 UTC] {"action":"placePiece","row":"0","col":"1"}
+[19-Sep-2022 20:07:32 UTC] {"playerOne":"Andres","playerTwo":"Paola","NewGame":"New Game"}
+[19-Sep-2022 20:07:32 UTC] {"action":"NewGame"}
+[19-Sep-2022 20:07:34 UTC] {"playerOne":"Andres","playerTwo":"Paola","QuitGame":"Quit Game"}
+[19-Sep-2022 20:07:34 UTC] []
+[19-Sep-2022 20:07:34 UTC] {"action":"NewGame"}
+[19-Sep-2022 20:07:34 UTC] PHP Warning:  Undefined array key "gameData" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[19-Sep-2022 20:07:34 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[19-Sep-2022 20:08:04 UTC] {"playerOne":"","playerTwo":"","NewGame":"New Game"}
+[19-Sep-2022 20:08:06 UTC] {"action":"NewGame"}
+[19-Sep-2022 20:08:09 UTC] {"playerOne":"Andres","playerTwo":"JT","NewGame":"New Game"}
+[19-Sep-2022 20:08:09 UTC] {"action":"NewGame"}
+[19-Sep-2022 20:08:11 UTC] {"action":"placePiece","row":"3","col":"3"}
+[19-Sep-2022 20:08:12 UTC] {"action":"placePiece","row":"4","col":"3"}
+[19-Sep-2022 20:08:12 UTC] {"action":"placePiece","row":"4","col":"4"}
+[19-Sep-2022 20:08:12 UTC] {"action":"placePiece","row":"3","col":"4"}
+[19-Sep-2022 20:08:23 UTC] {"playerOne":"Andres","playerTwo":"JT","NewGame":"New Game"}
+[19-Sep-2022 20:08:23 UTC] {"action":"NewGame"}
+[19-Sep-2022 20:08:26 UTC] {"playerOne":"Andres","playerTwo":"JT","QuitGame":"Quit Game"}
+[19-Sep-2022 20:08:26 UTC] []
+[19-Sep-2022 20:08:26 UTC] {"action":"NewGame"}
+[19-Sep-2022 20:08:26 UTC] PHP Warning:  Undefined array key "gameData" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[19-Sep-2022 20:08:26 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[19-Sep-2022 20:33:06 UTC] {"playerOne":"","playerTwo":"","QuitGame":"Quit Game"}
+[19-Sep-2022 20:33:06 UTC] []
+[19-Sep-2022 20:33:06 UTC] {"action":"NewGame"}
+[19-Sep-2022 20:33:06 UTC] PHP Warning:  Undefined array key "gameData" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[19-Sep-2022 20:33:06 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12

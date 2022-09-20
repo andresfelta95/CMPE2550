@@ -80,9 +80,4 @@ td{
     align-items: center;
     justify-items: center;
 }
-td:hover{
-    background-color: #000000;
-    color: #ffffff;
-}
-
 
