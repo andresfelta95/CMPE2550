@@ -22,12 +22,14 @@
         $row = strip_tags($_POST['row']);
         $col = strip_tags($_POST['col']);
         $board = $gameData->board;
-        $gameData->validMoves = GetValidMoves($gameData->board, $gameData->turn);
-        if($gameData->board[$row][$col] == 0 && $gameData->validMoves[$row][$col] == 1){
-            $gameData->board[$row][$col] = $gameData->turn;
-            $gameData->board = FillInPieces($gameData->board, $row, $col, $gameData->turn);
+        $gameData->validMoves = GetValidMoves($gameData->board, $gameData->turn);           // get valid moves for the current player
+        if($gameData->board[$row][$col] == 0 && $gameData->validMoves[$row][$col] == 1){    // if the square is empty and a valid move
+            $gameData->board[$row][$col] = $gameData->turn;                                 // place the piece
+            $gameData->board = FillInPieces($gameData->board, $row, $col, $gameData->turn); // fill in pieces
             $gameData->turn = ($gameData->turn == 1) ? 2 : 1;
             $gameData->gameOver = IsGameOver($gameData->board);
+            $gameData->playerOneScore = GetScore($gameData->board, 1);                      // get player 1 score
+            $gameData->playerTwoScore = GetScore($gameData->board, 2);                      // get player 2 score
             if($gameData->gameOver){
                 $gameData->winner = GetWinner($gameData->board);
                 if($gameData->winner == 1){
@@ -43,6 +45,8 @@
         }
         else {
             $gameData->gameOver = IsGameOver($gameData->board);
+            $gameData->PlayerOneScore = GetScore($gameData->board, 1);                      // get player 1 score
+            $gameData->PlayerTwoScore = GetScore($gameData->board, 2);                      // get player 2 score
             if($gameData->gameOver){
                 $gameData->winner = GetWinner($gameData->board);
                 if($gameData->winner == 1){
@@ -332,6 +336,28 @@
         }
         else{
             return 0;
+        }
+    }
+
+    //Get the score of players
+    function GetScore($board, $turn){
+        $playerOneScore = 0;
+        $playerTwoScore = 0;
+        for($row = 0; $row < 8; $row++){
+            for($col = 0; $col < 8; $col++){
+                if($board[$row][$col] == 1){
+                    $playerOneScore++;
+                }
+                else if($board[$row][$col] == 2){
+                    $playerTwoScore++;
+                }
+            }
+        }
+        if($turn == 1){
+            return $playerOneScore;
+        }
+        else{
+            return $playerTwoScore;
         }
     }
     echo $_SESSION['gameData'];

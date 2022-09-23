@@ -28,19 +28,14 @@
                 array(0,0,0,0,0,0,0,0),
                 array(0,0,0,0,0,0,0,0)
             );
-            $validMoves = array(
-                array(0,0,0,0,0,0,0,0),
-                array(0,0,0,0,0,0,0,0),
-                array(0,0,0,0,0,0,0,0),
-                array(0,0,0,0,0,0,0,0),
-                array(0,0,0,0,0,0,0,0),
-                array(0,0,0,0,0,0,0,0),
-                array(0,0,0,0,0,0,0,0),
-                array(0,0,0,0,0,0,0,0)
-            );
+            $validMoves = array();
+            $playerOneScore = 2;
+            $playerTwoScore = 2;
             $gameData = array(
                 'playerOne' => $playerOne,
                 'playerTwo' => $playerTwo,
+                'playerOneScore' => $playerOneScore,
+                'playerTwoScore' => $playerTwoScore,
                 'board' => $board,
                 'turn' => rand(1,2),
                 'winner' => 0,
@@ -93,11 +88,14 @@
         <section>
             <form action="index.php" method="post" id="form">
                 <h2><?php echo  $formTitle ?></h2>
-                <input type="text" name="playerOne" placeholder="Player one name here" <?php echo 'value='.'"'.$playerOne.'"'?>>
-                <input type="text" name="playerTwo" placeholder="Player two name here" <?php echo 'value='.'"'.$playerTwo.'"'?>>
-                <input type="submit" name="NewGame" value="New Game">
-                <input type="submit" name="QuitGame" value="Quit Game">
+                <input type="text" class="POne" name="playerOne" placeholder="Player one name here" <?php echo 'value='.'"'.$playerOne.'"'?>>
+                <input type="text" class="PTwo" name="playerTwo" placeholder="Player two name here" <?php echo 'value='.'"'.$playerTwo.'"'?>>
+                <input type="submit" class="New" name="NewGame" value="New Game">
+                <input type="submit" class="Quit" name="QuitGame" value="Quit Game">
+                <label for="playerOneScore" class="Score1"></label>
                 <label for="" class="turn"></label>
+                <label for="playerTwoScore" class="Score2"></label>
+                
             </form>
         </section>
         <hr>

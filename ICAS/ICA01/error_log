@@ -307,3 +307,11 @@
 [15-Sep-2022 19:00:19 UTC] PHP Warning:  Undefined variable $hobby in /home/atangari/public_html/CMPE2550/ICAS/ICA01/ica01.php on line 110
 [15-Sep-2022 19:00:19 UTC] PHP Warning:  Undefined variable $like in /home/atangari/public_html/CMPE2550/ICAS/ICA01/ica01.php on line 113
 [15-Sep-2022 19:00:19 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/ICAS/ICA01/ica01.php on line 123
+[22-Sep-2022 18:58:18 UTC] []
+[22-Sep-2022 18:58:18 UTC] PHP Warning:  Undefined variable $name in /home/atangari/public_html/CMPE2550/ICAS/ICA01/ica01.php on line 77
+[22-Sep-2022 18:58:18 UTC] PHP Warning:  Undefined variable $hobby in /home/atangari/public_html/CMPE2550/ICAS/ICA01/ica01.php on line 78
+[22-Sep-2022 18:58:18 UTC] PHP Warning:  Undefined variable $like in /home/atangari/public_html/CMPE2550/ICAS/ICA01/ica01.php on line 79
+[22-Sep-2022 18:58:18 UTC] PHP Warning:  Undefined variable $name in /home/atangari/public_html/CMPE2550/ICAS/ICA01/ica01.php on line 107
+[22-Sep-2022 18:58:18 UTC] PHP Warning:  Undefined variable $hobby in /home/atangari/public_html/CMPE2550/ICAS/ICA01/ica01.php on line 110
+[22-Sep-2022 18:58:18 UTC] PHP Warning:  Undefined variable $like in /home/atangari/public_html/CMPE2550/ICAS/ICA01/ica01.php on line 113
+[22-Sep-2022 18:58:18 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/ICAS/ICA01/ica01.php on line 123

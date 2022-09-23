@@ -23,7 +23,7 @@ main {
 }
 form {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
     border: 2px solid #ffffff;
@@ -35,16 +35,23 @@ input{
     margin: 10px;
     padding: 10px;
 }
-.turn {
+.New, .POne {
     margin: 10px;
     padding: 10px;
     text-align: center;
     grid-column-start: 1;
-    grid-column-end: span 2;
+    grid-column-end: 2;
+}
+.PTwo, .Quit {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
 }
 h2{
     grid-column-start: 1;
-    grid-column-end: span 2;
+    grid-column-end: span 3;
 }
 footer {
     background-color: #003366;

@@ -70,6 +70,9 @@ function Success(returnData){
             }
         }
     }
+    // Get Scores and display them
+    $(".Score1").text(returnData['playerOne'] + ": " + returnData['playerOneScore']);
+    $(".Score2").text(returnData['playerTwo'] + ": " + returnData['playerTwoScore']);
 }
 
 function errorMessage (request, status, errorMessage){
