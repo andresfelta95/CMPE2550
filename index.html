@@ -8,18 +8,25 @@
     <title>Landing Page</title>
 </head>
 <body>
-    <header class="header">
-        <h2 class="logo"><a href="./">Andres Tangarife</a></h2>
-
-        <a id="menu-toggle">&#9776</a>
-
-        <nav class="navbar">
-            <ul class="menu">
-                <li><a href="./">Home</a></li>
-                <li><a href="./ICAS/">ICAs</a></li>
-                <li><a href="./LABS/">Labs</a></li>
-            </ul>
-        </nav>
+    <header class="navigation">
+        <div class="nav-container">
+            <h2 class="brand"><a href="./">Andres Tangarife</a></h2>    
+            
+            <nav class="navbar">
+                <div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>
+                <ul class="nav-list">
+                    <li><a href="./">Home</a></li>
+                    <li>
+                        <a href="./ICAS/">ICAs</a>
+                        <ul class="navbar-dropdown">
+                            <li><a href="./ICAS/ICA01/ica01.php"></a></li>
+                            <li><a href="./ICAS/ICA02/index.php"></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./LABS/">Labs</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 </body>
 </html>
