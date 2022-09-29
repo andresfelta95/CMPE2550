@@ -2,7 +2,7 @@
     session_start();
 
     error_log(json_encode($_POST));
-
+    // if the NewGame button was clicked
     if (isset($_POST['action'])){
         $action = strip_tags($_POST['action']);
         if($action == "placePiece"){            
@@ -66,164 +66,32 @@
     // if the new pice is placed in a valid spot, check to fill in any pieces that need to be flipped
     function FillInPieces($board, $row, $col, $turn){
         $board[$row][$col] = $turn;
-        $board = CheckUp($board, $row, $col, $turn);
-        $board = CheckDown($board, $row, $col, $turn);
-        $board = CheckLeft($board, $row, $col, $turn);
-        $board = CheckRight($board, $row, $col, $turn);
-        $board = CheckUpLeft($board, $row, $col, $turn);
-        $board = CheckUpRight($board, $row, $col, $turn);
-        $board = CheckDownLeft($board, $row, $col, $turn);
-        $board = CheckDownRight($board, $row, $col, $turn);
+        $board = CheckFlip($board, $row, $col, $turn, -1, -1); // check up and left
+        $board = CheckFlip($board, $row, $col, $turn, -1, 0);  // check up
+        $board = CheckFlip($board, $row, $col, $turn, -1, 1);  // check up and right
+        $board = CheckFlip($board, $row, $col, $turn, 0, -1);  // check left
+        $board = CheckFlip($board, $row, $col, $turn, 0, 1);   // check right
+        $board = CheckFlip($board, $row, $col, $turn, 1, -1);  // check down and left
+        $board = CheckFlip($board, $row, $col, $turn, 1, 0);   // check down
+        $board = CheckFlip($board, $row, $col, $turn, 1, 1);   // check down and right
         return $board;
     }
-
-    // check up for pieces to flip
-    function CheckUp($board, $row, $col, $turn){
+    // one function to check each direction for pieces to flip
+    function CheckFlip($board, $row, $col, $turn, $rowChange, $colChange){
         $opponent = ($turn == 1) ? 2 : 1;
-        $row--;
-        while($row >= 0 && $board[$row][$col] == $opponent){
-            $row--;
+        $row += $rowChange;
+        $col += $colChange;
+        while($row >= 0 && $row < 8 && $col >= 0 && $col < 8 && $board[$row][$col] == $opponent){
+            $row += $rowChange;
+            $col += $colChange;
         }
-        if($row >= 0 && $board[$row][$col] == $turn){
-            $row++;
-            while($row < 8 && $board[$row][$col] == $opponent){
+        if($row >= 0 && $row < 8 && $col >= 0 && $col < 8 && $board[$row][$col] == $turn){
+            $row -= $rowChange;
+            $col -= $colChange;
+            while($row >= 0 && $row < 8 && $col >= 0 && $col < 8 && $board[$row][$col] == $opponent){
                 $board[$row][$col] = $turn;
-                $row++;
-            }
-        }
-        return $board;
-    }
-
-    //check down for pieces to flip
-    function CheckDown($board, $row, $col, $turn){
-        $opponent = ($turn == 1) ? 2 : 1;
-        $row++;
-        while($row < 8 && $board[$row][$col] == $opponent){
-            $row++;
-        }
-        if($row < 8 && $board[$row][$col] == $turn){
-            $row--;
-            while($row >= 0 && $board[$row][$col] == $opponent){
-                $board[$row][$col] = $turn;
-                $row--;
-            }
-        }
-        return $board;
-    }
-
-    // check left to see if any pieces need to be flipped
-    function CheckLeft($board, $row, $col, $turn){
-        $opponent = ($turn == 1) ? 2 : 1;
-        $col--;
-        while($col >= 0 && $board[$row][$col] == $opponent){
-            $col--;
-        }
-        if($col >= 0 && $board[$row][$col] == $turn){
-            $col++;
-            while($col < 8 && $board[$row][$col] == $opponent){
-                $board[$row][$col] = $turn;
-                $col++;
-            }
-        }
-        return $board;
-    }
-
-    // Check to see if there are any pieces to the right that need to be flipped
-    function CheckRight($board, $row, $col, $turn){
-        $opponent = ($turn == 1) ? 2 : 1;
-        $col++;
-        while($col < 8 && $board[$row][$col] == $opponent){
-            $col++;
-        }
-        if($col < 8 && $board[$row][$col] == $turn){
-            $col--;
-            while($col >= 0 && $board[$row][$col] == $opponent){
-                $board[$row][$col] = $turn;
-                $col--;
-            }
-        }
-        return $board;
-    }
-
-    // check up and left for pieces to flip
-    function CheckUpLeft($board, $row, $col, $turn){
-        $opponent = ($turn == 1) ? 2 : 1;
-        $row--;
-        $col--;
-        while($row >= 0 && $col >= 0 && $board[$row][$col] == $opponent){
-            $row--;
-            $col--;
-        }
-        if($row >= 0 && $col >= 0 && $board[$row][$col] == $turn){
-            $row++;
-            $col++;
-            while($row < 8 && $col < 8 && $board[$row][$col] == $opponent){
-                $board[$row][$col] = $turn;
-                $row++;
-                $col++;
-            }
-        }
-        return $board;
-    }
-
-    // check up and to the right for pieces to flip
-    function CheckUpRight($board, $row, $col, $turn){
-        $opponent = ($turn == 1) ? 2 : 1;
-        $row--;
-        $col++;
-        while($row >= 0 && $col < 8 && $board[$row][$col] == $opponent){
-            $row--;
-            $col++;
-        }
-        if($row >= 0 && $col < 8 && $board[$row][$col] == $turn){
-            $row++;
-            $col--;
-            while($row < 8 && $col >= 0 && $board[$row][$col] == $opponent){
-                $board[$row][$col] = $turn;
-                $row++;
-                $col--;
-            }
-        }
-        return $board;
-    }
-
-    // Check down left for any pieces that need to be flipped
-    function CheckDownLeft($board, $row, $col, $turn){
-        $opponent = ($turn == 1) ? 2 : 1;
-        $row++;
-        $col--;
-        while($row < 8 && $col >= 0 && $board[$row][$col] == $opponent){
-            $row++;
-            $col--;
-        }
-        if($row < 8 && $col >= 0 && $board[$row][$col] == $turn){
-            $row--;
-            $col++;
-            while($row >= 0 && $col < 8 && $board[$row][$col] == $opponent){
-                $board[$row][$col] = $turn;
-                $row--;
-                $col++;
-            }
-        }
-        return $board;
-    }
-
-    // Check Down Right for any pices that need to be flipped
-    function CheckDownRight($board, $row, $col, $turn){
-        $opponent = ($turn == 1) ? 2 : 1;
-        $row++;
-        $col++;
-        while($row < 8 && $col < 8 && $board[$row][$col] == $opponent){
-            $row++;
-            $col++;
-        }
-        if($row < 8 && $col < 8 && $board[$row][$col] == $turn){
-            $row--;
-            $col--;
-            while($row >= 0 && $col >= 0 && $board[$row][$col] == $opponent){
-                $board[$row][$col] = $turn;
-                $row--;
-                $col--;
+                $row -= $rowChange;
+                $col -= $colChange;
             }
         }
         return $board;

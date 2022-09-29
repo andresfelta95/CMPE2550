@@ -74,17 +74,23 @@ tr{
     align-self: center;
 
 }
-td{
+td {
     border: 2px solid #3811a3;
     border-radius: 10px;
     margin: 10px;
-    padding: 10px;
-    background-color: #ffffff;
+    padding: 10px;    
     color: #000000;
     height: 50px;
     width: 50px;
     text-align: center;
     align-items: center;
     justify-items: center;
+    font-size: 36px;
+    background-color: #ffffff;
+}
+td:hover {
+    background-color: #3811a3;
+    color: #ffffff;
+    cursor: pointer;
 }
 
