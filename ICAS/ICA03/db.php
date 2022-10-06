@@ -1,10 +1,25 @@
 <?php
+// Start the session
+session_start();
 
 // Global variables
 $connection = null; // Connection to the database
 $response = ""; // Response to the user
 
+// Connect to the database
 Connect();
+
+// if books button is clicked then display a table of books from the author id
+if (isset($_POST["books"]))
+{
+    $authorID = $_POST["books"];    // Get the author id
+    echo GetBooks($authorID);   // Call the GetBooks function and echo the output
+}
+else
+{
+    echo GetAuthors();  // Call the GetAuthors function and echo the output
+}
+
 // Function to connect to the database
 function Connect()
 {
@@ -41,5 +56,27 @@ function mySQLQuery($query) // Function to query the database
 
     return $result; // Return the result
 }
+
+// Function to get the books from the author and display them in a table with a button to edit or delete them
+// function getBooks($authorID)
+// {
+//     global $connection, $response;  // Call the global variables
+//     $query = "SELECT title_id, title, price FROM `titles` WHERE author_id = $authorID"; // Query to get the books from the author
+//     $output = "<table>";    // Create a table
+//     $output .= "<tr><th>Title ID</th><th>Title</th><th>Price</th><th>Edit</th><th>Delete</th></tr>"; // Create the table headers
+//     if ($result = mySQLQuery($query))   // If the query is successful
+//     {
+//         while ($row = $result->fetch_assoc()) // While there are rows in the result
+//         {
+//             $output .= "<tr><td>" . $row["title_id"] . "</td><td>" . $row["title"] . "</td><td>" . $row["price"] . "</td><td><button id=$row[title_id] class='edit'>Edit</button></td><td><button id=$row[title_id] class='delete'>Delete</button></td></tr>"; // Add a row to the table with the book information and buttons to edit or delete the book
+//         }
+//         $output .= "</table>";  // Close the table
+//     }
+//     else
+//     {
+//         $output = $response;    // Set the output to the response
+//     }
+//     return $output; // Return the output
+// }
 
 ?>

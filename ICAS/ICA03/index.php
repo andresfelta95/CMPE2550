@@ -14,9 +14,11 @@
         {
             while ($row = $result->fetch_assoc()) // While there are rows in the result
             {
-                $output .= "<tr><td>" . $row["au_id"] . "</td><td>" . $row["au_fname"] . "</td><td>" . $row["au_lname"] . "</td><td>" . $row["phone"] . "</td><td><button onclick='GetBooks(\"" . $row["au_id"] . "\")'>Get Books</button></td></tr>"; // Create a table row with the author information and a button to call the GetBooks function
+                $output .= "<tr><td>" . $row["au_id"] . "</td><td>" . $row["au_fname"] . "</td><td>" . $row["au_lname"] . "</td><td>" . $row["phone"] . "</td><td><button id='".$row["au_id"]."' class='books'>Books</button></td></tr>"; // Add a row to the table with the author information and a button to call the GetBooks function
             }
             $output .= "</table>";  // Close the table
+            // Display the amount of authors
+            $output .= "<p>There are " . $result->num_rows . " authors in the database.</p>";
         }
         else
         {
@@ -71,5 +73,10 @@
         <div id="books">
             <h2>Books</h2>
         </div>
+    </main>
+    <footer>
+      &copy; &Lambda;&alpha;&eta;s&epsilon;&zeta;&sigma;&omega;<br/>
+      <script>document.write('Last Modified:' + document.lastModified);</script>
+    </footer>
 </body>
 </html>
