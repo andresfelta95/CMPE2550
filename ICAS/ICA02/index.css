@@ -1,6 +1,6 @@
 /*Othelo Css*/
 body {
-    background-color: #000000;
+    background-color: #ffffff;
     color: #ffffff;
     font-family: "Arial";    
     margin: 10px;
@@ -8,15 +8,15 @@ body {
     text-align: center;
 }
 header {
-    background-color: #000000;
+    background-color: #003366;
     color: #ffffff;
-    border: 10px solid #ffffff;
+    border: 10px solid #000000;
     border-radius: 5px;;  
 }
 main {
-    background-color: #000000;
+    background-color: #a2a2a2;
     color: #ffffff;
-    border: 10px solid #ffffff;
+    border: 10px solid #000000;
     border-radius: 10px;
     margin: 10px;
     padding: 10px;    

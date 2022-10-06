@@ -8,14 +8,23 @@
     <title>ICAs Page</title>
 </head>
 <body>
-    <header class="header">
-        <div class="wrap">
-            <h1>ICAs Page</h1>
-            <nav id="nav">
-                <ul>
+    <header class="navigation">
+        <div class="nav-container">
+            <h2 class="brand"><a href="../">Andres Tangarife</a></h2>    
+            
+            <nav class="navbar">
+                <div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>
+                <ul class="nav-list">
                     <li><a href="../">Home</a></li>
-                    <li><a href="../ICAS/">ICAS</a></li>
-                    <li><a href="../LABS/">LABS</a></li>
+                    <li>
+                        <a href="./">ICAs</a>
+                        <ul class="navbar-dropdown">
+                            <li><a href="./ICA01/ica01.php"></a></li>
+                            <li><a href="./ICA02/index.php"></a></li>
+                            <li><a href="./ICA03/index.php"></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./LABS/">Labs</a></li>
                 </ul>
             </nav>
         </div>

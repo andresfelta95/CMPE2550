@@ -1,0 +1,65 @@
+[29-Sep-2022 19:03:16 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/atangari/public_html/CMPE2550/Demos/Demo03/db.php on line 17
+[29-Sep-2022 19:04:21 UTC] Connection successfully established
+[29-Sep-2022 19:21:53 UTC] Connection successfully established
+[29-Sep-2022 19:21:53 UTC] PHP Fatal error:  Cannot redeclare Connect() (previously declared in /home/atangari/public_html/CMPE2550/Demos/Demo03/db.php:11) in /home/atangari/public_html/CMPE2550/Demos/Demo03/db.php on line 9
+[29-Sep-2022 19:24:29 UTC] Connection successfully established
+[29-Sep-2022 19:24:29 UTC] PHP Fatal error:  Cannot redeclare Connect() (previously declared in /home/atangari/public_html/CMPE2550/Demos/Demo03/db.php:11) in /home/atangari/public_html/CMPE2550/Demos/Demo03/db.php on line 9
+[29-Sep-2022 19:24:31 UTC] Connection successfully established
+[29-Sep-2022 19:24:31 UTC] PHP Fatal error:  Cannot redeclare Connect() (previously declared in /home/atangari/public_html/CMPE2550/Demos/Demo03/db.php:11) in /home/atangari/public_html/CMPE2550/Demos/Demo03/db.php on line 9
+[29-Sep-2022 19:25:04 UTC] Connection successfully established
+[29-Sep-2022 19:25:04 UTC] PHP Warning:  Undefined variable $data in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 9
+[29-Sep-2022 19:25:04 UTC] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 9
+[29-Sep-2022 19:26:25 UTC] Connection successfully established
+[29-Sep-2022 19:26:25 UTC] PHP Warning:  Undefined variable $data in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 9
+[29-Sep-2022 19:26:25 UTC] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 9
+[29-Sep-2022 19:26:25 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14
+[29-Sep-2022 19:26:28 UTC] Connection successfully established
+[29-Sep-2022 19:26:28 UTC] PHP Warning:  Undefined variable $data in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 9
+[29-Sep-2022 19:26:28 UTC] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 9
+[29-Sep-2022 19:26:28 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14
+[29-Sep-2022 19:27:42 UTC] Connection successfully established
+[29-Sep-2022 19:27:42 UTC] PHP Warning:  Undefined variable $data in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 9
+[29-Sep-2022 19:27:42 UTC] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 9
+[29-Sep-2022 19:27:42 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14
+[29-Sep-2022 19:28:04 UTC] Connection successfully established
+[29-Sep-2022 19:28:04 UTC] PHP Warning:  Undefined variable $data in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 9
+[29-Sep-2022 19:28:04 UTC] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 9
+[29-Sep-2022 19:28:04 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14
+[29-Sep-2022 19:29:26 UTC] Connection successfully established
+[29-Sep-2022 19:29:26 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14
+[29-Sep-2022 19:33:14 UTC] Connection successfully established
+[29-Sep-2022 19:33:14 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14
+[29-Sep-2022 19:34:54 UTC] Connection successfully established
+[29-Sep-2022 19:34:54 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14
+[29-Sep-2022 19:35:34 UTC] Connection successfully established
+[29-Sep-2022 19:35:34 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14
+[29-Sep-2022 19:42:26 UTC] Connection successfully established
+[29-Sep-2022 19:42:26 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14
+[29-Sep-2022 19:42:44 UTC] Connection successfully established
+[29-Sep-2022 19:42:44 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14
+[29-Sep-2022 19:42:53 UTC] Connection successfully established
+[29-Sep-2022 19:42:53 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14
+[29-Sep-2022 19:43:47 UTC] Connection successfully established
+[29-Sep-2022 19:43:47 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14
+[29-Sep-2022 19:44:07 UTC] Connection successfully established
+[29-Sep-2022 19:44:07 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14
+[29-Sep-2022 19:44:16 UTC] Connection successfully established
+[29-Sep-2022 19:44:16 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14
+[29-Sep-2022 19:44:26 UTC] Connection successfully established
+[29-Sep-2022 19:44:26 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14
+[29-Sep-2022 19:45:40 UTC] Connection successfully established
+[29-Sep-2022 19:45:40 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14
+[29-Sep-2022 19:45:53 UTC] Connection successfully established
+[29-Sep-2022 19:45:53 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14
+[29-Sep-2022 19:46:13 UTC] Connection successfully established
+[29-Sep-2022 19:46:13 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14
+[29-Sep-2022 19:46:15 UTC] Connection successfully established
+[29-Sep-2022 19:46:15 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14
+[29-Sep-2022 19:46:29 UTC] Connection successfully established
+[29-Sep-2022 19:46:29 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14
+[29-Sep-2022 19:47:02 UTC] Connection successfully established
+[29-Sep-2022 19:47:02 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14
+[29-Sep-2022 19:47:23 UTC] Connection successfully established
+[29-Sep-2022 19:47:23 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14
+[29-Sep-2022 19:48:39 UTC] Connection successfully established
+[29-Sep-2022 19:48:39 UTC] PHP Warning:  Undefined variable $output in /home/atangari/public_html/CMPE2550/Demos/Demo03/index.php on line 14

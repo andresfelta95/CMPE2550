@@ -1,0 +1,17 @@
+/*Create a table with a nice border and a hovre response centered */
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid rgb(177, 154, 154);
+}
+tr:nth-child(even){background-color: #f2f2f2}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+tr:hover {background-color: #f5f5f5}

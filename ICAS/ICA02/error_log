@@ -2006,3 +2006,51 @@ Stack trace:
 [28-Sep-2022 20:54:32 UTC] {"action":"placePiece","row":"1","col":"4"}
 [28-Sep-2022 20:54:33 UTC] {"action":"placePiece","row":"0","col":"4"}
 [28-Sep-2022 20:54:33 UTC] {"action":"placePiece","row":"1","col":"6"}
+[29-Sep-2022 02:43:42 UTC] []
+[29-Sep-2022 02:43:43 UTC] {"action":"NewGame"}
+[29-Sep-2022 02:43:43 UTC] PHP Warning:  Undefined array key "gameData" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[29-Sep-2022 02:43:43 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[29-Sep-2022 02:43:51 UTC] {"playerOne":"Andres","playerTwo":"Paola","NewGame":"New Game"}
+[29-Sep-2022 02:43:52 UTC] {"action":"NewGame"}
+[29-Sep-2022 02:44:12 UTC] {"playerOne":"Andres","playerTwo":"Paola","NewGame":"New Game"}
+[29-Sep-2022 02:44:12 UTC] {"action":"NewGame"}
+[29-Sep-2022 02:44:19 UTC] {"action":"placePiece","row":"3","col":"5"}
+[29-Sep-2022 02:44:21 UTC] {"action":"placePiece","row":"2","col":"5"}
+[29-Sep-2022 02:44:25 UTC] {"action":"placePiece","row":"1","col":"5"}
+[29-Sep-2022 02:44:37 UTC] {"action":"placePiece","row":"0","col":"0"}
+[29-Sep-2022 02:45:55 UTC] {"playerOne":"Andres","playerTwo":"Paola","NewGame":"New Game"}
+[29-Sep-2022 02:45:55 UTC] {"action":"NewGame"}
+[29-Sep-2022 02:46:00 UTC] {"playerOne":"Andres","playerTwo":"Paola","NewGame":"New Game"}
+[29-Sep-2022 02:46:00 UTC] {"action":"NewGame"}
+[29-Sep-2022 02:46:45 UTC] {"playerOne":"Andres","playerTwo":"Paola","NewGame":"New Game"}
+[29-Sep-2022 02:46:45 UTC] {"action":"NewGame"}
+[29-Sep-2022 02:48:17 UTC] {"playerOne":"Andres","playerTwo":"Paola","NewGame":"New Game"}
+[29-Sep-2022 02:48:17 UTC] {"action":"NewGame"}
+[29-Sep-2022 02:48:40 UTC] {"playerOne":"Andres","playerTwo":"Paola","NewGame":"New Game"}
+[29-Sep-2022 02:48:40 UTC] {"action":"NewGame"}
+[29-Sep-2022 02:49:14 UTC] {"playerOne":"Andres","playerTwo":"Paola","NewGame":"New Game"}
+[29-Sep-2022 02:49:14 UTC] {"action":"NewGame"}
+[29-Sep-2022 02:49:16 UTC] {"playerOne":"Andres","playerTwo":"Paola","QuitGame":"Quit Game"}
+[29-Sep-2022 02:49:16 UTC] []
+[29-Sep-2022 02:49:16 UTC] {"action":"NewGame"}
+[29-Sep-2022 02:49:16 UTC] PHP Warning:  Undefined array key "gameData" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[29-Sep-2022 02:49:16 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[29-Sep-2022 02:49:48 UTC] []
+[29-Sep-2022 02:49:48 UTC] {"action":"NewGame"}
+[29-Sep-2022 02:50:08 UTC] []
+[29-Sep-2022 02:50:09 UTC] {"action":"NewGame"}
+[29-Sep-2022 02:50:32 UTC] []
+[29-Sep-2022 02:50:32 UTC] {"action":"NewGame"}
+[29-Sep-2022 02:50:39 UTC] {"playerOne":"Andres","playerTwo":"Paola","NewGame":"New Game"}
+[29-Sep-2022 02:50:40 UTC] {"action":"NewGame"}
+[29-Sep-2022 02:50:54 UTC] {"action":"placePiece","row":"3","col":"2"}
+[29-Sep-2022 02:50:55 UTC] {"action":"placePiece","row":"2","col":"2"}
+[29-Sep-2022 02:50:59 UTC] {"playerOne":"Andres","playerTwo":"Paola","NewGame":"New Game"}
+[29-Sep-2022 02:50:59 UTC] {"action":"NewGame"}
+[29-Sep-2022 02:51:01 UTC] {"playerOne":"Andres","playerTwo":"Paola","NewGame":"New Game"}
+[29-Sep-2022 02:51:01 UTC] {"action":"NewGame"}
+[29-Sep-2022 02:51:02 UTC] {"playerOne":"Andres","playerTwo":"Paola","QuitGame":"Quit Game"}
+[29-Sep-2022 02:51:02 UTC] []
+[29-Sep-2022 02:51:02 UTC] {"action":"NewGame"}
+[29-Sep-2022 02:51:02 UTC] PHP Warning:  Undefined array key "gameData" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[29-Sep-2022 02:51:02 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
