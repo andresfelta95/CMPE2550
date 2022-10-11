@@ -7,6 +7,7 @@ $(document).ready(function() {
         // call the function to get the books
         console.log(id);
         getBooks(id);
+        
     });
 });
 
@@ -41,16 +42,15 @@ function getBooks(id) {
     });
 }
 
-// Function to display the books in a table The table will show the title id, title, type and price
-// And will show the retrive value from the database
-function displayBooks(books) 
-{
+// Function to display the books in a table with a button to delete and edit
+// The table will show the title id, title, type and price
+function displayBooks(books) {
     // get the table body
     var tbody = $("#books");
     // clear the table body
     tbody.html("");
     // Add header row to the table
-    tbody.append("<tr><th>Title ID</th><th>Title</th><th>Type</th><th>Price</th></tr>");
+    tbody.append("<tr><th>Title ID</th><th>Title</th><th>Type</th><th>Price</th><th></th><th></th></tr>");
     // loop through the books
     for (var i = 0; i < books.length; i++) {
         // get the book
@@ -80,14 +80,24 @@ function displayBooks(books)
         // add the price to the cell
         priceCell.html(book.price);
         // add the cell to the row
-        row.append(priceCell);       
+        row.append(priceCell);
+        // create a new cell for the delete button
+        var deleteCell = $("<td></td>");
+        // create a new button for the delete
+        var deleteButton = $("<button>Delete</button>");
+        // add the delete button to the cell
+        deleteCell.append(deleteButton);
+        // add the cell to the row
+        row.append(deleteCell);
+        // create a new cell for the edit button
+        var editCell = $("<td></td>");
+        // create a new button for the edit
+        var editButton = $("<button>Edit</button>");
+        // add the edit button to the cell
+        editCell.append(editButton);
+        // add the cell to the row
+        row.append(editCell);
         // add the row to the table body
         tbody.append(row);
-    }   // end for
-    // add retrieve value from the database creating a paragraph
-    var p = $("<p></p>");
-    // add the paragraph to the table body
-    tbody.append(p);
-    // add the text to the paragraph
-    p.html("Retrieved " + books.length + " books from the database.");
+    }    
 }
