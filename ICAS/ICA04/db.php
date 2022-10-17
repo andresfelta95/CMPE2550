@@ -12,12 +12,18 @@ Connect();
 // Get 
 
 // if books button is clicked then display a table of books from the author id
-if (isset($_GET["Action"])) {
+if (isset($_GET["Action"])) 
+{
     $action = strip_tags($_GET["Action"]);
     if ($action == "getBooks") {
         $authorId = strip_tags($_GET["Id"]);
         $response = GetBooks($authorId);
     }
+    else if($action == "getAuthors")
+    {
+        $response = GetAuthors();
+    }
+    error_log(json_encode($_GET));
 }
 
 // Function to connect to the database
@@ -55,6 +61,27 @@ function mySQLQuery($query) // Function to query the database
     }
 
     return $result; // Return the result
+}
+
+// Function to get the authors id, last name, first name, and phone number
+function GetAuthors()
+{
+    global $response;   // Call the global variable
+    $query = "SELECT au_id, au_lname, au_fname, phone FROM `authors`"; // Query to get the authors id, last name, first name, and phone number
+    $result = mySQLQuery($query);   // Call the mySQLQuery function
+    $response = array();    // Create an array for the response
+    if ($result)    // If the query is successful
+    {
+        while ($row = $result->fetch_assoc()) // While there are rows in the result
+        {
+            $response[] = $row; // Add the row to the response
+        }
+    }
+    else    // If the query is not successful
+    {
+        $response = "Query Error : (" . $connection->errno . ") : (" . $connection->error . ")";    // Set the response to the error
+    }
+    echo json_encode($response);    // Encode the response as JSON
 }
 
 // Function to get the books title id, title, and price from the author id and send the response as JSON

@@ -1,31 +1,5 @@
 <?php
-    require_once "db.php";  // Require the db.php file
-
-    // Function to get the author information and display it in a table with a button to call Getbooks function
-    function GetAuthors()
-    {
-        global $connection, $response; // Call the global variables
-
-        $query = "SELECT au_id, au_lname, au_fname, phone FROM `authors`"; // Query to get the author information
-
-        $output = "<table>";    // Create a table
-        $output .= "<tr><th>Author ID</th><th>First Name</th><th>Last Name</th><th>Phone</th><th>Books</th></tr>"; // Create the table headers
-        if ($result = mySQLQuery($query))   // If the query is successful
-        {
-            while ($row = $result->fetch_assoc()) // While there are rows in the result
-            {
-                $output .= "<tr><td>" . $row["au_id"] . "</td><td>" . $row["au_fname"] . "</td><td>" . $row["au_lname"] . "</td><td>" . $row["phone"] . "</td><td><button id='".$row["au_id"]."' class='books'>Books</button></td></tr>"; // Add a row to the table with the author information and a button to call the GetBooks function
-            }
-            $output .= "</table>";  // Close the table
-            // Display the amount of authors
-            $output .= "<p>There are " . $result->num_rows . " authors in the database.</p>";
-        }
-        else
-        {
-            $output = $response;    // If the query is not successful, set the output to the response
-        }
-        return $output; // Return the output
-    }    
+    require_once "db.php";  // Require the db.php file    
 ?>
 
 <!DOCTYPE html>
@@ -41,16 +15,13 @@
 </head>
 <body>
     <header>
-        <h1>ICA03 - mySQL Data Manipulation</h1>
+        <h1>ICA04 - mySQL Data Manipulation</h1>
     </header>
     <main>
-        <div id="authors">
-            <h2>Authors</h2>
-            <?php echo GetAuthors(); ?>
-        </div>
-        <table id="books">
-            <h2>Books</h2>
-        </table>
+        <h2>Authors</h2>
+        <table id="authorsTable"></table>
+        <h2>Books</h2>
+        <table id="books"></table>
     </main>
     <footer>
       &copy; &Lambda;&alpha;&eta;s&epsilon;&zeta;&sigma;&omega;<br/>
