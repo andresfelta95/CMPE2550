@@ -20,8 +20,11 @@
     <main>
         <h2>Authors</h2>
         <table id="authorsTable"></table>
+        <hr>
         <h2>Books</h2>
         <table id="books"></table>
+        <hr>
+        <div id="addBook"></div>
     </main>
     <footer>
       &copy; &Lambda;&alpha;&eta;s&epsilon;&zeta;&sigma;&omega;<br/>

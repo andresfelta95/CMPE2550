@@ -1,22 +1,88 @@
+// Global Variables
+var idVal = 0; // the id of the author to get the books for
+var authorsArray = [];  // array to hold the authors
+var typesArray = [];  //  Array to hold the type options
 // Main function to run the program and call the functions
 $(document).ready(function () {
   // Call the function to create the author table
   loadAuthors();
-  // check for a click in any books button 
+  
+  // check for a click in any books button
   $("#authorsTable").on("click", "button", function () {
     // get the id of the book
-    var id = $(this).attr("id");
+    idVal = $(this).attr("id");
     // call the function to load the books
-    getBooks(id);
-  });
-  // check for a click in an edit button in the books table
-  $("#books").on("click", "button", function () {
-    // get the row of the button
-    var row = $(this).parent().parent();
-    // call the function to change the appearance of the row
-    editRow(row);
+    getBooks(idVal);
   });
 });
+
+// Function to create a form to add a new book
+function addBookForm() {
+  // create the form
+  var form = $("<form>");
+  // create the label for the title_id
+  var label = $("<label>").text("Title ID: ");
+  // create the input for the title_id
+  var input = $("<input>").attr("type", "text").attr("id", "title_id");
+  // create the label for the title
+  var label2 = $("<label>").text("Title: ");
+  // create the input for the title
+  var input2 = $("<input>").attr("type", "text").attr("id", "title");
+  // create the label for the type
+  var label3 = $("<label>").text("Type: ");
+  // create a select for the type
+  var select = $("<select>").attr("id", "type");
+  // create the options for the select
+  var option1 = $(document.createElement("option")).attr("value", "business");
+  var option2 = $(document.createElement("option")).attr("value", "mod_cook");
+  var option3 = $(document.createElement("option")).attr("value", "popular_comp");
+  var option4 = $(document.createElement("option")).attr("value", "psychology");
+  var option5 = $(document.createElement("option")).attr("value", "trad_cook");
+  // add the text to the options
+  option1.text("Business");
+  option2.text("Modern Cooking");
+  option3.text("Popular Computing");
+  option4.text("Psychology");
+  option5.text("Traditional Cooking");
+  // add the options to the select
+  select.append(option1);
+  select.append(option2);
+  select.append(option3);
+  select.append(option4);
+  select.append(option5);
+  // create the label for the price
+  var label4 = $("<label>").text("Price: ");
+  // create the input for the price
+  var input3 = $("<input>").attr("type", "text").attr("id", "price");
+  // create the label for the author
+  var label5 = $("<label>").text("Author: ");
+  // create a select for the author allowing the user to select multiple authors
+  var select2 = $("<select>").attr("id", "author").attr("multiple", "multiple");
+  // loop through the authors array
+  for (var i = 0; i < authorsArray.length; i++) {
+    // create an option for each author
+    var option = $(document.createElement("option"));
+    // set the value of the option to the author id
+    option.attr("value", authorsArray[i].au_id);
+    // set the text of the option to the author name
+    option.text(authorsArray[i].au_lname + ", " + authorsArray[i].au_fname);
+    // append the option to the select
+    select2.append(option);
+  }
+  // create submit button called 'Add Book' with no refresh
+  var button = $(document.createElement("button")).attr("type", "button");
+  // set the text of the button
+  button.text("Add Book");
+  // add an event listener to the button
+  button.on("click", function () {
+    // call the function to add the book
+    addBook();
+  });
+  // append the label, input, label, input, label, select, label, input, label, select, and button to the form
+  form.append(label, input, label2, input2, label3, select, label4, input3, label5, select2, button);
+  // append the form to the div with the id 'addBook'
+  $("#addBook").append(form);
+}
 
 
 // Funtion to load the authors table at the start of the program
@@ -63,6 +129,8 @@ function displayAuthors(authors) {
   for (var i = 0; i < authors.length; i++) {
     // get the author
     var author = authors[i];
+    // add the author to the authors array
+    authorsArray.push(author);
     // add the author to the authors table
     authorsTable.append(
       "<tr><td>" +
@@ -78,14 +146,16 @@ function displayAuthors(authors) {
         "'>Books</button></td></tr>"
     );
   }
-    // close the table
-    authorsTable.append("</tbody>");
+  // close the table
+  authorsTable.append("</tbody>");
   // add retrieve value from the database creating a paragraph
   var p = $("<p></p>");
   // add the paragraph to the table body
   authorsTable.append(p);
   // add the text to the paragraph
   p.html("Retrieved " + authors.length + " books from the database.");
+  // call function to create the form to add a new book
+  addBookForm();
 }
 
 // Function to get the books from the server with a given id using ajax
@@ -162,15 +232,37 @@ function displayBooks(books) {
     // create a new cell for the delete button
     var deleteCell = $("<td class='delete'></td>");
     // create a new button for the delete
-    var deleteButton = $("<button class='delete'>Delete</button>");
+    var deleteButton = $(document.createElement("button"));
+    // add the text to the button
+    deleteButton.html("Delete");
+    // class the button delete
+    deleteButton.addClass("delete");
+    // add click event to the button
+    deleteButton.on("click", function () {
+      // get the row of the button
+      var row = $(this).closest("tr");
+      // call the function to delete the book
+      deleteRow(row);
+    });
     // add the delete button to the cell
     deleteCell.append(deleteButton);
     // add the cell to the row
     row.append(deleteCell);
     // create a new cell for the edit button
-    var editCell = $("<td></td>");
+    var editCell = $("<td class='edit'></td>");
     // create a new button for the edit
-    var editButton = $("<button class='edit'>Edit</button>");
+    var editButton = $(document.createElement("button"));
+    // add text to the edit button
+    editButton.html("Edit");
+    // add id to the edit button
+    editButton.attr("id", "edit");
+    // add click event to the edit button
+    editButton.on("click", function () {
+      // get the row of the button
+      var row = $(this).closest("tr");
+      // call the function to edit the book
+      editRow(row);
+    });
     // add the edit button to the cell
     editCell.append(editButton);
     // add the cell to the row
@@ -190,79 +282,223 @@ function displayBooks(books) {
 function editRow(row) {
   // get the cells from the row
   var cells = row.children();
-  // Make title id cell editable
-    var titleIdCell = cells.eq(0);
-    // get the title id
-    var titleId = titleIdCell.html();
-    // create a new input field
-    var titleIdInput = $("<input type='text' class='titleId' />");
-    // add the title id to the input field
-    titleIdInput.val(titleId);
-    // add the input field to the cell
-    titleIdCell.html(titleIdInput);
-    // Make title cell editable
-    var titleCell = cells.eq(1);
-    // get the title
-    var title = titleCell.html();
-    // create a new input field
-    var titleInput = $("<input type='text' class='title' />");
-    // add the title to the input field
-    titleInput.val(title);
-    // add the input field to the cell
-    titleCell.html(titleInput);
-    // Make type cell a dropdown with the options: business, mod_cook, popular_comp, psychology and trad_cook
-    // with the current type selected
-    var typeCell = cells.eq(2);
-    // get the type
-    var type = typeCell.html();
-    // create a new select field
-    var typeSelect = $("<select class='type'></select>");
-    // create a new option for business
-    var businessOption = $("<option value='business'>business</option>");
-    // create a new option for mod_cook
-    var modCookOption = $("<option value='mod_cook'>mod_cook</option>");
-    // create a new option for popular_comp
-    var popularCompOption = $("<option value='popular_comp'>popular_comp</option>");
-    // create a new option for psychology
-    var psychologyOption = $("<option value='psychology'>psychology</option>");
-    // create a new option for trad_cook
-    var tradCookOption = $("<option value='trad_cook'>trad_cook</option>");
-    // add the options to the select field
-    typeSelect.append(businessOption);
-    typeSelect.append(modCookOption);
-    typeSelect.append(popularCompOption);
-    typeSelect.append(psychologyOption);
-    typeSelect.append(tradCookOption);
-    // set the current type to be selected
-    typeSelect.val(type);
-    // add the select field to the cell
-    typeCell.html(typeSelect);
-    // Make price cell editable
-    var priceCell = cells.eq(3);
-    // get the price
-    var price = priceCell.html();
-    // create a new input field
-    var priceInput = $("<input type='text' class='price' />");
-    // add the price to the input field
-    priceInput.val(price);
-    // add the input field to the cell
-    priceCell.html(priceInput);
-    // Change delete button to a cancel button
-    var deleteCell = cells.eq(4);
-    // get the delete button
-    var deleteButton = deleteCell.children();
-    // change the text of the button
-    deleteButton.html("Cancel");
-    // change the class of the button
-    deleteButton.removeClass("delete");
-    deleteButton.addClass("cancel");
-    // Change edit button to a save button
-    var editCell = cells.eq(5);
-    // get the edit button
-    var editButton = editCell.children();
-    // change the text of the button
-    editButton.html("Save");
-    // change the class of the button
-    editButton.removeClass("edit");
-    editButton.addClass("save");
+  // Make title cell editable
+  var titleCell = cells.eq(1);
+  // get the title
+  var title = titleCell.html();
+  // Clear the cell
+  titleCell.html("");
+  // create a new input field
+  var titleInput = $(document.createElement("input"));
+  // add name to the input field
+  titleInput.attr("name", "title");
+  // add the title to the input field
+  titleInput.val(title);
+  // add id to the input field
+  titleInput.attr("id", "title");
+  // add the input field to the cell
+  titleCell.append(titleInput);
+  // Make type cell a dropdown with the options: business, mod_cook, popular_comp, psychology and trad_cook
+  // with the current type selected
+  var typeCell = cells.eq(2);
+  // get the type
+  var type = typeCell.html();
+  // Clear the cell
+  typeCell.html("");
+  // create a new select field
+  var typeSelect = $(document.createElement("select"));
+  // add name to the select field
+  typeSelect.attr("name", "type");
+  // add id to the select field
+  typeSelect.attr("id", "type");
+  // create a new option for business
+  var businessOption = $(document.createElement("option"));
+  // add the text to the option
+  businessOption.html("business");
+  // add the option to the select field
+  typeSelect.append(businessOption);
+  // create a new option for mod_cook
+  var modCookOption = $(document.createElement("option"));
+  // add the text to the option
+  modCookOption.html("mod_cook");
+  // add the option to the select field
+  typeSelect.append(modCookOption);
+  // create a new option for popular_comp
+  var popularCompOption = $(document.createElement("option"));
+  // add the text to the option
+  popularCompOption.html("popular_comp");
+  // add the option to the select field
+  typeSelect.append(popularCompOption);
+  // create a new option for psychology
+  var psychologyOption = $(document.createElement("option"));
+  // add the text to the option
+  psychologyOption.html("psychology");
+  // add the option to the select field
+  typeSelect.append(psychologyOption);
+  // create a new option for trad_cook
+  var tradCookOption = $(document.createElement("option"));
+  // add the text to the option
+  tradCookOption.html("trad_cook");
+  // add the option to the select field
+  typeSelect.append(tradCookOption);
+  // set the value of the select field to the type
+  typeSelect.val(type);
+  // add the select field to the cell
+  typeCell.append(typeSelect);
+  // Make price cell editable
+  var priceCell = cells.eq(3);
+  // get the price
+  var price = priceCell.html();
+  // Clear the cell
+  priceCell.html("");
+  // create a new input field
+  var priceInput = $(document.createElement("input"));
+  // set the type of the input field to be text
+  priceInput.attr("type", "text");
+  // add name to the input field
+  priceInput.attr("name", "price");
+  // add the id to the input field
+  priceInput.attr("id", "price");
+  // add the price to the input field
+  priceInput.val(price);
+  // add the input field to the cell
+  priceCell.html(priceInput);
+  // Change delete button to a cancel button
+  var deleteCell = cells.eq(4);
+  // get the delete button
+  var deleteButton = deleteCell.children();
+  // change the text of the button
+  deleteButton.html("Cancel");
+  // change the class of the button
+  deleteButton.removeClass("delete");
+  deleteButton.addClass("cancel");
+  // remove the click event from the button
+  deleteButton.off("click");
+  // add click event to the button
+  deleteButton.on("click", function () {
+    // call the getBooks function
+    getBooks(idVal);
+  });
+  // Change edit button to a save button
+  var editCell = cells.eq(5);
+  // get the edit button
+  var editButton = editCell.children();
+  // change the text of the button
+  editButton.html("Save");
+  // change the class of the button
+  editButton.removeClass("edit");
+  editButton.addClass("save");
+  // remove the click event from the edit button
+  editButton.off("click");
+  // add click event to the save button
+  editButton.on("click", function () {
+    // get the row of the button
+    var row = $(this).closest("tr");
+    // call the function to save the book
+    saveRow(row);
+  });
+}
+
+// Function to save the new values of the book in the database and update the table with an ajax call
+function saveRow(row) {
+  // create ajax call to save the book
+  var request = $.ajax({
+    url: "db.php", // the url to the php file
+    type: "GET", // the type of request
+    data: {
+      // the data to send
+      Action: "save", // the action to perform
+      TitleId: row.find(".titleId").html(), // the id of the book
+      Title: row.find("#title").val(), // the new title of the book
+      Type: row.find("#type").val(), // the type
+      Price: row.find("#price").val(), // the price
+      Id: idVal, // the id of the author
+    },
+  });  
+  // when the ajax call is complete
+  request.done(function (response) {
+    // show the response in the console
+    console.log(response);
+    // call the function to set the table with the new values
+    getBooks(idVal);
+  });
+  // when the ajax call fails
+  request.fail(function (jqXHR, textStatus) {
+    // show the error in the console
+    console.log("Request failed: " + textStatus);
+  });
+}
+
+// Function to delete the book from the database and update the table with an ajax call
+function deleteRow(row) {
+  // create ajax call to delete the book
+  var request = $.ajax({
+    url: "db.php", // the url to the php file
+    type: "GET", // the type of request
+    data: {
+      // the data to send
+      Action: "delete", // the action to perform
+      TitleId: row.find(".titleId").html(), // the id of the book
+    },
+  });
+  // when the ajax call is complete
+  request.done(function (response) {
+    // show the response in the console
+    console.log(response);
+    // call the function to set the table with the new values
+    getBooks(idVal);
+  });
+  // when the ajax call fails
+  request.fail(function (jqXHR, textStatus) {
+    // show the error in the console
+    console.log("Request failed: " + textStatus);
+  });
+}
+
+// Function to add a new book to the database and update the table with an ajax call
+function addBook() {
+  var authorsArray = $("#author").val(); // get the selected authors
+  // Encode the array to a string
+  var authors = JSON.stringify(authorsArray);
+  // create ajax call to add the book
+  var request = $.ajax({
+    url: "db.php", // the url to the php file
+    type: "GET", // the type of request
+    data: {
+      // the data to send
+      Action: "add", // the action to perform
+      TitleId: $("#title_id").val(), // the id of the book
+      Title: $("#title").val(), // the title of the book
+      Type: $("#type").val(), // the type
+      Price: $("#price").val(), // the price
+      Ids: authors, // the ids of the authors
+    },
+  });
+  // when the ajax call is complete
+  request.done(function (response) {
+    // show the response in the console
+    console.log(response);
+    // Reset the form
+    $("#title_id").val("");
+    $("#title").val("");
+    $("#type").val("");
+    $("#price").val("");
+    $("#author").val("");
+    // Set placeholder for each input field
+    $("#title_id").attr("placeholder", "Suply the Book's ID");
+    $("#title").attr("placeholder", "Suply the Book's Title");
+    $("#type").attr("placeholder", "Choose a Book Genre");
+    $("#price").attr("placeholder", "Suply the Book's Cost");
+    $("#author").attr("placeholder", "Choose the Book's Author(s)");
+    // call the function to set the table with the new values if there is a selected author
+    if (idVal != 0) {
+      getBooks(idVal);
+    }
+
+  });
+  // when the ajax call fails
+  request.fail(function (jqXHR, textStatus) {
+    // show the error in the console
+    console.log("Request failed: " + textStatus);
+  });
 }

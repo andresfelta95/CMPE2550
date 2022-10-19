@@ -54,6 +54,36 @@ p {
     padding: 10px;
     text-align: center;
 }
+/* Style for Form */
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    padding: 10px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #3d51b5;
+}
+/* Style for input */
+input {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+/* Style for button in the form */
+form button {
+    background-color: #03095a;
+    color: #ffffff;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    cursor: pointer;
+    grid-column-start: 1;  
+    grid-column-end: span 2; 
+}
 /* Style for footer */
 footer {
     /* position: fixed; */

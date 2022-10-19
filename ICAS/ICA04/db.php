@@ -23,6 +23,79 @@ if (isset($_GET["Action"]))
     {
         $response = GetAuthors();
     }
+    else if($action == "save")
+    {
+        // Check price is a number greater than 0 and less than 100
+        if (isset($_GET["Price"]) && is_numeric($_GET["Price"]) && $_GET["Price"] > 0 && $_GET["Price"] < 100) {
+            $price = strip_tags($_GET["Price"]);
+        }
+        else {
+            $response = "Price must be a number greater than 0 and less than 100";
+        }
+        // Check if the book title is not empty
+        if (isset($_GET["Title"]) && $_GET["Title"] != "") {
+            $title = strip_tags($_GET["Title"]);
+        }
+        else {
+            $response = "Title must not be empty";
+        }
+        // Check if the author id is not empty
+        if (isset($_GET["Id"]) && $_GET["Id"] != "") {
+            $authorId = strip_tags($_GET["Id"]);
+        }
+        else {
+            $response = "AuthorId must not be empty";
+        }
+        // If there are no errors then save the book
+        $bookTitleId = strip_tags($_GET["TitleId"]);
+        $bookType = strip_tags($_GET["Type"]);
+        $response = SaveBook($authorId, $bookTitleId, $title, $bookType, $price);
+    }
+    else if($action == "delete")
+    {
+        $bookId = strip_tags($_GET["TitleId"]);
+        $response = DeleteBook($bookId);
+    }
+    else if($action == "add")
+    {
+        // Check price is a number greater than 0 and less than 100
+        if (isset($_GET["Price"]) && is_numeric($_GET["Price"]) && $_GET["Price"] > 0 && $_GET["Price"] < 100) {
+            $price = strip_tags($_GET["Price"]);
+        }
+        else {
+            $response = "Price must be a number greater than 0 and less than 100";
+        }
+        // Check if the book title is not empty
+        if (isset($_GET["Title"]) && $_GET["Title"] != "") {
+            $title = strip_tags($_GET["Title"]);
+        }
+        else {
+            $response = "Title must not be empty";
+        }
+        // Check if the title id is not empty
+        if (isset($_GET["TitleId"]) && $_GET["TitleId"] != "") {
+            $titleId = strip_tags($_GET["TitleId"]);
+        }
+        else {
+            $response = "TitleId must not be empty";
+        }
+        // Check if the author array is not empty
+        if (isset($_GET["Ids"]) && $_GET["Ids"] != "") {
+            $authors = json_decode($_GET["Ids"]);
+        }
+        else {
+            $response = "Authors must not be empty";
+        }
+        // check if the book type is not empty
+        if (isset($_GET["Type"]) && $_GET["Type"] != "") {
+            $bookType = strip_tags($_GET["Type"]);
+        }
+        else {
+            $response = "Book type must not be empty";
+        }
+        // If there are no errors then add the book
+        $response = AddBook($authors, $titleId, $title, $bookType, $price);
+    }
     error_log(json_encode($_GET));
 }
 
@@ -105,4 +178,76 @@ function GetBooks($authorID)
     echo json_encode($response);    // Encode the response as JSON
 }
 
+// Function to save the book edited by the user
+function SaveBook($authorId, $bookTitleId, $bookTitle, $bookType, $bookPrice)
+{
+    global $connection, $response;  // Call the global variables
+    $query = "UPDATE `titles` 
+            SET `title` = '$bookTitle', 
+            `type` = '$bookType', 
+            `price` = '$bookPrice' 
+            WHERE `title_id` = '$bookTitleId'"; // Query to update the book title, type, and price
+    $result = mySQLQuery($query);   // Call the mySQLQuery function
+    if ($result)    // If the query is successful
+    {
+        $response = "Book saved successfully"; // Set the response to "Book saved successfully"
+    }
+    else    // If the query is not successful
+    {
+        $response = "Query Error : (" . $connection->errno . ") : (" . $connection->error . ")";    // Set the response to the error
+    }
+    echo json_encode($response);    // Encode the response as JSON
+}
+
+// Function to delete the book from titleauthor and titles
+function DeleteBook($bookId)
+{
+    global $connection, $response;  // Call the global variables
+    $query = "DELETE FROM `titleauthor` WHERE `title_id` = '$bookId'"; // Query to delete the book from titleauthor
+    $result = mySQLQuery($query);   // Call the mySQLQuery function
+    if ($result)    // If the query is successful
+    {
+        $query = "DELETE FROM `titles` WHERE `title_id` = '$bookId'"; // Query to delete the book from titles
+        $result = mySQLQuery($query);   // Call the mySQLQuery function
+        if ($result)    // If the query is successful
+        {
+            $response = "Book deleted successfully"; // Set the response to "Book deleted successfully"
+        }
+        else    // If the query is not successful
+        {
+            $response = "Query Error : (" . $connection->errno . ") : (" . $connection->error . ")";    // Set the response to the error
+        }
+    }
+    else    // If the query is not successful
+    {
+        $response = "Query Error : (" . $connection->errno . ") : (" . $connection->error . ")";    // Set the response to the error
+    }
+    echo json_encode($response);    // Encode the response as JSON
+}
+
+// Function to add a new book in titles table, and titleauthor table with the author id
+function AddBook($authorId, $bookTitleId, $bookTitle, $bookType, $bookPrice)
+{
+    global $connection, $response;  // Call the global variables
+    $query = "INSERT INTO `titles` (`title_id`, `title`, `type`, `price`) VALUES ('$bookTitleId', '$bookTitle', '$bookType', '$bookPrice')"; // Query to insert the book title, type, and price
+    $result = mySQLQuery($query);   // Call the mySQLQuery function
+    if ($result)    // If the query is successful
+    {
+        $au_ord = 0; // Get the length of the array
+        $royalTyper = 100 / count($authorId);
+        // Query to insert for each author id and the book title id
+        foreach ($authorId as $id)
+        {
+            $au_ord ++; //  Set value for au_ord
+            $query = "INSERT INTO `titleauthor` (`au_id`, `title_id`, `au_ord`, `royaltyper`) VALUES ('$id', '$bookTitleId', '$au_ord', '$royalTyper')"; // Query to insert the author id and the book title id
+            $result = mySQLQuery($query);   // Call the mySQLQuery function
+        }
+        $response = "Book added successfully"; // Set the response to "Book added successfully"
+    }
+    else    // If the query is not successful
+    {
+        $response = "Query Error : (" . $connection->errno . ") : (" . $connection->error . ")";    // Set the response to the error
+    }
+    echo json_encode($response);    // Encode the response as JSON
+}
 ?>
