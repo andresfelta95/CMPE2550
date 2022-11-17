@@ -2380,3 +2380,19 @@ Stack trace:
 [07-Oct-2022 00:50:46 UTC] {"action":"NewGame"}
 [07-Oct-2022 00:50:46 UTC] PHP Warning:  Undefined array key "gameData" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
 [07-Oct-2022 00:50:46 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[17-Oct-2022 03:30:06 UTC] []
+[17-Oct-2022 03:30:06 UTC] {"action":"NewGame"}
+[17-Oct-2022 03:30:06 UTC] PHP Warning:  Undefined array key "gameData" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[17-Oct-2022 03:30:06 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[17-Oct-2022 13:39:51 UTC] []
+[17-Oct-2022 13:39:51 UTC] {"action":"NewGame"}
+[17-Oct-2022 13:39:51 UTC] PHP Warning:  Undefined array key "gameData" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[17-Oct-2022 13:39:51 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[19-Oct-2022 18:20:31 UTC] []
+[19-Oct-2022 18:20:31 UTC] {"action":"NewGame"}
+[19-Oct-2022 18:20:31 UTC] PHP Warning:  Undefined array key "gameData" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[19-Oct-2022 18:20:31 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[19-Oct-2022 20:00:41 UTC] []
+[19-Oct-2022 20:00:41 UTC] {"action":"NewGame"}
+[19-Oct-2022 20:00:41 UTC] PHP Warning:  Undefined array key "gameData" in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12
+[19-Oct-2022 20:00:41 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/atangari/public_html/CMPE2550/ICAS/ICA02/gameplay.php on line 12

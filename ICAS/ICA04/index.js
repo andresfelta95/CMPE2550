@@ -1,12 +1,11 @@
 // Global Variables
 var idVal = 0; // the id of the author to get the books for
-var authorsArray = [];  // array to hold the authors
-var typesArray = [];  //  Array to hold the type options
+var authorsArray = []; // array to hold the authors
+var typesArray = []; //  Array to hold the type options
 // Main function to run the program and call the functions
 $(document).ready(function () {
   // Call the function to create the author table
   loadAuthors();
-  
   // check for a click in any books button
   $("#authorsTable").on("click", "button", function () {
     // get the id of the book
@@ -32,24 +31,13 @@ function addBookForm() {
   var label3 = $("<label>").text("Type: ");
   // create a select for the type
   var select = $("<select>").attr("id", "type");
-  // create the options for the select
-  var option1 = $(document.createElement("option")).attr("value", "business");
-  var option2 = $(document.createElement("option")).attr("value", "mod_cook");
-  var option3 = $(document.createElement("option")).attr("value", "popular_comp");
-  var option4 = $(document.createElement("option")).attr("value", "psychology");
-  var option5 = $(document.createElement("option")).attr("value", "trad_cook");
-  // add the text to the options
-  option1.text("Business");
-  option2.text("Modern Cooking");
-  option3.text("Popular Computing");
-  option4.text("Psychology");
-  option5.text("Traditional Cooking");
-  // add the options to the select
-  select.append(option1);
-  select.append(option2);
-  select.append(option3);
-  select.append(option4);
-  select.append(option5);
+  // create the options for the select from the types array
+  for (var i = 0; i < typesArray[0].length; i++) {
+    var option = $(document.createElement("option"))
+      .attr("value", typesArray[0][i])
+      .text(typesArray[0][i]);
+    select.append(option);
+  }
   // create the label for the price
   var label4 = $("<label>").text("Price: ");
   // create the input for the price
@@ -79,11 +67,22 @@ function addBookForm() {
     addBook();
   });
   // append the label, input, label, input, label, select, label, input, label, select, and button to the form
-  form.append(label, input, label2, input2, label3, select, label4, input3, label5, select2, button);
+  form.append(
+    label,
+    input,
+    label2,
+    input2,
+    label3,
+    select,
+    label4,
+    input3,
+    label5,
+    select2,
+    button
+  );
   // append the form to the div with the id 'addBook'
   $("#addBook").append(form);
 }
-
 
 // Funtion to load the authors table at the start of the program
 function loadAuthors() {
@@ -107,6 +106,7 @@ function loadAuthors() {
     // console.log(data);
     // call the function to display the authors
     displayAuthors(data);
+    console.log(data);
   });
   // when the request fails
   request.fail(function (jqXHR, textStatus) {
@@ -117,6 +117,8 @@ function loadAuthors() {
 
 // Function to display the authors in a table with a books button
 function displayAuthors(authors) {
+  // Get the last array element and add it to the types array
+  typesArray.push(authors[authors.length - 1]);
   // get the authors table
   var authorsTable = $("#authorsTable");
   // clear the authors table
@@ -126,7 +128,7 @@ function displayAuthors(authors) {
     "<tbody><tr><th>Author ID</th><th>Last Name</th><th>First Name</th><th>Phone</th><th>Books</th></tr>"
   );
   // loop through the data
-  for (var i = 0; i < authors.length; i++) {
+  for (var i = 0; i < authors.length - 1; i++) {
     // get the author
     var author = authors[i];
     // add the author to the authors array
@@ -153,13 +155,16 @@ function displayAuthors(authors) {
   // add the paragraph to the table body
   authorsTable.append(p);
   // add the text to the paragraph
-  p.html("Retrieved " + authors.length + " books from the database.");
+  p.html("Retrieved " + (authors.length - 1) + " authors from the database.");
   // call function to create the form to add a new book
   addBookForm();
 }
 
 // Function to get the books from the server with a given id using ajax
 function getBooks(id) {
+  // Enable the edit and delete buttons
+  $("#edit").prop("disabled", false);
+  $("#delete").prop("disabled", false);
   // create a new ajax request
   var request = $.ajax({
     // set the url to the server
@@ -280,6 +285,10 @@ function displayBooks(books) {
 
 // Function to to change the appearance of the row and add the input fields
 function editRow(row) {
+  // disable all the edit buttons
+  $("#books button").prop("disabled", true);
+  // disable the delete button
+  $("#delete").prop("disabled", true);
   // get the cells from the row
   var cells = row.children();
   // Make title cell editable
@@ -374,6 +383,8 @@ function editRow(row) {
   deleteButton.addClass("cancel");
   // remove the click event from the button
   deleteButton.off("click");
+  // enable the cancel button
+  deleteButton.prop("disabled", false);
   // add click event to the button
   deleteButton.on("click", function () {
     // call the getBooks function
@@ -390,6 +401,8 @@ function editRow(row) {
   editButton.addClass("save");
   // remove the click event from the edit button
   editButton.off("click");
+  // enable the save button
+  editButton.prop("disabled", false);
   // add click event to the save button
   editButton.on("click", function () {
     // get the row of the button
@@ -401,6 +414,8 @@ function editRow(row) {
 
 // Function to save the new values of the book in the database and update the table with an ajax call
 function saveRow(row) {
+  // enable all the edit buttons
+  $("#edit button").prop("disabled", false);
   // create ajax call to save the book
   var request = $.ajax({
     url: "db.php", // the url to the php file
@@ -414,7 +429,7 @@ function saveRow(row) {
       Price: row.find("#price").val(), // the price
       Id: idVal, // the id of the author
     },
-  });  
+  });
   // when the ajax call is complete
   request.done(function (response) {
     // show the response in the console
@@ -494,11 +509,14 @@ function addBook() {
     if (idVal != 0) {
       getBooks(idVal);
     }
-
+    // Add the response into the div with id Addresponse
+    $("#Addresponse").html(response);
   });
   // when the ajax call fails
   request.fail(function (jqXHR, textStatus) {
     // show the error in the console
     console.log("Request failed: " + textStatus);
+    // Add the error into the div with id Addresponse
+    $("#Addresponse").html("Request failed: " + textStatus);
   });
 }

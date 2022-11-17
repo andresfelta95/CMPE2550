@@ -26,7 +26,27 @@
         }
         return $output; // Return the output
     }
-    
+    //Function to get the book from a specific author and display it in a table
+    // function GetBooks($authorID)
+    // {
+    //     global $connection, $response; // Call the global variables
+    //     $query = "SELECT title_id, title, price FROM `titles` WHERE author_id = $authorID"; // Query to get the books from the author
+    //     $output = "<table>";    // Create a table
+    //     $output .= "<tr><th>Title ID</th><th>Title</th><th>Price</th></tr>"; // Create the table headers
+    //     if ($result = mySQLQuery($query))   // If the query is successful
+    //     {
+    //         while ($row = $result->fetch_assoc()) // While there are rows in the result
+    //         {
+    //             $output .= "<tr><td>" . $row["title_id"] . "</td><td>" . $row["title"] . "</td><td>" . $row["price"] . "</td></tr>"; // Add a row to the table
+    //         }
+    //         $output .= "</table>";  // Close the table
+    //     }
+    //     else
+    //     {
+    //         $output = $response;    // Set the output to the response
+    //     }
+    //     return $output; // Return the output
+    // }
 
 ?>
 

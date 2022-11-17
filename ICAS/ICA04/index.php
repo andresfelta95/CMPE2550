@@ -24,7 +24,9 @@
         <h2>Books</h2>
         <table id="books"></table>
         <hr>
-        <div id="addBook"></div>
+        <div id="addBook">
+            <p id="Addresponse"></p>
+        </div>
     </main>
     <footer>
       &copy; &Lambda;&alpha;&eta;s&epsilon;&zeta;&sigma;&omega;<br/>

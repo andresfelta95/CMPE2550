@@ -149,6 +149,18 @@ function GetAuthors()
         {
             $response[] = $row; // Add the row to the response
         }
+        // Create a new query to get the distinct book types and add them to the response
+        $query = "SELECT DISTINCT `type` FROM `titles`";
+        $result = mySQLQuery($query);   // Call the mySQLQuery function
+        if ($result)    // If the query is successful
+        {
+            $types = array();   // Create an array for the types
+            while ($row = $result->fetch_assoc()) // While there are rows in the result
+            {
+                $types[] = $row["type"];    // Add the type to the types array
+            }
+            $response[] = $types;   // Add the types array to the response
+        }
     }
     else    // If the query is not successful
     {
