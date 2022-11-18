@@ -13,7 +13,7 @@ Connect();
 function Connect()
 {
     global $connection; // Call the global variable
-    $connection = new mysqli("localhost", "atangari_Tester", "3158959566Andres.", "atangari_Test"); // Create a new connection
+    $connection = new mysqli("localhost", "atangari_Tester", "3158959566Andres.", "atangari_Users"); // Create a new connection
     if (!$connection->connect_error)    // If the connection is successful
     {
         $response = "Connected to database";    // Set the response to "Connected to database"

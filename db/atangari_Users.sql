@@ -33,9 +33,9 @@ CREATE TABLE `Users` (
   `UserName` varchar(40) NOT NULL,
   `LName` varchar(40) NOT NULL,
   `FName` varchar(40) NOT NULL,
-  `Password` varchar(40) NOT NULL,
+  `Password` varchar(100) NOT NULL,
   `Email` varchar(40) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -45,8 +45,9 @@ CREATE TABLE `Users` (
 
 CREATE TABLE `UsersRole` (
   `UserId` mediumint(9) NOT NULL,
+  `UserName` varchar(40) NOT NULL,
   `RoleId` mediumint(9) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -58,7 +59,7 @@ CREATE TABLE `Roles` (
   `RoleId` mediumint(9) NOT NULL,
   `RoleName` varchar(40) NOT NULL,
   `RoleDescription` varchar(40) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 --
 -- Indexes for dumped tables
 --
@@ -102,6 +103,7 @@ COMMIT;
 ALTER TABLE `UsersRole`
   ADD CONSTRAINT `UsersRole_ibfk_1` FOREIGN KEY (`UserId`) REFERENCES `Users` (`UserId`),
   ADD CONSTRAINT `UsersRole_ibfk_2` FOREIGN KEY (`RoleId`) REFERENCES `Roles` (`RoleId`);
+COMMIT;
 
 --
 -- Dumping data for table `Roles`
@@ -111,6 +113,7 @@ INSERT INTO `Roles` (`RoleId`, `RoleName`, `RoleDescription`) VALUES
 (1, 'Root', 'User that can access anything and modify all'),
 (2, 'Admin', 'User that can access anything but they cannot modify the Root role'),
 (3, 'User', 'User that can only access their own data');
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

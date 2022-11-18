@@ -1,6 +1,9 @@
 <?php
  require_once "db.php";  // Require the database connection
  require_once "service.php";   // Require the service functions
+
+    //  Start the session to allow service.php to check if the user is logged in
+    session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">

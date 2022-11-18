@@ -26,6 +26,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="lab01.js"></script>
     <title>Document</title>
@@ -34,12 +35,37 @@
     <header>
         <h1>
             <?php
-                echo "Hello World";
+                echo "Welcome " . $_SESSION["username"] . "!";
             ?>
         </h1>
     </header>
     <main>
-
+        <div id="options">
+            <?php
+                if (isAdmin())
+                {
+                    echo "<button id='UserManagement'>User Management</button> <button id='RoleManagement'>Role Management</button>";            
+                }
+                else
+                {
+                    echo "<button id='UserManagement'>User Management</button>";
+                }
+            ?>
+        </div>
+        <div id="UserManagementDiv"></div>
+        <div id="RoleManagementDiv"></div>
+        <div>
+            <button id="logout">Logout</button>
+        </div>
+        <div>
+            <?php
+                echo "Your role is: " . $_SESSION["role"];
+            ?>
+        </div>
     </main>
+    <footer>
+        &copy; &Lambda;&alpha;&eta;s&epsilon;&zeta;&sigma;&omega;<br/>
+        <script>document.write('Last Modified:' + document.lastModified);</script>
+    </footer>
 </body>
 </html>
