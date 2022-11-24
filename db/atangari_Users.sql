@@ -60,6 +60,31 @@ CREATE TABLE `Roles` (
   `RoleName` varchar(40) NOT NULL,
   `RoleDescription` varchar(40) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--  --------------------------------------------------------
+
+--
+-- Table structure for table `UsersMessage`
+--
+
+CREATE TABLE `UsersMessage` (
+  `UserId` mediumint(9) NOT NULL,
+  `MessageId` mediumint(9) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--  --------------------------------------------------------
+
+--
+-- Table structure for table `Messages`
+--
+
+CREATE TABLE `Messages` (
+  `MessageId` mediumint(9) NOT NULL,
+  `UserName` varchar(40) NOT NULL,
+  `Message` varchar(200) NOT NULL,
+  `MessageDate` varchar(40) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
 --
 -- Indexes for dumped tables
 --
@@ -83,6 +108,18 @@ ALTER TABLE `Roles`
   ADD PRIMARY KEY (`RoleId`);
 
 --
+-- Indexes for table `UsersMessage`
+--
+ALTER TABLE `UsersMessage`
+  ADD PRIMARY KEY (`UserId`,`MessageId`);
+
+--
+-- Indexes for table `Messages`
+--
+ALTER TABLE `Messages`
+  ADD PRIMARY KEY (`MessageId`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -92,6 +129,12 @@ ALTER TABLE `Roles`
 ALTER TABLE `Users`
   MODIFY `UserId` mediumint(9) NOT NULL AUTO_INCREMENT;
 COMMIT;
+
+--
+-- AUTO_INCREMENT for table `Messages`
+--
+ALTER TABLE `Messages`
+  MODIFY `MessageId` mediumint(9) NOT NULL AUTO_INCREMENT;
 
 --
 -- Constraints for dumped tables
@@ -104,6 +147,21 @@ ALTER TABLE `UsersRole`
   ADD CONSTRAINT `UsersRole_ibfk_1` FOREIGN KEY (`UserId`) REFERENCES `Users` (`UserId`),
   ADD CONSTRAINT `UsersRole_ibfk_2` FOREIGN KEY (`RoleId`) REFERENCES `Roles` (`RoleId`);
 COMMIT;
+
+--
+-- Constraints for table `UsersMessage`
+--
+ALTER TABLE `UsersMessage`
+  ADD CONSTRAINT `UsersMessage_ibfk_1` FOREIGN KEY (`UserId`) REFERENCES `Users` (`UserId`),
+  ADD CONSTRAINT `UsersMessage_ibfk_2` FOREIGN KEY (`MessageId`) REFERENCES `Messages` (`MessageId`);
+
+--
+-- Dumping data for table `Users`
+--
+
+--
+-- Dumping data for table `UsersRole`
+--
 
 --
 -- Dumping data for table `Roles`

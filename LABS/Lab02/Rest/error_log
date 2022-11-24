@@ -1,0 +1,1175 @@
+[01-Mar-2022 08:25:08 MST] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[01-Mar-2022 08:25:08 MST] GET
+[01-Mar-2022 08:25:08 MST] example/place/40
+[01-Mar-2022 08:25:08 MST] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[01-Mar-2022 08:25:08 MST] []
+[01-Mar-2022 08:25:08 MST] 
+[01-Mar-2022 08:25:08 MST] "GET"
+[01-Mar-2022 08:25:08 MST] "example"
+[01-Mar-2022 08:25:08 MST] "place"
+[01-Mar-2022 08:25:08 MST] ["40"]
+[01-Mar-2022 08:25:08 MST] []
+[01-Mar-2022 08:25:08 MST] 
+[01-Mar-2022 09:03:27 MST] {"request":"example\/place\/30"}
+[01-Mar-2022 09:03:27 MST] POST
+[01-Mar-2022 09:03:27 MST] example/place/30
+[01-Mar-2022 09:03:27 MST] {"request":"example\/place\/30"}
+[01-Mar-2022 09:03:27 MST] {"POSTtest":"This is data in the POST object."}
+[01-Mar-2022 09:03:27 MST] 
+[01-Mar-2022 09:03:27 MST] "POST"
+[01-Mar-2022 09:03:27 MST] "example"
+[01-Mar-2022 09:03:27 MST] "place"
+[01-Mar-2022 09:03:27 MST] ["30"]
+[01-Mar-2022 09:03:27 MST] {"POSTtest":"This is data in the POST object."}
+[01-Mar-2022 09:03:27 MST] 
+[01-Mar-2022 09:14:25 MST] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[01-Mar-2022 09:14:25 MST] GET
+[01-Mar-2022 09:14:25 MST] example/place/40
+[01-Mar-2022 09:14:25 MST] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[01-Mar-2022 09:14:25 MST] []
+[01-Mar-2022 09:14:25 MST] 
+[01-Mar-2022 09:14:25 MST] "GET"
+[01-Mar-2022 09:14:25 MST] "example"
+[01-Mar-2022 09:14:25 MST] "place"
+[01-Mar-2022 09:14:25 MST] ["40"]
+[01-Mar-2022 09:14:25 MST] []
+[01-Mar-2022 09:14:25 MST] 
+[01-Mar-2022 09:14:27 MST] {"request":"example\/place\/30"}
+[01-Mar-2022 09:14:27 MST] POST
+[01-Mar-2022 09:14:27 MST] example/place/30
+[01-Mar-2022 09:14:27 MST] {"request":"example\/place\/30"}
+[01-Mar-2022 09:14:27 MST] {"POSTtest":"This is data in the POST object."}
+[01-Mar-2022 09:14:27 MST] 
+[01-Mar-2022 09:14:27 MST] "POST"
+[01-Mar-2022 09:14:27 MST] "example"
+[01-Mar-2022 09:14:27 MST] "place"
+[01-Mar-2022 09:14:27 MST] ["30"]
+[01-Mar-2022 09:14:27 MST] {"POSTtest":"This is data in the POST object."}
+[01-Mar-2022 09:14:27 MST] 
+[01-Mar-2022 09:14:28 MST] {"request":"example\/place\/20"}
+[01-Mar-2022 09:14:28 MST] PUT
+[01-Mar-2022 09:14:28 MST] example/place/20
+[01-Mar-2022 09:14:28 MST] {"request":"example\/place\/20"}
+[01-Mar-2022 09:14:28 MST] []
+[01-Mar-2022 09:14:28 MST] 
+[01-Mar-2022 09:14:28 MST] "PUT"
+[01-Mar-2022 09:14:28 MST] "example"
+[01-Mar-2022 09:14:28 MST] "place"
+[01-Mar-2022 09:14:28 MST] ["20"]
+[01-Mar-2022 09:14:28 MST] {"PUTtest":"My Test PUT data."}
+[01-Mar-2022 09:14:28 MST] 
+[01-Mar-2022 09:14:35 MST] {"request":"example\/place\/10"}
+[01-Mar-2022 09:14:35 MST] DELETE
+[01-Mar-2022 09:14:35 MST] example/place/10
+[01-Mar-2022 09:14:35 MST] {"request":"example\/place\/10"}
+[01-Mar-2022 09:14:35 MST] []
+[01-Mar-2022 09:14:35 MST] 
+[01-Mar-2022 09:14:35 MST] "DELETE"
+[01-Mar-2022 09:14:35 MST] "example"
+[01-Mar-2022 09:14:35 MST] "place"
+[01-Mar-2022 09:14:35 MST] ["10"]
+[01-Mar-2022 09:14:35 MST] {"DELETEtest":"My Test DELETE data."}
+[01-Mar-2022 09:14:35 MST] 
+[09-Mar-2022 15:17:22 MST] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[09-Mar-2022 15:17:22 MST] GET
+[09-Mar-2022 15:17:22 MST] example/place/40
+[09-Mar-2022 15:17:22 MST] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[09-Mar-2022 15:17:22 MST] []
+[09-Mar-2022 15:17:22 MST] 
+[09-Mar-2022 15:17:22 MST] "GET"
+[09-Mar-2022 15:17:22 MST] "example"
+[09-Mar-2022 15:17:22 MST] "place"
+[09-Mar-2022 15:17:22 MST] ["40"]
+[09-Mar-2022 15:17:22 MST] []
+[09-Mar-2022 15:17:22 MST] 
+[09-Mar-2022 15:43:46 MST] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[09-Mar-2022 15:43:46 MST] GET
+[09-Mar-2022 15:43:46 MST] example/place/40
+[09-Mar-2022 15:43:46 MST] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[09-Mar-2022 15:43:46 MST] []
+[09-Mar-2022 15:43:46 MST] 
+[09-Mar-2022 15:43:46 MST] "GET"
+[09-Mar-2022 15:43:46 MST] "example"
+[09-Mar-2022 15:43:46 MST] "place"
+[09-Mar-2022 15:43:46 MST] ["40"]
+[09-Mar-2022 15:43:46 MST] []
+[09-Mar-2022 15:43:46 MST] 
+[09-Mar-2022 15:43:50 MST] {"request":"example\/place\/30"}
+[09-Mar-2022 15:43:50 MST] POST
+[09-Mar-2022 15:43:50 MST] example/place/30
+[09-Mar-2022 15:43:50 MST] {"request":"example\/place\/30"}
+[09-Mar-2022 15:43:50 MST] {"POSTtest":"This is data in the POST object."}
+[09-Mar-2022 15:43:50 MST] 
+[09-Mar-2022 15:43:50 MST] "POST"
+[09-Mar-2022 15:43:50 MST] "example"
+[09-Mar-2022 15:43:50 MST] "place"
+[09-Mar-2022 15:43:50 MST] ["30"]
+[09-Mar-2022 15:43:50 MST] {"POSTtest":"This is data in the POST object."}
+[09-Mar-2022 15:43:50 MST] 
+[27-Oct-2022 05:51:04 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 05:51:04 UTC] GET
+[27-Oct-2022 05:51:04 UTC] example/place/40
+[27-Oct-2022 05:51:04 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 05:51:04 UTC] []
+[27-Oct-2022 05:51:04 UTC] 
+[27-Oct-2022 05:51:04 UTC] "GET"
+[27-Oct-2022 05:51:04 UTC] "example"
+[27-Oct-2022 05:51:04 UTC] "place"
+[27-Oct-2022 05:51:04 UTC] ["40"]
+[27-Oct-2022 05:51:04 UTC] null
+[27-Oct-2022 05:51:04 UTC] 
+[27-Oct-2022 05:51:22 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 05:51:22 UTC] POST
+[27-Oct-2022 05:51:22 UTC] example/place/30
+[27-Oct-2022 05:51:22 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 05:51:22 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 05:51:22 UTC] 
+[27-Oct-2022 05:51:22 UTC] "POST"
+[27-Oct-2022 05:51:22 UTC] "example"
+[27-Oct-2022 05:51:22 UTC] "place"
+[27-Oct-2022 05:51:22 UTC] ["30"]
+[27-Oct-2022 05:51:22 UTC] null
+[27-Oct-2022 05:51:22 UTC] 
+[27-Oct-2022 05:51:23 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 05:51:23 UTC] PUT
+[27-Oct-2022 05:51:23 UTC] example/place/20
+[27-Oct-2022 05:51:23 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 05:51:23 UTC] []
+[27-Oct-2022 05:51:23 UTC] 
+[27-Oct-2022 05:51:23 UTC] "PUT"
+[27-Oct-2022 05:51:23 UTC] "example"
+[27-Oct-2022 05:51:23 UTC] "place"
+[27-Oct-2022 05:51:23 UTC] ["20"]
+[27-Oct-2022 05:51:23 UTC] {"PUTtest":"My Test PUT data."}
+[27-Oct-2022 05:51:23 UTC] 
+[27-Oct-2022 05:51:25 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 05:51:25 UTC] DELETE
+[27-Oct-2022 05:51:25 UTC] example/place/10
+[27-Oct-2022 05:51:25 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 05:51:25 UTC] []
+[27-Oct-2022 05:51:25 UTC] 
+[27-Oct-2022 05:51:25 UTC] "DELETE"
+[27-Oct-2022 05:51:25 UTC] "example"
+[27-Oct-2022 05:51:25 UTC] "place"
+[27-Oct-2022 05:51:25 UTC] ["10"]
+[27-Oct-2022 05:51:25 UTC] {"DELETEtest":"My Test DELETE data."}
+[27-Oct-2022 05:51:25 UTC] 
+[27-Oct-2022 05:51:36 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 05:51:36 UTC] PUT
+[27-Oct-2022 05:51:36 UTC] example/place/20
+[27-Oct-2022 05:51:36 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 05:51:36 UTC] []
+[27-Oct-2022 05:51:36 UTC] 
+[27-Oct-2022 05:51:36 UTC] "PUT"
+[27-Oct-2022 05:51:36 UTC] "example"
+[27-Oct-2022 05:51:36 UTC] "place"
+[27-Oct-2022 05:51:36 UTC] ["20"]
+[27-Oct-2022 05:51:36 UTC] {"PUTtest":"My Test PUT data."}
+[27-Oct-2022 05:51:36 UTC] 
+[27-Oct-2022 05:51:37 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 05:51:37 UTC] POST
+[27-Oct-2022 05:51:37 UTC] example/place/30
+[27-Oct-2022 05:51:37 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 05:51:37 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 05:51:37 UTC] 
+[27-Oct-2022 05:51:37 UTC] "POST"
+[27-Oct-2022 05:51:37 UTC] "example"
+[27-Oct-2022 05:51:37 UTC] "place"
+[27-Oct-2022 05:51:37 UTC] ["30"]
+[27-Oct-2022 05:51:37 UTC] null
+[27-Oct-2022 05:51:37 UTC] 
+[27-Oct-2022 05:51:37 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 05:51:37 UTC] GET
+[27-Oct-2022 05:51:37 UTC] example/place/40
+[27-Oct-2022 05:51:37 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 05:51:37 UTC] []
+[27-Oct-2022 05:51:37 UTC] 
+[27-Oct-2022 05:51:37 UTC] "GET"
+[27-Oct-2022 05:51:37 UTC] "example"
+[27-Oct-2022 05:51:37 UTC] "place"
+[27-Oct-2022 05:51:37 UTC] ["40"]
+[27-Oct-2022 05:51:37 UTC] null
+[27-Oct-2022 05:51:37 UTC] 
+[27-Oct-2022 05:55:07 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 05:55:07 UTC] POST
+[27-Oct-2022 05:55:07 UTC] example/place/30
+[27-Oct-2022 05:55:07 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 05:55:07 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 05:55:07 UTC] 
+[27-Oct-2022 05:55:07 UTC] "POST"
+[27-Oct-2022 05:55:07 UTC] "example"
+[27-Oct-2022 05:55:07 UTC] "place"
+[27-Oct-2022 05:55:07 UTC] ["30"]
+[27-Oct-2022 05:55:07 UTC] null
+[27-Oct-2022 05:55:07 UTC] 
+[27-Oct-2022 05:55:13 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 05:55:13 UTC] GET
+[27-Oct-2022 05:55:13 UTC] example/place/40
+[27-Oct-2022 05:55:13 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 05:55:13 UTC] []
+[27-Oct-2022 05:55:13 UTC] 
+[27-Oct-2022 05:55:13 UTC] "GET"
+[27-Oct-2022 05:55:13 UTC] "example"
+[27-Oct-2022 05:55:13 UTC] "place"
+[27-Oct-2022 05:55:13 UTC] ["40"]
+[27-Oct-2022 05:55:13 UTC] null
+[27-Oct-2022 05:55:13 UTC] 
+[27-Oct-2022 05:55:29 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 05:55:29 UTC] POST
+[27-Oct-2022 05:55:29 UTC] example/place/30
+[27-Oct-2022 05:55:29 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 05:55:29 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 05:55:29 UTC] 
+[27-Oct-2022 05:55:29 UTC] "POST"
+[27-Oct-2022 05:55:29 UTC] "example"
+[27-Oct-2022 05:55:29 UTC] "place"
+[27-Oct-2022 05:55:29 UTC] ["30"]
+[27-Oct-2022 05:55:29 UTC] null
+[27-Oct-2022 05:55:29 UTC] 
+[27-Oct-2022 05:56:14 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 05:56:14 UTC] PUT
+[27-Oct-2022 05:56:14 UTC] example/place/20
+[27-Oct-2022 05:56:14 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 05:56:14 UTC] []
+[27-Oct-2022 05:56:14 UTC] 
+[27-Oct-2022 05:56:14 UTC] "PUT"
+[27-Oct-2022 05:56:14 UTC] "example"
+[27-Oct-2022 05:56:14 UTC] "place"
+[27-Oct-2022 05:56:14 UTC] ["20"]
+[27-Oct-2022 05:56:14 UTC] {"PUTtest":"My Test PUT data."}
+[27-Oct-2022 05:56:14 UTC] 
+[27-Oct-2022 05:56:19 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 05:56:19 UTC] DELETE
+[27-Oct-2022 05:56:19 UTC] example/place/10
+[27-Oct-2022 05:56:19 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 05:56:19 UTC] []
+[27-Oct-2022 05:56:19 UTC] 
+[27-Oct-2022 05:56:19 UTC] "DELETE"
+[27-Oct-2022 05:56:19 UTC] "example"
+[27-Oct-2022 05:56:19 UTC] "place"
+[27-Oct-2022 05:56:19 UTC] ["10"]
+[27-Oct-2022 05:56:19 UTC] {"DELETEtest":"My Test DELETE data."}
+[27-Oct-2022 05:56:19 UTC] 
+[27-Oct-2022 05:56:20 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 05:56:20 UTC] PUT
+[27-Oct-2022 05:56:20 UTC] example/place/20
+[27-Oct-2022 05:56:20 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 05:56:20 UTC] []
+[27-Oct-2022 05:56:20 UTC] 
+[27-Oct-2022 05:56:20 UTC] "PUT"
+[27-Oct-2022 05:56:20 UTC] "example"
+[27-Oct-2022 05:56:20 UTC] "place"
+[27-Oct-2022 05:56:20 UTC] ["20"]
+[27-Oct-2022 05:56:20 UTC] {"PUTtest":"My Test PUT data."}
+[27-Oct-2022 05:56:20 UTC] 
+[27-Oct-2022 05:56:24 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 05:56:24 UTC] DELETE
+[27-Oct-2022 05:56:24 UTC] example/place/10
+[27-Oct-2022 05:56:24 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 05:56:24 UTC] []
+[27-Oct-2022 05:56:24 UTC] 
+[27-Oct-2022 05:56:24 UTC] "DELETE"
+[27-Oct-2022 05:56:24 UTC] "example"
+[27-Oct-2022 05:56:24 UTC] "place"
+[27-Oct-2022 05:56:24 UTC] ["10"]
+[27-Oct-2022 05:56:24 UTC] {"DELETEtest":"My Test DELETE data."}
+[27-Oct-2022 05:56:24 UTC] 
+[27-Oct-2022 05:56:44 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 05:56:44 UTC] DELETE
+[27-Oct-2022 05:56:44 UTC] example/place/10
+[27-Oct-2022 05:56:44 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 05:56:44 UTC] []
+[27-Oct-2022 05:56:44 UTC] 
+[27-Oct-2022 05:56:44 UTC] "DELETE"
+[27-Oct-2022 05:56:44 UTC] "example"
+[27-Oct-2022 05:56:44 UTC] "place"
+[27-Oct-2022 05:56:44 UTC] ["10"]
+[27-Oct-2022 05:56:44 UTC] {"DELETEtest":"My Test DELETE data."}
+[27-Oct-2022 05:56:44 UTC] 
+[27-Oct-2022 05:56:46 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 05:56:46 UTC] PUT
+[27-Oct-2022 05:56:46 UTC] example/place/20
+[27-Oct-2022 05:56:46 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 05:56:46 UTC] []
+[27-Oct-2022 05:56:46 UTC] 
+[27-Oct-2022 05:56:46 UTC] "PUT"
+[27-Oct-2022 05:56:46 UTC] "example"
+[27-Oct-2022 05:56:46 UTC] "place"
+[27-Oct-2022 05:56:46 UTC] ["20"]
+[27-Oct-2022 05:56:46 UTC] {"PUTtest":"My Test PUT data."}
+[27-Oct-2022 05:56:46 UTC] 
+[27-Oct-2022 05:56:48 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 05:56:48 UTC] POST
+[27-Oct-2022 05:56:48 UTC] example/place/30
+[27-Oct-2022 05:56:48 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 05:56:48 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 05:56:48 UTC] 
+[27-Oct-2022 05:56:48 UTC] "POST"
+[27-Oct-2022 05:56:48 UTC] "example"
+[27-Oct-2022 05:56:48 UTC] "place"
+[27-Oct-2022 05:56:48 UTC] ["30"]
+[27-Oct-2022 05:56:48 UTC] null
+[27-Oct-2022 05:56:48 UTC] 
+[27-Oct-2022 05:56:51 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 05:56:51 UTC] GET
+[27-Oct-2022 05:56:51 UTC] example/place/40
+[27-Oct-2022 05:56:51 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 05:56:51 UTC] []
+[27-Oct-2022 05:56:51 UTC] 
+[27-Oct-2022 05:56:51 UTC] "GET"
+[27-Oct-2022 05:56:51 UTC] "example"
+[27-Oct-2022 05:56:51 UTC] "place"
+[27-Oct-2022 05:56:51 UTC] ["40"]
+[27-Oct-2022 05:56:51 UTC] null
+[27-Oct-2022 05:56:51 UTC] 
+[27-Oct-2022 05:56:55 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 05:56:55 UTC] POST
+[27-Oct-2022 05:56:55 UTC] example/place/30
+[27-Oct-2022 05:56:55 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 05:56:55 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 05:56:55 UTC] 
+[27-Oct-2022 05:56:55 UTC] "POST"
+[27-Oct-2022 05:56:55 UTC] "example"
+[27-Oct-2022 05:56:55 UTC] "place"
+[27-Oct-2022 05:56:55 UTC] ["30"]
+[27-Oct-2022 05:56:55 UTC] null
+[27-Oct-2022 05:56:55 UTC] 
+[27-Oct-2022 05:56:56 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 05:56:56 UTC] PUT
+[27-Oct-2022 05:56:56 UTC] example/place/20
+[27-Oct-2022 05:56:56 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 05:56:56 UTC] []
+[27-Oct-2022 05:56:56 UTC] 
+[27-Oct-2022 05:56:56 UTC] "PUT"
+[27-Oct-2022 05:56:56 UTC] "example"
+[27-Oct-2022 05:56:56 UTC] "place"
+[27-Oct-2022 05:56:56 UTC] ["20"]
+[27-Oct-2022 05:56:56 UTC] {"PUTtest":"My Test PUT data."}
+[27-Oct-2022 05:56:56 UTC] 
+[27-Oct-2022 05:57:04 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 05:57:04 UTC] DELETE
+[27-Oct-2022 05:57:04 UTC] example/place/10
+[27-Oct-2022 05:57:04 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 05:57:04 UTC] []
+[27-Oct-2022 05:57:04 UTC] 
+[27-Oct-2022 05:57:04 UTC] "DELETE"
+[27-Oct-2022 05:57:04 UTC] "example"
+[27-Oct-2022 05:57:04 UTC] "place"
+[27-Oct-2022 05:57:04 UTC] ["10"]
+[27-Oct-2022 05:57:04 UTC] {"DELETEtest":"My Test DELETE data."}
+[27-Oct-2022 05:57:04 UTC] 
+[27-Oct-2022 05:57:11 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 05:57:11 UTC] GET
+[27-Oct-2022 05:57:11 UTC] example/place/40
+[27-Oct-2022 05:57:11 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 05:57:11 UTC] []
+[27-Oct-2022 05:57:11 UTC] 
+[27-Oct-2022 05:57:11 UTC] "GET"
+[27-Oct-2022 05:57:11 UTC] "example"
+[27-Oct-2022 05:57:11 UTC] "place"
+[27-Oct-2022 05:57:11 UTC] ["40"]
+[27-Oct-2022 05:57:11 UTC] null
+[27-Oct-2022 05:57:11 UTC] 
+[27-Oct-2022 05:57:15 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 05:57:15 UTC] POST
+[27-Oct-2022 05:57:15 UTC] example/place/30
+[27-Oct-2022 05:57:15 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 05:57:15 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 05:57:15 UTC] 
+[27-Oct-2022 05:57:15 UTC] "POST"
+[27-Oct-2022 05:57:15 UTC] "example"
+[27-Oct-2022 05:57:15 UTC] "place"
+[27-Oct-2022 05:57:15 UTC] ["30"]
+[27-Oct-2022 05:57:15 UTC] null
+[27-Oct-2022 05:57:15 UTC] 
+[27-Oct-2022 05:57:20 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 05:57:20 UTC] PUT
+[27-Oct-2022 05:57:20 UTC] example/place/20
+[27-Oct-2022 05:57:20 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 05:57:20 UTC] []
+[27-Oct-2022 05:57:20 UTC] 
+[27-Oct-2022 05:57:20 UTC] "PUT"
+[27-Oct-2022 05:57:20 UTC] "example"
+[27-Oct-2022 05:57:20 UTC] "place"
+[27-Oct-2022 05:57:20 UTC] ["20"]
+[27-Oct-2022 05:57:20 UTC] {"PUTtest":"My Test PUT data."}
+[27-Oct-2022 05:57:20 UTC] 
+[27-Oct-2022 05:57:22 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 05:57:22 UTC] DELETE
+[27-Oct-2022 05:57:22 UTC] example/place/10
+[27-Oct-2022 05:57:22 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 05:57:22 UTC] []
+[27-Oct-2022 05:57:22 UTC] 
+[27-Oct-2022 05:57:22 UTC] "DELETE"
+[27-Oct-2022 05:57:22 UTC] "example"
+[27-Oct-2022 05:57:22 UTC] "place"
+[27-Oct-2022 05:57:22 UTC] ["10"]
+[27-Oct-2022 05:57:22 UTC] {"DELETEtest":"My Test DELETE data."}
+[27-Oct-2022 05:57:22 UTC] 
+[27-Oct-2022 05:58:55 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 05:58:55 UTC] GET
+[27-Oct-2022 05:58:55 UTC] example/place/40
+[27-Oct-2022 05:58:55 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 05:58:55 UTC] []
+[27-Oct-2022 05:58:55 UTC] 
+[27-Oct-2022 05:58:55 UTC] "GET"
+[27-Oct-2022 05:58:55 UTC] "example"
+[27-Oct-2022 05:58:55 UTC] "place"
+[27-Oct-2022 05:58:55 UTC] ["40"]
+[27-Oct-2022 05:58:55 UTC] []
+[27-Oct-2022 05:58:55 UTC] 
+[27-Oct-2022 05:59:13 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 05:59:13 UTC] POST
+[27-Oct-2022 05:59:13 UTC] example/place/30
+[27-Oct-2022 05:59:13 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 05:59:13 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 05:59:13 UTC] 
+[27-Oct-2022 05:59:13 UTC] "POST"
+[27-Oct-2022 05:59:13 UTC] "example"
+[27-Oct-2022 05:59:13 UTC] "place"
+[27-Oct-2022 05:59:13 UTC] ["30"]
+[27-Oct-2022 05:59:13 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 05:59:13 UTC] 
+[27-Oct-2022 05:59:15 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 05:59:15 UTC] PUT
+[27-Oct-2022 05:59:15 UTC] example/place/20
+[27-Oct-2022 05:59:15 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 05:59:15 UTC] []
+[27-Oct-2022 05:59:15 UTC] 
+[27-Oct-2022 05:59:15 UTC] "PUT"
+[27-Oct-2022 05:59:15 UTC] "example"
+[27-Oct-2022 05:59:15 UTC] "place"
+[27-Oct-2022 05:59:15 UTC] ["20"]
+[27-Oct-2022 05:59:15 UTC] {"PUTtest":"My Test PUT data."}
+[27-Oct-2022 05:59:15 UTC] 
+[27-Oct-2022 05:59:16 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 05:59:16 UTC] DELETE
+[27-Oct-2022 05:59:16 UTC] example/place/10
+[27-Oct-2022 05:59:16 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 05:59:16 UTC] []
+[27-Oct-2022 05:59:16 UTC] 
+[27-Oct-2022 05:59:16 UTC] "DELETE"
+[27-Oct-2022 05:59:16 UTC] "example"
+[27-Oct-2022 05:59:16 UTC] "place"
+[27-Oct-2022 05:59:16 UTC] ["10"]
+[27-Oct-2022 05:59:16 UTC] {"DELETEtest":"My Test DELETE data."}
+[27-Oct-2022 05:59:16 UTC] 
+[27-Oct-2022 05:59:18 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 05:59:18 UTC] PUT
+[27-Oct-2022 05:59:18 UTC] example/place/20
+[27-Oct-2022 05:59:18 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 05:59:18 UTC] []
+[27-Oct-2022 05:59:18 UTC] 
+[27-Oct-2022 05:59:18 UTC] "PUT"
+[27-Oct-2022 05:59:18 UTC] "example"
+[27-Oct-2022 05:59:18 UTC] "place"
+[27-Oct-2022 05:59:18 UTC] ["20"]
+[27-Oct-2022 05:59:18 UTC] {"PUTtest":"My Test PUT data."}
+[27-Oct-2022 05:59:18 UTC] 
+[27-Oct-2022 05:59:19 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 05:59:19 UTC] POST
+[27-Oct-2022 05:59:19 UTC] example/place/30
+[27-Oct-2022 05:59:19 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 05:59:19 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 05:59:19 UTC] 
+[27-Oct-2022 05:59:19 UTC] "POST"
+[27-Oct-2022 05:59:19 UTC] "example"
+[27-Oct-2022 05:59:19 UTC] "place"
+[27-Oct-2022 05:59:19 UTC] ["30"]
+[27-Oct-2022 05:59:19 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 05:59:19 UTC] 
+[27-Oct-2022 05:59:20 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 05:59:20 UTC] GET
+[27-Oct-2022 05:59:20 UTC] example/place/40
+[27-Oct-2022 05:59:20 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 05:59:20 UTC] []
+[27-Oct-2022 05:59:20 UTC] 
+[27-Oct-2022 05:59:20 UTC] "GET"
+[27-Oct-2022 05:59:20 UTC] "example"
+[27-Oct-2022 05:59:20 UTC] "place"
+[27-Oct-2022 05:59:20 UTC] ["40"]
+[27-Oct-2022 05:59:20 UTC] []
+[27-Oct-2022 05:59:20 UTC] 
+[27-Oct-2022 05:59:46 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 05:59:46 UTC] GET
+[27-Oct-2022 05:59:46 UTC] example/place/40
+[27-Oct-2022 05:59:46 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 05:59:46 UTC] []
+[27-Oct-2022 05:59:46 UTC] 
+[27-Oct-2022 05:59:46 UTC] "GET"
+[27-Oct-2022 05:59:46 UTC] "example"
+[27-Oct-2022 05:59:46 UTC] "place"
+[27-Oct-2022 05:59:46 UTC] ["40"]
+[27-Oct-2022 05:59:46 UTC] []
+[27-Oct-2022 05:59:46 UTC] 
+[27-Oct-2022 05:59:49 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 05:59:49 UTC] POST
+[27-Oct-2022 05:59:49 UTC] example/place/30
+[27-Oct-2022 05:59:49 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 05:59:49 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 05:59:49 UTC] 
+[27-Oct-2022 05:59:49 UTC] "POST"
+[27-Oct-2022 05:59:49 UTC] "example"
+[27-Oct-2022 05:59:49 UTC] "place"
+[27-Oct-2022 05:59:49 UTC] ["30"]
+[27-Oct-2022 05:59:49 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 05:59:49 UTC] 
+[27-Oct-2022 05:59:50 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 05:59:50 UTC] PUT
+[27-Oct-2022 05:59:50 UTC] example/place/20
+[27-Oct-2022 05:59:50 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 05:59:50 UTC] []
+[27-Oct-2022 05:59:50 UTC] 
+[27-Oct-2022 05:59:50 UTC] "PUT"
+[27-Oct-2022 05:59:50 UTC] "example"
+[27-Oct-2022 05:59:50 UTC] "place"
+[27-Oct-2022 05:59:50 UTC] ["20"]
+[27-Oct-2022 05:59:50 UTC] {"PUTtest":"My Test PUT data."}
+[27-Oct-2022 05:59:50 UTC] 
+[27-Oct-2022 05:59:51 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 05:59:51 UTC] DELETE
+[27-Oct-2022 05:59:51 UTC] example/place/10
+[27-Oct-2022 05:59:51 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 05:59:51 UTC] []
+[27-Oct-2022 05:59:51 UTC] 
+[27-Oct-2022 05:59:51 UTC] "DELETE"
+[27-Oct-2022 05:59:51 UTC] "example"
+[27-Oct-2022 05:59:51 UTC] "place"
+[27-Oct-2022 05:59:51 UTC] ["10"]
+[27-Oct-2022 05:59:51 UTC] {"DELETEtest":"My Test DELETE data."}
+[27-Oct-2022 05:59:51 UTC] 
+[27-Oct-2022 05:59:58 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 05:59:58 UTC] GET
+[27-Oct-2022 05:59:58 UTC] example/place/40
+[27-Oct-2022 05:59:58 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 05:59:58 UTC] []
+[27-Oct-2022 05:59:58 UTC] 
+[27-Oct-2022 05:59:58 UTC] "GET"
+[27-Oct-2022 05:59:58 UTC] "example"
+[27-Oct-2022 05:59:58 UTC] "place"
+[27-Oct-2022 05:59:58 UTC] ["40"]
+[27-Oct-2022 05:59:58 UTC] []
+[27-Oct-2022 05:59:58 UTC] 
+[27-Oct-2022 06:02:17 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 06:02:17 UTC] GET
+[27-Oct-2022 06:02:17 UTC] example/place/40
+[27-Oct-2022 06:02:17 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 06:02:17 UTC] []
+[27-Oct-2022 06:02:17 UTC] 
+[27-Oct-2022 06:02:17 UTC] "GET"
+[27-Oct-2022 06:02:17 UTC] "example"
+[27-Oct-2022 06:02:17 UTC] "place"
+[27-Oct-2022 06:02:17 UTC] ["40"]
+[27-Oct-2022 06:02:17 UTC] []
+[27-Oct-2022 06:02:17 UTC] 
+[27-Oct-2022 06:04:24 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 06:04:24 UTC] PHP Parse error:  syntax error, unexpected double-quoted string " <br/>- \$_GET : ", expecting ";" in /home/shanek/public_html/ZeeDemoSource/CMPE2550/Demo06/Rest/apiDef.php on line 108
+[27-Oct-2022 06:04:24 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 06:04:24 UTC] PHP Parse error:  syntax error, unexpected double-quoted string " <br/>- \$_GET : ", expecting ";" in /home/shanek/public_html/ZeeDemoSource/CMPE2550/Demo06/Rest/apiDef.php on line 108
+[27-Oct-2022 06:04:25 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 06:04:25 UTC] PHP Parse error:  syntax error, unexpected double-quoted string " <br/>- \$_GET : ", expecting ";" in /home/shanek/public_html/ZeeDemoSource/CMPE2550/Demo06/Rest/apiDef.php on line 108
+[27-Oct-2022 06:04:27 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 06:04:27 UTC] PHP Parse error:  syntax error, unexpected double-quoted string " <br/>- \$_GET : ", expecting ";" in /home/shanek/public_html/ZeeDemoSource/CMPE2550/Demo06/Rest/apiDef.php on line 108
+[27-Oct-2022 06:04:28 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 06:04:28 UTC] PHP Parse error:  syntax error, unexpected double-quoted string " <br/>- \$_GET : ", expecting ";" in /home/shanek/public_html/ZeeDemoSource/CMPE2550/Demo06/Rest/apiDef.php on line 108
+[27-Oct-2022 06:04:29 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 06:04:29 UTC] PHP Parse error:  syntax error, unexpected double-quoted string " <br/>- \$_GET : ", expecting ";" in /home/shanek/public_html/ZeeDemoSource/CMPE2550/Demo06/Rest/apiDef.php on line 108
+[27-Oct-2022 06:04:29 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 06:04:29 UTC] PHP Parse error:  syntax error, unexpected double-quoted string " <br/>- \$_GET : ", expecting ";" in /home/shanek/public_html/ZeeDemoSource/CMPE2550/Demo06/Rest/apiDef.php on line 108
+[27-Oct-2022 06:04:30 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 06:04:30 UTC] PHP Parse error:  syntax error, unexpected double-quoted string " <br/>- \$_GET : ", expecting ";" in /home/shanek/public_html/ZeeDemoSource/CMPE2550/Demo06/Rest/apiDef.php on line 108
+[27-Oct-2022 06:04:38 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 06:04:38 UTC] PHP Parse error:  syntax error, unexpected double-quoted string " <br/>- \$_GET : ", expecting ";" in /home/shanek/public_html/ZeeDemoSource/CMPE2550/Demo06/Rest/apiDef.php on line 108
+[27-Oct-2022 06:04:39 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 06:04:39 UTC] PHP Parse error:  syntax error, unexpected double-quoted string " <br/>- \$_GET : ", expecting ";" in /home/shanek/public_html/ZeeDemoSource/CMPE2550/Demo06/Rest/apiDef.php on line 108
+[27-Oct-2022 06:04:39 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 06:04:39 UTC] PHP Parse error:  syntax error, unexpected double-quoted string " <br/>- \$_GET : ", expecting ";" in /home/shanek/public_html/ZeeDemoSource/CMPE2550/Demo06/Rest/apiDef.php on line 108
+[27-Oct-2022 06:04:39 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 06:04:39 UTC] PHP Parse error:  syntax error, unexpected double-quoted string " <br/>- \$_GET : ", expecting ";" in /home/shanek/public_html/ZeeDemoSource/CMPE2550/Demo06/Rest/apiDef.php on line 108
+[27-Oct-2022 06:04:39 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 06:04:39 UTC] PHP Parse error:  syntax error, unexpected double-quoted string " <br/>- \$_GET : ", expecting ";" in /home/shanek/public_html/ZeeDemoSource/CMPE2550/Demo06/Rest/apiDef.php on line 108
+[27-Oct-2022 06:04:40 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 06:04:40 UTC] PHP Parse error:  syntax error, unexpected double-quoted string " <br/>- \$_GET : ", expecting ";" in /home/shanek/public_html/ZeeDemoSource/CMPE2550/Demo06/Rest/apiDef.php on line 108
+[27-Oct-2022 06:06:04 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 06:06:04 UTC] GET
+[27-Oct-2022 06:06:04 UTC] example/place/40
+[27-Oct-2022 06:06:04 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 06:06:04 UTC] []
+[27-Oct-2022 06:06:04 UTC] 
+[27-Oct-2022 06:06:04 UTC] "GET"
+[27-Oct-2022 06:06:04 UTC] "example"
+[27-Oct-2022 06:06:04 UTC] "place"
+[27-Oct-2022 06:06:04 UTC] ["40"]
+[27-Oct-2022 06:06:04 UTC] []
+[27-Oct-2022 06:06:04 UTC] 
+[27-Oct-2022 06:06:08 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 06:06:08 UTC] POST
+[27-Oct-2022 06:06:08 UTC] example/place/30
+[27-Oct-2022 06:06:08 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 06:06:08 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 06:06:08 UTC] 
+[27-Oct-2022 06:06:08 UTC] "POST"
+[27-Oct-2022 06:06:08 UTC] "example"
+[27-Oct-2022 06:06:08 UTC] "place"
+[27-Oct-2022 06:06:08 UTC] ["30"]
+[27-Oct-2022 06:06:08 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 06:06:08 UTC] 
+[27-Oct-2022 06:06:18 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 06:06:18 UTC] PUT
+[27-Oct-2022 06:06:18 UTC] example/place/20
+[27-Oct-2022 06:06:18 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 06:06:18 UTC] []
+[27-Oct-2022 06:06:18 UTC] 
+[27-Oct-2022 06:06:18 UTC] "PUT"
+[27-Oct-2022 06:06:18 UTC] "example"
+[27-Oct-2022 06:06:18 UTC] "place"
+[27-Oct-2022 06:06:18 UTC] ["20"]
+[27-Oct-2022 06:06:18 UTC] {"PUTtest":"My Test PUT data."}
+[27-Oct-2022 06:06:18 UTC] 
+[27-Oct-2022 06:06:25 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 06:06:25 UTC] DELETE
+[27-Oct-2022 06:06:25 UTC] example/place/10
+[27-Oct-2022 06:06:25 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 06:06:25 UTC] []
+[27-Oct-2022 06:06:25 UTC] 
+[27-Oct-2022 06:06:25 UTC] "DELETE"
+[27-Oct-2022 06:06:25 UTC] "example"
+[27-Oct-2022 06:06:25 UTC] "place"
+[27-Oct-2022 06:06:25 UTC] ["10"]
+[27-Oct-2022 06:06:25 UTC] {"DELETEtest":"My Test DELETE data."}
+[27-Oct-2022 06:06:25 UTC] 
+[27-Oct-2022 06:14:23 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 06:14:23 UTC] GET
+[27-Oct-2022 06:14:23 UTC] example/place/40
+[27-Oct-2022 06:14:23 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 06:14:23 UTC] []
+[27-Oct-2022 06:14:23 UTC] 
+[27-Oct-2022 06:14:23 UTC] "GET"
+[27-Oct-2022 06:14:23 UTC] "example"
+[27-Oct-2022 06:14:23 UTC] "place"
+[27-Oct-2022 06:14:23 UTC] ["40"]
+[27-Oct-2022 06:14:23 UTC] []
+[27-Oct-2022 06:14:23 UTC] 
+[27-Oct-2022 06:14:28 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 06:14:28 UTC] POST
+[27-Oct-2022 06:14:28 UTC] example/place/30
+[27-Oct-2022 06:14:28 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 06:14:28 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 06:14:28 UTC] 
+[27-Oct-2022 06:14:28 UTC] "POST"
+[27-Oct-2022 06:14:28 UTC] "example"
+[27-Oct-2022 06:14:28 UTC] "place"
+[27-Oct-2022 06:14:28 UTC] ["30"]
+[27-Oct-2022 06:14:28 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 06:14:28 UTC] 
+[27-Oct-2022 06:14:32 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 06:14:32 UTC] PUT
+[27-Oct-2022 06:14:32 UTC] example/place/20
+[27-Oct-2022 06:14:32 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 06:14:32 UTC] []
+[27-Oct-2022 06:14:32 UTC] 
+[27-Oct-2022 06:14:32 UTC] "PUT"
+[27-Oct-2022 06:14:32 UTC] "example"
+[27-Oct-2022 06:14:32 UTC] "place"
+[27-Oct-2022 06:14:32 UTC] ["20"]
+[27-Oct-2022 06:14:32 UTC] {"PUTtest":"My Test PUT data."}
+[27-Oct-2022 06:14:32 UTC] 
+[27-Oct-2022 06:14:39 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 06:14:39 UTC] DELETE
+[27-Oct-2022 06:14:39 UTC] example/place/10
+[27-Oct-2022 06:14:39 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 06:14:39 UTC] []
+[27-Oct-2022 06:14:39 UTC] 
+[27-Oct-2022 06:14:39 UTC] "DELETE"
+[27-Oct-2022 06:14:39 UTC] "example"
+[27-Oct-2022 06:14:39 UTC] "place"
+[27-Oct-2022 06:14:39 UTC] ["10"]
+[27-Oct-2022 06:14:39 UTC] {"DELETEtest":"My Test DELETE data."}
+[27-Oct-2022 06:14:39 UTC] 
+[27-Oct-2022 06:15:25 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 06:15:25 UTC] GET
+[27-Oct-2022 06:15:25 UTC] example/place/40
+[27-Oct-2022 06:15:25 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 06:15:25 UTC] []
+[27-Oct-2022 06:15:25 UTC] 
+[27-Oct-2022 06:15:25 UTC] "GET"
+[27-Oct-2022 06:15:25 UTC] "example"
+[27-Oct-2022 06:15:25 UTC] "place"
+[27-Oct-2022 06:15:25 UTC] ["40"]
+[27-Oct-2022 06:15:25 UTC] []
+[27-Oct-2022 06:15:25 UTC] 
+[27-Oct-2022 06:15:31 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 06:15:31 UTC] POST
+[27-Oct-2022 06:15:31 UTC] example/place/30
+[27-Oct-2022 06:15:31 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 06:15:31 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 06:15:31 UTC] 
+[27-Oct-2022 06:15:31 UTC] "POST"
+[27-Oct-2022 06:15:31 UTC] "example"
+[27-Oct-2022 06:15:31 UTC] "place"
+[27-Oct-2022 06:15:31 UTC] ["30"]
+[27-Oct-2022 06:15:31 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 06:15:31 UTC] 
+[27-Oct-2022 06:15:35 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 06:15:35 UTC] PUT
+[27-Oct-2022 06:15:35 UTC] example/place/20
+[27-Oct-2022 06:15:35 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 06:15:35 UTC] []
+[27-Oct-2022 06:15:35 UTC] 
+[27-Oct-2022 06:15:35 UTC] "PUT"
+[27-Oct-2022 06:15:35 UTC] "example"
+[27-Oct-2022 06:15:35 UTC] "place"
+[27-Oct-2022 06:15:35 UTC] ["20"]
+[27-Oct-2022 06:15:35 UTC] {"PUTtest":"My Test PUT data."}
+[27-Oct-2022 06:15:35 UTC] 
+[27-Oct-2022 06:15:40 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 06:15:40 UTC] DELETE
+[27-Oct-2022 06:15:40 UTC] example/place/10
+[27-Oct-2022 06:15:40 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 06:15:40 UTC] []
+[27-Oct-2022 06:15:40 UTC] 
+[27-Oct-2022 06:15:40 UTC] "DELETE"
+[27-Oct-2022 06:15:40 UTC] "example"
+[27-Oct-2022 06:15:40 UTC] "place"
+[27-Oct-2022 06:15:40 UTC] ["10"]
+[27-Oct-2022 06:15:40 UTC] {"DELETEtest":"My Test DELETE data."}
+[27-Oct-2022 06:15:40 UTC] 
+[27-Oct-2022 06:16:32 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 06:16:32 UTC] GET
+[27-Oct-2022 06:16:32 UTC] example/place/40
+[27-Oct-2022 06:16:32 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 06:16:32 UTC] []
+[27-Oct-2022 06:16:32 UTC] 
+[27-Oct-2022 06:16:32 UTC] "GET"
+[27-Oct-2022 06:16:32 UTC] "example"
+[27-Oct-2022 06:16:32 UTC] "place"
+[27-Oct-2022 06:16:32 UTC] ["40"]
+[27-Oct-2022 06:16:32 UTC] []
+[27-Oct-2022 06:16:32 UTC] 
+[27-Oct-2022 06:16:37 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 06:16:37 UTC] POST
+[27-Oct-2022 06:16:37 UTC] example/place/30
+[27-Oct-2022 06:16:37 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 06:16:37 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 06:16:37 UTC] 
+[27-Oct-2022 06:16:37 UTC] "POST"
+[27-Oct-2022 06:16:37 UTC] "example"
+[27-Oct-2022 06:16:37 UTC] "place"
+[27-Oct-2022 06:16:37 UTC] ["30"]
+[27-Oct-2022 06:16:37 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 06:16:37 UTC] 
+[27-Oct-2022 06:16:41 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 06:16:41 UTC] PUT
+[27-Oct-2022 06:16:41 UTC] example/place/20
+[27-Oct-2022 06:16:41 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 06:16:41 UTC] []
+[27-Oct-2022 06:16:41 UTC] 
+[27-Oct-2022 06:16:41 UTC] "PUT"
+[27-Oct-2022 06:16:41 UTC] "example"
+[27-Oct-2022 06:16:41 UTC] "place"
+[27-Oct-2022 06:16:41 UTC] ["20"]
+[27-Oct-2022 06:16:41 UTC] {"PUTtest":"My Test PUT data."}
+[27-Oct-2022 06:16:41 UTC] 
+[27-Oct-2022 06:16:42 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 06:16:42 UTC] DELETE
+[27-Oct-2022 06:16:42 UTC] example/place/10
+[27-Oct-2022 06:16:42 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 06:16:42 UTC] []
+[27-Oct-2022 06:16:42 UTC] 
+[27-Oct-2022 06:16:42 UTC] "DELETE"
+[27-Oct-2022 06:16:42 UTC] "example"
+[27-Oct-2022 06:16:42 UTC] "place"
+[27-Oct-2022 06:16:42 UTC] ["10"]
+[27-Oct-2022 06:16:42 UTC] {"DELETEtest":"My Test DELETE data."}
+[27-Oct-2022 06:16:42 UTC] 
+[27-Oct-2022 06:16:43 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 06:16:43 UTC] GET
+[27-Oct-2022 06:16:43 UTC] example/place/40
+[27-Oct-2022 06:16:43 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 06:16:43 UTC] []
+[27-Oct-2022 06:16:43 UTC] 
+[27-Oct-2022 06:16:43 UTC] "GET"
+[27-Oct-2022 06:16:43 UTC] "example"
+[27-Oct-2022 06:16:43 UTC] "place"
+[27-Oct-2022 06:16:43 UTC] ["40"]
+[27-Oct-2022 06:16:43 UTC] []
+[27-Oct-2022 06:16:43 UTC] 
+[27-Oct-2022 17:46:33 UTC] GET
+[27-Oct-2022 17:46:33 UTC] example/place/40
+[27-Oct-2022 17:46:33 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 17:46:33 UTC] []
+[27-Oct-2022 17:46:33 UTC] 
+[27-Oct-2022 17:46:33 UTC] "GET"
+[27-Oct-2022 17:46:33 UTC] "example"
+[27-Oct-2022 17:46:33 UTC] "place"
+[27-Oct-2022 17:46:33 UTC] ["40"]
+[27-Oct-2022 17:46:33 UTC] []
+[27-Oct-2022 17:46:33 UTC] 
+[27-Oct-2022 17:46:36 UTC] POST
+[27-Oct-2022 17:46:36 UTC] example/place/30
+[27-Oct-2022 17:46:36 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 17:46:36 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 17:46:36 UTC] 
+[27-Oct-2022 17:46:36 UTC] "POST"
+[27-Oct-2022 17:46:36 UTC] "example"
+[27-Oct-2022 17:46:36 UTC] "place"
+[27-Oct-2022 17:46:36 UTC] ["30"]
+[27-Oct-2022 17:46:36 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 17:46:36 UTC] 
+[27-Oct-2022 17:46:37 UTC] PUT
+[27-Oct-2022 17:46:37 UTC] example/place/20
+[27-Oct-2022 17:46:37 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 17:46:37 UTC] []
+[27-Oct-2022 17:46:37 UTC] 
+[27-Oct-2022 17:46:37 UTC] "PUT"
+[27-Oct-2022 17:46:37 UTC] "example"
+[27-Oct-2022 17:46:37 UTC] "place"
+[27-Oct-2022 17:46:37 UTC] ["20"]
+[27-Oct-2022 17:46:37 UTC] {"PUTtest":"This is data in the PUT object."}
+[27-Oct-2022 17:46:37 UTC] 
+[27-Oct-2022 17:46:37 UTC] DELETE
+[27-Oct-2022 17:46:37 UTC] example/place/10
+[27-Oct-2022 17:46:37 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 17:46:37 UTC] []
+[27-Oct-2022 17:46:37 UTC] 
+[27-Oct-2022 17:46:37 UTC] "DELETE"
+[27-Oct-2022 17:46:37 UTC] "example"
+[27-Oct-2022 17:46:37 UTC] "place"
+[27-Oct-2022 17:46:37 UTC] ["10"]
+[27-Oct-2022 17:46:37 UTC] {"DELETEtest":"This is data in the DELETE object."}
+[27-Oct-2022 17:46:37 UTC] 
+[27-Oct-2022 17:46:39 UTC] PUT
+[27-Oct-2022 17:46:39 UTC] example/place/20
+[27-Oct-2022 17:46:39 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 17:46:39 UTC] []
+[27-Oct-2022 17:46:39 UTC] 
+[27-Oct-2022 17:46:39 UTC] "PUT"
+[27-Oct-2022 17:46:39 UTC] "example"
+[27-Oct-2022 17:46:39 UTC] "place"
+[27-Oct-2022 17:46:39 UTC] ["20"]
+[27-Oct-2022 17:46:39 UTC] {"PUTtest":"This is data in the PUT object."}
+[27-Oct-2022 17:46:39 UTC] 
+[27-Oct-2022 17:46:39 UTC] POST
+[27-Oct-2022 17:46:39 UTC] example/place/30
+[27-Oct-2022 17:46:39 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 17:46:39 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 17:46:39 UTC] 
+[27-Oct-2022 17:46:39 UTC] "POST"
+[27-Oct-2022 17:46:39 UTC] "example"
+[27-Oct-2022 17:46:39 UTC] "place"
+[27-Oct-2022 17:46:39 UTC] ["30"]
+[27-Oct-2022 17:46:39 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 17:46:39 UTC] 
+[27-Oct-2022 17:46:39 UTC] GET
+[27-Oct-2022 17:46:39 UTC] example/place/40
+[27-Oct-2022 17:46:39 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 17:46:39 UTC] []
+[27-Oct-2022 17:46:39 UTC] 
+[27-Oct-2022 17:46:39 UTC] "GET"
+[27-Oct-2022 17:46:39 UTC] "example"
+[27-Oct-2022 17:46:39 UTC] "place"
+[27-Oct-2022 17:46:39 UTC] ["40"]
+[27-Oct-2022 17:46:39 UTC] []
+[27-Oct-2022 17:46:39 UTC] 
+[27-Oct-2022 17:46:41 UTC] GET
+[27-Oct-2022 17:46:41 UTC] example/place/40
+[27-Oct-2022 17:46:41 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 17:46:41 UTC] []
+[27-Oct-2022 17:46:41 UTC] 
+[27-Oct-2022 17:46:41 UTC] "GET"
+[27-Oct-2022 17:46:41 UTC] "example"
+[27-Oct-2022 17:46:41 UTC] "place"
+[27-Oct-2022 17:46:41 UTC] ["40"]
+[27-Oct-2022 17:46:41 UTC] []
+[27-Oct-2022 17:46:41 UTC] 
+[27-Oct-2022 17:46:41 UTC] POST
+[27-Oct-2022 17:46:41 UTC] example/place/30
+[27-Oct-2022 17:46:41 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 17:46:41 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 17:46:41 UTC] 
+[27-Oct-2022 17:46:41 UTC] "POST"
+[27-Oct-2022 17:46:41 UTC] "example"
+[27-Oct-2022 17:46:41 UTC] "place"
+[27-Oct-2022 17:46:41 UTC] ["30"]
+[27-Oct-2022 17:46:41 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 17:46:41 UTC] 
+[27-Oct-2022 17:46:44 UTC] PUT
+[27-Oct-2022 17:46:44 UTC] example/place/20
+[27-Oct-2022 17:46:44 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 17:46:44 UTC] []
+[27-Oct-2022 17:46:44 UTC] 
+[27-Oct-2022 17:46:44 UTC] "PUT"
+[27-Oct-2022 17:46:44 UTC] "example"
+[27-Oct-2022 17:46:44 UTC] "place"
+[27-Oct-2022 17:46:44 UTC] ["20"]
+[27-Oct-2022 17:46:44 UTC] {"PUTtest":"This is data in the PUT object."}
+[27-Oct-2022 17:46:44 UTC] 
+[27-Oct-2022 17:46:45 UTC] DELETE
+[27-Oct-2022 17:46:45 UTC] example/place/10
+[27-Oct-2022 17:46:45 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 17:46:45 UTC] []
+[27-Oct-2022 17:46:45 UTC] 
+[27-Oct-2022 17:46:45 UTC] "DELETE"
+[27-Oct-2022 17:46:45 UTC] "example"
+[27-Oct-2022 17:46:45 UTC] "place"
+[27-Oct-2022 17:46:45 UTC] ["10"]
+[27-Oct-2022 17:46:45 UTC] {"DELETEtest":"This is data in the DELETE object."}
+[27-Oct-2022 17:46:45 UTC] 
+[27-Oct-2022 17:46:47 UTC] POST
+[27-Oct-2022 17:46:47 UTC] example/place/30
+[27-Oct-2022 17:46:47 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 17:46:47 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 17:46:47 UTC] 
+[27-Oct-2022 17:46:47 UTC] "POST"
+[27-Oct-2022 17:46:47 UTC] "example"
+[27-Oct-2022 17:46:47 UTC] "place"
+[27-Oct-2022 17:46:47 UTC] ["30"]
+[27-Oct-2022 17:46:47 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 17:46:47 UTC] 
+[27-Oct-2022 17:46:47 UTC] GET
+[27-Oct-2022 17:46:47 UTC] example/place/40
+[27-Oct-2022 17:46:47 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 17:46:47 UTC] []
+[27-Oct-2022 17:46:47 UTC] 
+[27-Oct-2022 17:46:47 UTC] "GET"
+[27-Oct-2022 17:46:47 UTC] "example"
+[27-Oct-2022 17:46:47 UTC] "place"
+[27-Oct-2022 17:46:47 UTC] ["40"]
+[27-Oct-2022 17:46:47 UTC] []
+[27-Oct-2022 17:46:47 UTC] 
+[27-Oct-2022 17:52:20 UTC] POST
+[27-Oct-2022 17:52:20 UTC] example/place/30
+[27-Oct-2022 17:52:20 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 17:52:20 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 17:52:20 UTC] 
+[27-Oct-2022 17:52:20 UTC] "POST"
+[27-Oct-2022 17:52:20 UTC] "example"
+[27-Oct-2022 17:52:20 UTC] "place"
+[27-Oct-2022 17:52:20 UTC] ["30"]
+[27-Oct-2022 17:52:20 UTC] null
+[27-Oct-2022 17:52:20 UTC] 
+[27-Oct-2022 17:52:20 UTC] PHP Warning:  Undefined property: MyAPI::$request in /home/shanek/public_html/ZeeDemoSource/CMPE2550/Demo06/Rest/apiDef.php on line 112
+[27-Oct-2022 17:52:22 UTC] GET
+[27-Oct-2022 17:52:22 UTC] example/place/40
+[27-Oct-2022 17:52:22 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 17:52:22 UTC] []
+[27-Oct-2022 17:52:22 UTC] 
+[27-Oct-2022 17:52:22 UTC] "GET"
+[27-Oct-2022 17:52:22 UTC] "example"
+[27-Oct-2022 17:52:22 UTC] "place"
+[27-Oct-2022 17:52:22 UTC] ["40"]
+[27-Oct-2022 17:52:22 UTC] null
+[27-Oct-2022 17:52:22 UTC] 
+[27-Oct-2022 17:52:22 UTC] PHP Warning:  Undefined property: MyAPI::$request in /home/shanek/public_html/ZeeDemoSource/CMPE2550/Demo06/Rest/apiDef.php on line 108
+[27-Oct-2022 17:52:23 UTC] POST
+[27-Oct-2022 17:52:23 UTC] example/place/30
+[27-Oct-2022 17:52:23 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 17:52:23 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 17:52:23 UTC] 
+[27-Oct-2022 17:52:23 UTC] "POST"
+[27-Oct-2022 17:52:23 UTC] "example"
+[27-Oct-2022 17:52:23 UTC] "place"
+[27-Oct-2022 17:52:23 UTC] ["30"]
+[27-Oct-2022 17:52:23 UTC] null
+[27-Oct-2022 17:52:23 UTC] 
+[27-Oct-2022 17:52:23 UTC] PHP Warning:  Undefined property: MyAPI::$request in /home/shanek/public_html/ZeeDemoSource/CMPE2550/Demo06/Rest/apiDef.php on line 112
+[27-Oct-2022 17:52:23 UTC] PUT
+[27-Oct-2022 17:52:23 UTC] example/place/20
+[27-Oct-2022 17:52:23 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 17:52:23 UTC] []
+[27-Oct-2022 17:52:23 UTC] 
+[27-Oct-2022 17:52:23 UTC] "PUT"
+[27-Oct-2022 17:52:23 UTC] "example"
+[27-Oct-2022 17:52:23 UTC] "place"
+[27-Oct-2022 17:52:23 UTC] ["20"]
+[27-Oct-2022 17:52:23 UTC] {"PUTtest":"This is data in the PUT object."}
+[27-Oct-2022 17:52:23 UTC] 
+[27-Oct-2022 17:52:23 UTC] PHP Warning:  Undefined property: MyAPI::$request in /home/shanek/public_html/ZeeDemoSource/CMPE2550/Demo06/Rest/apiDef.php on line 115
+[27-Oct-2022 17:52:24 UTC] DELETE
+[27-Oct-2022 17:52:24 UTC] example/place/10
+[27-Oct-2022 17:52:24 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 17:52:24 UTC] []
+[27-Oct-2022 17:52:24 UTC] 
+[27-Oct-2022 17:52:24 UTC] "DELETE"
+[27-Oct-2022 17:52:24 UTC] "example"
+[27-Oct-2022 17:52:24 UTC] "place"
+[27-Oct-2022 17:52:24 UTC] ["10"]
+[27-Oct-2022 17:52:24 UTC] {"DELETEtest":"This is data in the DELETE object."}
+[27-Oct-2022 17:52:24 UTC] 
+[27-Oct-2022 17:52:24 UTC] PHP Warning:  Undefined property: MyAPI::$request in /home/shanek/public_html/ZeeDemoSource/CMPE2550/Demo06/Rest/apiDef.php on line 118
+[27-Oct-2022 17:53:26 UTC] DELETE
+[27-Oct-2022 17:53:26 UTC] example/place/10
+[27-Oct-2022 17:53:26 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 17:53:26 UTC] []
+[27-Oct-2022 17:53:26 UTC] 
+[27-Oct-2022 17:53:26 UTC] "DELETE"
+[27-Oct-2022 17:53:26 UTC] "example"
+[27-Oct-2022 17:53:26 UTC] "place"
+[27-Oct-2022 17:53:26 UTC] ["10"]
+[27-Oct-2022 17:53:26 UTC] {"DELETEtest":"This is data in the DELETE object."}
+[27-Oct-2022 17:53:26 UTC] 
+[27-Oct-2022 17:53:28 UTC] PUT
+[27-Oct-2022 17:53:28 UTC] example/place/20
+[27-Oct-2022 17:53:28 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 17:53:28 UTC] []
+[27-Oct-2022 17:53:28 UTC] 
+[27-Oct-2022 17:53:28 UTC] "PUT"
+[27-Oct-2022 17:53:28 UTC] "example"
+[27-Oct-2022 17:53:28 UTC] "place"
+[27-Oct-2022 17:53:28 UTC] ["20"]
+[27-Oct-2022 17:53:28 UTC] {"PUTtest":"This is data in the PUT object."}
+[27-Oct-2022 17:53:28 UTC] 
+[27-Oct-2022 17:53:29 UTC] POST
+[27-Oct-2022 17:53:29 UTC] example/place/30
+[27-Oct-2022 17:53:29 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 17:53:29 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 17:53:29 UTC] 
+[27-Oct-2022 17:53:29 UTC] "POST"
+[27-Oct-2022 17:53:29 UTC] "example"
+[27-Oct-2022 17:53:29 UTC] "place"
+[27-Oct-2022 17:53:29 UTC] ["30"]
+[27-Oct-2022 17:53:29 UTC] null
+[27-Oct-2022 17:53:29 UTC] 
+[27-Oct-2022 17:53:29 UTC] GET
+[27-Oct-2022 17:53:29 UTC] example/place/40
+[27-Oct-2022 17:53:29 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 17:53:29 UTC] []
+[27-Oct-2022 17:53:29 UTC] 
+[27-Oct-2022 17:53:29 UTC] "GET"
+[27-Oct-2022 17:53:29 UTC] "example"
+[27-Oct-2022 17:53:29 UTC] "place"
+[27-Oct-2022 17:53:29 UTC] ["40"]
+[27-Oct-2022 17:53:29 UTC] null
+[27-Oct-2022 17:53:29 UTC] 
+[27-Oct-2022 17:53:31 UTC] GET
+[27-Oct-2022 17:53:31 UTC] example/place/40
+[27-Oct-2022 17:53:31 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 17:53:31 UTC] []
+[27-Oct-2022 17:53:31 UTC] 
+[27-Oct-2022 17:53:31 UTC] "GET"
+[27-Oct-2022 17:53:31 UTC] "example"
+[27-Oct-2022 17:53:31 UTC] "place"
+[27-Oct-2022 17:53:31 UTC] ["40"]
+[27-Oct-2022 17:53:31 UTC] null
+[27-Oct-2022 17:53:31 UTC] 
+[27-Oct-2022 17:53:33 UTC] POST
+[27-Oct-2022 17:53:33 UTC] example/place/30
+[27-Oct-2022 17:53:33 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 17:53:33 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 17:53:33 UTC] 
+[27-Oct-2022 17:53:33 UTC] "POST"
+[27-Oct-2022 17:53:33 UTC] "example"
+[27-Oct-2022 17:53:33 UTC] "place"
+[27-Oct-2022 17:53:33 UTC] ["30"]
+[27-Oct-2022 17:53:33 UTC] null
+[27-Oct-2022 17:53:33 UTC] 
+[27-Oct-2022 17:53:34 UTC] PUT
+[27-Oct-2022 17:53:34 UTC] example/place/20
+[27-Oct-2022 17:53:34 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 17:53:34 UTC] []
+[27-Oct-2022 17:53:34 UTC] 
+[27-Oct-2022 17:53:34 UTC] "PUT"
+[27-Oct-2022 17:53:34 UTC] "example"
+[27-Oct-2022 17:53:34 UTC] "place"
+[27-Oct-2022 17:53:34 UTC] ["20"]
+[27-Oct-2022 17:53:34 UTC] {"PUTtest":"This is data in the PUT object."}
+[27-Oct-2022 17:53:34 UTC] 
+[27-Oct-2022 17:53:34 UTC] DELETE
+[27-Oct-2022 17:53:34 UTC] example/place/10
+[27-Oct-2022 17:53:34 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 17:53:34 UTC] []
+[27-Oct-2022 17:53:34 UTC] 
+[27-Oct-2022 17:53:34 UTC] "DELETE"
+[27-Oct-2022 17:53:34 UTC] "example"
+[27-Oct-2022 17:53:34 UTC] "place"
+[27-Oct-2022 17:53:34 UTC] ["10"]
+[27-Oct-2022 17:53:34 UTC] {"DELETEtest":"This is data in the DELETE object."}
+[27-Oct-2022 17:53:34 UTC] 
+[27-Oct-2022 17:54:53 UTC] GET
+[27-Oct-2022 17:54:53 UTC] example/place/40
+[27-Oct-2022 17:54:53 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 17:54:53 UTC] []
+[27-Oct-2022 17:54:53 UTC] 
+[27-Oct-2022 17:54:53 UTC] "GET"
+[27-Oct-2022 17:54:53 UTC] "example"
+[27-Oct-2022 17:54:53 UTC] "place"
+[27-Oct-2022 17:54:53 UTC] ["40"]
+[27-Oct-2022 17:54:53 UTC] null
+[27-Oct-2022 17:54:53 UTC] 
+[27-Oct-2022 17:55:24 UTC] GET
+[27-Oct-2022 17:55:24 UTC] example/place/40
+[27-Oct-2022 17:55:24 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 17:55:24 UTC] []
+[27-Oct-2022 17:55:24 UTC] 
+[27-Oct-2022 17:55:24 UTC] "GET"
+[27-Oct-2022 17:55:24 UTC] "example"
+[27-Oct-2022 17:55:24 UTC] "place"
+[27-Oct-2022 17:55:24 UTC] ["40"]
+[27-Oct-2022 17:55:24 UTC] null
+[27-Oct-2022 17:55:24 UTC] 
+[27-Oct-2022 17:55:59 UTC] POST
+[27-Oct-2022 17:55:59 UTC] example/place/30
+[27-Oct-2022 17:55:59 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 17:55:59 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 17:55:59 UTC] 
+[27-Oct-2022 17:55:59 UTC] "POST"
+[27-Oct-2022 17:55:59 UTC] "example"
+[27-Oct-2022 17:55:59 UTC] "place"
+[27-Oct-2022 17:55:59 UTC] ["30"]
+[27-Oct-2022 17:55:59 UTC] null
+[27-Oct-2022 17:55:59 UTC] 
+[27-Oct-2022 17:56:00 UTC] PUT
+[27-Oct-2022 17:56:00 UTC] example/place/20
+[27-Oct-2022 17:56:00 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 17:56:00 UTC] []
+[27-Oct-2022 17:56:00 UTC] 
+[27-Oct-2022 17:56:00 UTC] "PUT"
+[27-Oct-2022 17:56:00 UTC] "example"
+[27-Oct-2022 17:56:00 UTC] "place"
+[27-Oct-2022 17:56:00 UTC] ["20"]
+[27-Oct-2022 17:56:00 UTC] {"PUTtest":"This is data in the PUT object."}
+[27-Oct-2022 17:56:00 UTC] 
+[27-Oct-2022 17:56:00 UTC] DELETE
+[27-Oct-2022 17:56:00 UTC] example/place/10
+[27-Oct-2022 17:56:00 UTC] {"request":"example\/place\/10"}
+[27-Oct-2022 17:56:00 UTC] []
+[27-Oct-2022 17:56:00 UTC] 
+[27-Oct-2022 17:56:00 UTC] "DELETE"
+[27-Oct-2022 17:56:00 UTC] "example"
+[27-Oct-2022 17:56:00 UTC] "place"
+[27-Oct-2022 17:56:00 UTC] ["10"]
+[27-Oct-2022 17:56:00 UTC] {"DELETEtest":"This is data in the DELETE object."}
+[27-Oct-2022 17:56:00 UTC] 
+[27-Oct-2022 17:56:01 UTC] PUT
+[27-Oct-2022 17:56:01 UTC] example/place/20
+[27-Oct-2022 17:56:01 UTC] {"request":"example\/place\/20"}
+[27-Oct-2022 17:56:01 UTC] []
+[27-Oct-2022 17:56:01 UTC] 
+[27-Oct-2022 17:56:01 UTC] "PUT"
+[27-Oct-2022 17:56:01 UTC] "example"
+[27-Oct-2022 17:56:01 UTC] "place"
+[27-Oct-2022 17:56:01 UTC] ["20"]
+[27-Oct-2022 17:56:01 UTC] {"PUTtest":"This is data in the PUT object."}
+[27-Oct-2022 17:56:01 UTC] 
+[27-Oct-2022 17:56:01 UTC] POST
+[27-Oct-2022 17:56:01 UTC] example/place/30
+[27-Oct-2022 17:56:01 UTC] {"request":"example\/place\/30"}
+[27-Oct-2022 17:56:01 UTC] {"POSTtest":"This is data in the POST object."}
+[27-Oct-2022 17:56:01 UTC] 
+[27-Oct-2022 17:56:01 UTC] "POST"
+[27-Oct-2022 17:56:01 UTC] "example"
+[27-Oct-2022 17:56:01 UTC] "place"
+[27-Oct-2022 17:56:01 UTC] ["30"]
+[27-Oct-2022 17:56:01 UTC] null
+[27-Oct-2022 17:56:01 UTC] 
+[27-Oct-2022 17:56:02 UTC] GET
+[27-Oct-2022 17:56:02 UTC] example/place/40
+[27-Oct-2022 17:56:02 UTC] {"request":"example\/place\/40","GETtest":"This is data in the GET object."}
+[27-Oct-2022 17:56:02 UTC] []
+[27-Oct-2022 17:56:02 UTC] 
+[27-Oct-2022 17:56:02 UTC] "GET"
+[27-Oct-2022 17:56:02 UTC] "example"
+[27-Oct-2022 17:56:02 UTC] "place"
+[27-Oct-2022 17:56:02 UTC] ["40"]
+[27-Oct-2022 17:56:02 UTC] null
+[27-Oct-2022 17:56:02 UTC] 
